@@ -5,6 +5,16 @@
     @section('container')
 
     <style>
+
+        .hover-div {
+          display: none;
+          position: absolute;
+          top: -50px; /* Adjust based on the height of your div */
+        }
+        .disable-hover {
+          pointer-events: none;
+        }
+
         @media only screen and (min-width: 768px){
             .parent:hover .child {
                 opacity:1;
@@ -13,6 +23,18 @@
                 transform: translateY(0);
             }
             .child {
+                opacity:0;
+                height:0;
+                overflow:hidden;
+                transform: translateY(-10%);
+            }
+            .parent1:hover .child1 {
+                opacity:1;
+                height:auto;
+                overflow:none;
+                transform: translateY(0);
+            }
+            .child1 {
                 opacity:0;
                 height:0;
                 overflow:hidden;
@@ -59,12 +81,12 @@
             <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     
-                    <li class="relative parent">
+                    <li class="relative parent1">
                         <a href="#" class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2 ">
                             <span>Oui Somme Nous ?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
                         </a>
-                        <ul class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b ">
+                        <ul class="child1 transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b ">
                             <li>
                                 <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
                                     Web development
@@ -97,7 +119,7 @@
             <div class=" lg:order-3">
                 <ul class=" flex list-none">
                     {{-- user  --}}
-                    <li class="relative parent">
+                    <li class="relative parent1">
                         <a href="#" class="flex justify-between md:inline-flex p-4 items-center hover:bg-[#1e56a0] space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
                                 <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -105,7 +127,7 @@
                                 </g>
                             </svg>
                         </a>
-                        <ul class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b ">
+                        <ul class="child1 transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b ">
                             <li>
                                 <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
                                     Log in
@@ -119,12 +141,12 @@
                         </ul>
                     </li>
                     {{-- langage  --}}
-                    <li class="relative parent">
+                    <li class="relative parent1">
                         <a href="#" class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2 ">
                             <span>En</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
                         </a>
-                        <ul class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b ">
+                        <ul class="child1 transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b ">
                             <li>
                                 <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
                                     Fr
@@ -141,7 +163,7 @@
     </nav>
     
     {{-- nav 2 --}}
-    <nav class="flex justify-center items-center px-4 border-b md:shadow-lg  bg-[#1e56a0]">
+    <nav id="nav2" class="flex justify-center items-center px-4 border-b md:shadow-lg  bg-[#1e56a0]">
         <div class=" bg-red-600"> </div>
         <ul class=" flex gap-6 ">
             
@@ -295,7 +317,22 @@
         </div>
     </section>
       
-    @endsection
+@endsection
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.child').hover(
+        function() {
+          $('#nav2').addClass('disable-hover');
+        },
+        function() {
+          $('#nav2').removeClass('disable-hover');
+        }
+      );
+    });
+  </script>
 
 
 
