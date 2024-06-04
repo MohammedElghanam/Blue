@@ -36,7 +36,7 @@
      
 <header class=" flex-col">
 
-    
+    {{-- nav 1 --}}
     <nav class="bg-blue-500  px-4 lg:px-6 pt-2.5 pb-7">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl bg-green-200">
             <a href="https://flowbite.com" class="flex items-center">
@@ -140,8 +140,9 @@
         </div>
     </nav>
     
-
+    {{-- nav 2 --}}
     <nav class="flex justify-center items-center px-4 border-b md:shadow-lg  bg-[#1e56a0]">
+        <div class=" bg-red-600"> </div>
         <ul class=" flex gap-6 ">
             
             <li class="relative parent">
