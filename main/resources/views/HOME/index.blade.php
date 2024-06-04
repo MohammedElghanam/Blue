@@ -34,10 +34,10 @@
 
 
      
-<header class="min-h-screen bg-white">
+<header class=" flex-col">
 
     
-    <nav class="bg-blue-500  px-4 lg:px-6 py-2.5 ">
+    <nav class="bg-blue-500  px-4 lg:px-6 pt-2.5 pb-7">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl bg-green-200">
             <a href="https://flowbite.com" class="flex items-center">
                 <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
@@ -45,30 +45,7 @@
             </a>
             
             
-            <div class="flex items-center lg:order-2 bg-red-300 gap-3">
-                <li class="relative parent">
-                    <a href="#" class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class=" bg-black"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>    
-                    </a>
-                    <ul class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b ">
-                        <li>
-                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
-                                Web development
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
-                                Web Design
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
-                                Machine Learning
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
+            <div class="flex items-center lg:order-2 gap-3">
                 {{-- input search  --}}
                 <div class="flex md:order-2">
                     <div class="relative mr-3 md:mr-0 hidden md:block">
@@ -114,6 +91,48 @@
                         <a href="#" class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2 ">
                             <span>Contact Nos</span>
                         </a> 
+                    </li>
+                </ul>
+            </div>
+            <div class=" lg:order-3">
+                <ul class=" flex list-none">
+                    {{-- user  --}}
+                    <li class="relative parent">
+                        <a href="#" class="flex justify-between md:inline-flex p-4 items-center hover:bg-[#1e56a0] space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <ul class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b ">
+                            <li>
+                                <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                    Log in
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                    Sign up
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    {{-- langage  --}}
+                    <li class="relative parent">
+                        <a href="#" class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2 ">
+                            <span>En</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+                        </a>
+                        <ul class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b ">
+                            <li>
+                                <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                    Fr
+                                </a>
+                            </li>
+
+
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -269,7 +288,11 @@
 </header>
     
     
-    
+    <section>
+        <div class=" bg-green-400">
+            <h1>hgfdsq</h1>
+        </div>
+    </section>
       
     @endsection
 
