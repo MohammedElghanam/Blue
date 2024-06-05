@@ -341,8 +341,8 @@
 <section class="bg-gray-50">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl">Purifying Gel
-                <br> Cleanser
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl">From its medieval origins<h class=" text-5xl font-extrabold text-[#1e56a0]"> to the digital</h>
+                 
             </h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-600">From
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
@@ -362,18 +362,19 @@
                 Buy Now
             </a>
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center bg-red-500">
-            <img src="images/Ellipse 26.png" alt="" class=" " width="400px" height="400px">
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
+            {{-- <img src="images/Ellipse 26.png" alt="" class=" " width="400px" height="400px"> --}}
             <img src="images/user.png" alt="mockup" class=" ">
         </div>
     </div>
 </section>
 
-<section class="bg-gray-50 border-2 border-green-600">
+<section class="bg-gray-50">
     <div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 border-2 border-cyan-600">
-        <div class=" border-2 border-cyan-600 ">
+        <div class=" border-2 border-cyan-600 relative">
             <img src="images/Frame 795 (1).png" alt="jhgu">
+            <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-12 right-10" width=" 100px" height=" 100px">
         </div>
         <div class=" grid grid-cols-3 gap-5 justify-center items-center px-20 border-2 border-cyan-600 ">
             <div class=" col-span-1 flex-col justify-center items-center relative">
@@ -413,25 +414,26 @@
     </div>
 </section>
 
-<section class="bg-gray-50 border-2 border-green-600">
-    <div class=" w-full h-80 flex border-2 border-red-600">
-        <div class=" w-1/3 border-2 border-yellow-600"></div>
-        <div class=" flex justify-end items-center w-3/4 border-2 border-yellow-600 end-0">
-            <div class=" w-full  h-56 border-2 border-cyan-600 rounded-l-full pl-24 pt-9">
-                <h1 class=" font-bold text-3xl mb-4">hello testemonial </h1>
-                <p class=" w-1/2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
-                    industries for previewing layouts and visual mockups</p>
+<section class="bg-gray-50">
+    <div class=" w-full h-80 flex">
+        <div class=" w-1/3 "></div>
+        <div class=" flex justify-end items-center w-3/4  relative">
+            <div class=" w-full  h-56 bg-gray-900 rounded-l-full pl-24 pt-12 ">
+                <h1 class=" font-bold text-5xl mb-4 text-white">What We Do .</h1>
+                <p class=" w-1/2 text-white">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+                    <span class=" font-medium">industries for previewing</span> layouts and visual mockups</p>
             </div>
+            <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-12 right-20" width=" 100px" height=" 100px">
         </div>
     </div>
 </section>
 
-<section class="bg-gray-50 border-2 border-green-600">
-    <div class=" w-full h-40 flex border-2 border-red-600">
-        <div class=" w-1/3 border-2 border-yellow-600"></div>
-        <div class=" pt-7 pl-36 w-3/4 border-2 border-yellow-600 ">
-            <h1 class=" font-bold text-3xl mb-4">hello testemonial </h1>
-            <p class=" w-1/2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+<section class=" bg-gray-50">
+    <div class=" w-full h-40 flex ">
+        <div class=" w-1/3 "></div>
+        <div class=" pt-7 pl-36 w-3/4  ">
+            <h1 class=" font-bold text-5xl mb-4">Why Us ?</h1>
+            <p class=" w-1/2 font-normal">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
                 industries for previewing layouts and visual mockups</p>
         </div>
     </div>
