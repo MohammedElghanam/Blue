@@ -52,7 +52,7 @@
 <header class="flex flex-col pb-2">
     <!-- Nav 1 -->
     <nav id="nav1" class=" px-4 lg:px-6 pt-2.5 pb-0.5">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl bg-green-200">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="https://flowbite.com" class="flex items-center">
                 <img src="images/logo.png" class="mr-3 h-14 w-14" alt="Logo">
             </a>
@@ -131,6 +131,10 @@
                                     <circle cx="12" cy="7" r="4"></circle>
                                 </g>
                             </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
+                                viewBox="0 0 24 24">
+                                <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+                            </svg>
                         </a>
                         <ul
                             class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
@@ -170,7 +174,7 @@
         </div>
     </nav>
     <!-- Nav 2 -->
-    <nav id="nav2" class="flex justify-center items-center px-4 pb-2 border-b md:shadow-lg bg-[#1e56a0]">
+    <nav id="nav2" class="flex justify-center items-center px-4 md:shadow-lg bg-blue-700">
         <ul class="flex gap-6">
             <li class="relative parent">
                 <a href="#"
@@ -439,7 +443,7 @@
     </div>
 </section>
 
-<section class="bg-gray-50 border-2 border-green-600">
+<section class="bg-gray-50">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class=" col-span-12 h-20 mb-2">
             <div class=" flex justify-center items-center mb-2">
@@ -617,9 +621,9 @@
     </div>
 </section>
 
-<section class=" bg-blue-600 mb-12">
-    <div class=" px-4">
-        <div class=" flex justify-center items-center mt-6 pt-20 w-full h-12">
+<section class=" bg-blue-600 mb-12 mt-6">
+    <div class=" px-4 ">
+        <div class=" flex justify-center items-center pt-20 w-full h-12">
             <h1 class="font-bold text-5xl text-white"> What Our Founders Say</h1>
         </div>
         <div class=" flex justify-center items-center gap-5 w-full h-96  px-60 ">
@@ -654,7 +658,7 @@
     <div
         class="grid max-w-screen-xl px-4 mx-auto  lg:grid-cols-2 ">
         <div class=" col-span-2  mb-4 h-12 flex justify-center items-center font-bold text-5xl">
-            Hello
+            You’ll be in good compan
         </div>
         <div class="relative w-full col-span-2 h-20 overflow-hidden ">
             <div class="absolute flex gap-7 items-center h-full  animate-scroll">
@@ -684,10 +688,10 @@
 <section class="bg-gray-50 ">
     <div
         class="grid max-w-screen-xl py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 0 px-56">
-        <div class=" bg-slate-700 col-span-2 h-56 rounded-lg relative">
+        <div class=" bg-blue-700 col-span-2 h-56 rounded-lg relative">
             <img class=" absolute bottom-0 right-0 " src="images/user.png" alt="girhn" width="250px" height="250px">
-            <h1 class=" absolute font-bold text-3xl w-1/2 top-7 left-10">eough uedrhg uitdhg udgh uerhgpv qpergh uihgi uiervhn </h1>
-            <button class=" absolute top-40 left-10 bg-blue-500 px-16 py-2 rounded-full text-xl font-medium">Contact</button>
+            <h1 class=" absolute font-bold text-3xl w-1/2 top-7 left-10 text-white">Each Founder has put their blood, sweat, and tears into building </h1>
+            <button class=" absolute top-40 left-10 bg-blue-500 px-16 py-2 rounded-full text-xl font-medium text-white hover:bg-white hover:text-black">Contact</button>
         </div>
     </div>
 </section>
