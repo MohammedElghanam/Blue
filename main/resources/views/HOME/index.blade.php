@@ -302,8 +302,8 @@
                 <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl">Purifying Gel
                     <br> Cleanser</h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-600">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
-                <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-green-600 hover:bg-green-700 ">
-                    Get started
+                <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#1e56a0] hover:bg-green-700 ">
+                    Booking Now
                     <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
                 <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
@@ -311,8 +311,86 @@
                 </a> 
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img src="/Frame 5.png" alt="mockup" class=" w-10/12 h-96">
+                <img src="images/user.png" alt="mockup" >
             </div>                
+        </div>
+    </section>
+
+    <section class="bg-gray-50 border-2 border-green-600">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 border-2 border-cyan-600">
+            <div class=" border-2 border-cyan-600 ">
+                <img src="images/Frame 795 (1).png" alt="jhgu" >
+            </div>
+            <div class=" grid grid-cols-3 gap-5 justify-center items-center px-20 border-2 border-cyan-600 ">
+                <div class=" col-span-1 flex-col justify-center items-center relative">
+                    <img src=" images/Frame 796.png" alt="" class=" border-2 border-green-400">
+                    <svg class=" absolute top-0 left-O border-2 border-red-400" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                          <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="12" cy="7" r="4"></circle>
+                        </g>
+                    </svg>
+                    <p>irshjEURHNIUKJ ERUGNBIQUE </p>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 border-2 border-green-600">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 border-2 border-cyan-600">
+            <div class=" border-2 border-cyan-600 ">
+                <img src="images/Frame 795 (1).png" alt="jhgu" >
+            </div>
+            <div class=" grid grid-cols-3 gap-5 justify-center items-center px-20 border-2 border-cyan-600 ">
+                <div class=" col-span-1 flex-col justify-center items-center relative">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <h1 class="absolute top-1/2 left-1/2 text-black">hello</h1>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                <div class=" col-span-1">
+                    <img src=" images/Frame 796.png" alt="" class=" ">
+                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
+                </div>
+                
+                
+            </div>
         </div>
     </section>
 
