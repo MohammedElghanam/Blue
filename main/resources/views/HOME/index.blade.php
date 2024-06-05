@@ -363,8 +363,8 @@
             </a>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center bg-red-500">
-            <img src="images/Ellipse 26.png" alt="" class=" absolute top-0 right-80" width="300px" height="300px">
-            <img src="images/user.png" alt="mockup" class=" absolute">
+            <img src="images/Ellipse 26.png" alt="" class=" " width="400px" height="400px">
+            <img src="images/user.png" alt="mockup" class=" ">
         </div>
     </div>
 </section>
