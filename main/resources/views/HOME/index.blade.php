@@ -33,13 +33,18 @@
     }
 
     @keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
-}
+        0% {
+            transform: translateX(0);
+        }
 
-.animate-scroll {
-    animation: scroll 10s linear infinite;
-}
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .animate-scroll {
+        animation: scroll 10s linear infinite;
+    }
 </style>
 
 
@@ -528,7 +533,7 @@
                     hello
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>
@@ -536,16 +541,37 @@
 <section class="bg-gray-50 border-2 border-green-600">
     <div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 border-2 border-cyan-600">
-        <div class="relative w-full h-40 overflow-hidden">
-        <div class="absolute flex items-center h-full animate-scroll">
-            <img src="images/image1.jpg" alt="Image 1" class="h-full">
-            <img src="images/image2.jpg" alt="Image 2" class="h-full">
-            <img src="images/image3.jpg" alt="Image 3" class="h-full">
-            <img src="images/image4.jpg" alt="Image 4" class="h-full">
-            <img src="images/image5.jpg" alt="Image 5" class="h-full">
+        <div class=" col-span-2 border-2 border-green-500 mb-4 h-12 flex justify-center items-center">
+            hello
         </div>
+        <div class="relative w-full col-span-2 h-40 overflow-hidden border-2 border-yellow-600">
+            <div class="absolute flex gap-7 items-center h-full border-2 border-blue-600 animate-scroll">
+                <img src="images/R1.png" alt="Image 1" class="h-24 w-24">
+                <img src="images/R2.png" alt="Image 2" class="h-24 w-24">
+                <img src="images/R3.png" alt="Image 3" class="h-24 w-24">
+                <img src="images/R4.png" alt="Image 4" class="h-24 w-24">
+                <img src="images/R1.png" alt="Image 1" class="h-24 w-24">
+                <img src="images/R2.png" alt="Image 2" class="h-24 w-24">
+                <img src="images/R3.png" alt="Image 3" class="h-24 w-24">
+                <img src="images/R4.png" alt="Image 4" class="h-24 w-24">
+                <img src="images/R1.png" alt="Image 1" class="h-24 w-24">
+                <img src="images/R2.png" alt="Image 2" class="h-24 w-24">
+                <img src="images/R3.png" alt="Image 3" class="h-24 w-24">
+                <img src="images/R4.png" alt="Image 4" class="h-24 w-24">
+            </div>
         </div>
 
+    </div>
+</section>
+
+<section class="bg-gray-50 border-2 border-green-600">
+    <div
+        class="grid max-w-screen-xl py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 border-2 border-cyan-600 px-56">
+        <div class=" bg-slate-700 col-span-2 h-56 rounded-lg relative">
+            <img class=" absolute top-36 left-36" src="" alt="girhn" width="100px" height="100px">
+            <h1 class=" absolute">eough uedrhg uitdhg udgh uerhgpv qpergh uihgi uiervhn </h1>
+            <button class=" absolute top-20 left-10">Contact</button>
+        </div>
     </div>
 </section>
 
