@@ -35,7 +35,7 @@
     
    
 
-    <header class="flex flex-col">
+    <header class="flex flex-col pb-2">
         <!-- Nav 1 -->
         <nav id="nav1" class=" px-4 lg:px-6 pt-2.5 pb-0.5">
           <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl bg-green-200">
@@ -140,7 +140,7 @@
           </div>
         </nav>
         <!-- Nav 2 -->
-        <nav id="nav2" class="flex justify-center items-center px-4 border-b md:shadow-lg bg-[#1e56a0]">
+        <nav id="nav2" class="flex justify-center items-center px-4 pb-2 border-b md:shadow-lg bg-[#1e56a0]">
           <ul class="flex gap-6">
             <li class="relative parent">
               <a href="#" class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2">
@@ -359,42 +359,108 @@
     </section>
 
     <section class="bg-gray-50 border-2 border-green-600">
-        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 border-2 border-cyan-600">
-            <div class=" border-2 border-cyan-600 ">
-                <img src="images/Frame 795 (1).png" alt="jhgu" >
-            </div>
-            <div class=" grid grid-cols-3 gap-5 justify-center items-center px-20 border-2 border-cyan-600 ">
-                <div class=" col-span-1 flex-col justify-center items-center relative">
-                    <img src=" images/Frame 796.png" alt="" class=" ">
-                    <h1 class="absolute top-1/2 left-1/2 text-black">hello</h1>
+        <div class=" w-full h-80 flex border-2 border-red-600">
+            <div class=" w-1/3 border-2 border-yellow-600"></div>
+            <div class=" flex justify-end items-center w-3/4 border-2 border-yellow-600 end-0">
+                <div class=" w-full  h-56 border-2 border-cyan-600 rounded-l-full pl-24 pt-9">
+                    <h1 class=" font-bold text-3xl mb-4">hello testemonial </h1>
+                    <p class=" w-1/2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups</p>
                 </div>
-                <div class=" col-span-1">
-                    <img src=" images/Frame 796.png" alt="" class=" ">
-                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
-                </div>
-                <div class=" col-span-1">
-                    <img src=" images/Frame 796.png" alt="" class=" ">
-                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
-                </div>
-                <div class=" col-span-1">
-                    <img src=" images/Frame 796.png" alt="" class=" ">
-                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
-                </div>
-                <div class=" col-span-1">
-                    <img src=" images/Frame 796.png" alt="" class=" ">
-                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
-                </div>
-                <div class=" col-span-1">
-                    <img src=" images/Frame 796.png" alt="" class=" ">
-                    <p>irshjEURHNIUKJ ERUGNBIQUE</p>
-                </div>
-                
-                
             </div>
         </div>
     </section>
 
+    <section class="bg-gray-50 border-2 border-green-600">
+        <div class=" w-full h-40 flex border-2 border-red-600">
+            <div class=" w-1/3 border-2 border-yellow-600"></div>
+            <div class=" pt-7 pl-36 w-3/4 border-2 border-yellow-600 ">
+                <h1 class=" font-bold text-3xl mb-4">hello testemonial </h1>
+                <p class=" w-1/2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 border-2 border-green-600">
+        <div class="  gap-3 w-full px-4 py-8 border-2 border-cyan-600">
+            <div class=" border-2 border-cyan-600 h-6 mb-2">
+                <h1 class=" flex justify-center items-center">testemonial </h1>
+            </div>
+            <div class=" grid grid-cols-12 justify-center items-center gap-5 px-20 border-2 border-cyan-600 h-40 ">
+                <div class=" pl-28 col-span-2 h-20 border-2 border-red-400">
+                    <svg class="border-2 border-green-400" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                          <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="12" cy="7" r="4"></circle>
+                        </g>
+                    </svg>
+                    <h3>hello</h3>
+                </div>
+                <div class=" pl-28 col-span-2 h-20 border-2 border-red-400">
+                    <svg class="border-2 border-green-400" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                          <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="12" cy="7" r="4"></circle>
+                        </g>
+                    </svg>
+                    <h3>hello</h3>
+                </div>
+                <div class=" pl-28 col-span-2 h-20 border-2 border-red-400">
+                    <svg class="border-2 border-green-400" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                          <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="12" cy="7" r="4"></circle>
+                        </g>
+                    </svg>
+                    <h3>hello</h3>
+                </div>
+                <div class=" pl-28 col-span-2 h-20 border-2 border-red-400">
+                    <svg class="border-2 border-green-400" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                          <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="12" cy="7" r="4"></circle>
+                        </g>
+                    </svg>
+                    <h3>hello</h3>
+                </div>
+                <div class=" pl-28 col-span-2 h-20 border-2 border-red-400">
+                    <svg class="border-2 border-green-400" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                          <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="12" cy="7" r="4"></circle>
+                        </g>
+                    </svg>
+                    <h3>hello</h3>
+                </div>
+                <div class=" pl-28 col-span-2 h-20 border-2 border-red-400">
+                    <svg class="border-2 border-green-400" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24">
+                        <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                          <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="12" cy="7" r="4"></circle>
+                        </g>
+                    </svg>
+                    <h3>hello</h3>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
 @endsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
