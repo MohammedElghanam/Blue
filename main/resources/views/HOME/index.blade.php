@@ -86,20 +86,30 @@
                             </svg>
                         </a>
                         <ul
-                            class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
+                            class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white z-50 md:shadow-lg md:rounded-b">
                             <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
-                                    Web development
+                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
+                                   A proposde nous ? 
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
-                                    Web Design
+                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
+                                    Notre vision
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
-                                    Machine Learning
+                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
+                                    Notre equipe
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
+                                    Nos secteurs d'activite
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
+                                    Nos locaux
                                 </a>
                             </li>
                         </ul>
@@ -137,14 +147,14 @@
                             </svg>
                         </a>
                         <ul
-                            class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
+                            class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white z-50 md:shadow-lg md:rounded-b">
                             <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
                                     Log in
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
                                     Sign up
                                 </a>
                             </li>
@@ -161,9 +171,9 @@
                             </svg>
                         </a>
                         <ul
-                            class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
+                            class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b z-50">
                             <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-gray-50">
+                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
                                     Fr
                                 </a>
                             </li>
@@ -367,7 +377,7 @@
             </a>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
-            {{-- <img src="images/Ellipse 26.png" alt="" class=" " width="400px" height="400px"> --}}
+            {{-- <img src="images/Ellipse 26.png" alt="" class=" absolute z-0" width="400px" height="400px"> --}}
             <img src="images/user.png" alt="mockup" class=" ">
         </div>
     </div>
