@@ -330,8 +330,19 @@
 
 <section class="bg-gray-50">
 
-    <div class="grid grid-cols-12 max-w-screen-xl px-4 py-8 pb-20 gap-8 mx-auto">
+    <div class="grid grid-cols-12 max-w-screen-xl px-4 py-8 pb-20 gap-6 mx-auto">
+        <div class=" col-span-12 h-20 mb-2">
+            <div class=" flex justify-center items-center mb-2">
+                <h1 class=" font-bold text-5xl">Pour Quoi Nous Choisir ?</h1>
+            </div>
+            <div class="  flex justify-center items-center">
+                <p class=" text-2xl font-normal text-gray-700">nous somme centre sur</p>
+            </div>
+        </div>
 
+        <div class="grid grid-cols-12 col-span-12 gap-5">
+
+        
         <div class=" col-span-4 h-56 rounded-2xl bg-blue-700 pt-5">
             <div class="p-5 flex justify-start items-center gap-4">
                 <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -517,7 +528,7 @@
                 </p>
             </div>
         </div>
-
+    </div>
     </div>
 
 
