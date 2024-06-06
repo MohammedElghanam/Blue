@@ -373,7 +373,7 @@
                 </p>
             
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-96 border-2 border-red-400">
             {{-- <img src="images/Ellipse 26.png" alt="" class=" absolute z-0" width="400px" height="400px"> --}}
             <img src="images/team.jpg" alt="mockup" class=" ">
         </div>
