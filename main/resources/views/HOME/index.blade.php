@@ -5,14 +5,26 @@
 @section('container')
 
 <style>
-    .hover-div {
+    .child {
         display: none;
         position: absolute;
-        top: -50px;
+        top: 100%;
+        left: 0;
+        z-index: 50;
+        background-color: white;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
 
-    .disable-hover {
-        pointer-events: none;
+    .parent:hover .child {
+        display: block;
+    }
+
+    .child li {
+        white-space: nowrap;
+    }
+
+    .parent {
+        position: relative;
     }
 
     @media only screen and (min-width: 768px) {
@@ -78,7 +90,7 @@
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li class="relative parent">
                         <a href="#"
-                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2">
+                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-blue-50 space-x-2">
                             <span>Oui Somme Nous ?</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
@@ -133,7 +145,7 @@
                     <!-- User -->
                     <li class="relative parent">
                         <a href="#"
-                            class="flex justify-between md:inline-flex p-4 items-center hover:bg-[#1e56a0] space-x-2">
+                            class="flex justify-between md:inline-flex p-4 items-center hover:bg-blue-50 space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
                                 <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
@@ -163,7 +175,7 @@
                     <!-- Language -->
                     <li class="relative parent">
                         <a href="#"
-                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2">
+                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:hover:bg-blue-50 hover:bg-gray-50 space-x-2">
                             <span>En</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
@@ -187,6 +199,7 @@
     <nav id="nav2" class="flex justify-center items-center px-4 md:shadow-lg bg-blue-700">
         <ul class="flex gap-6">
             <li class="relative parent">
+                {{-- PMO  --}}
                 <a href="#"
                     class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2">
                     <span>PMO</span>
@@ -194,6 +207,7 @@
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
                     </svg>
                 </a>
+                {{-- PMO LIST  --}}
                 <ul
                     class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
                     <li>
@@ -352,13 +366,13 @@
     </nav>
 </header>
 
-<section class="bg-gray-50">
+<section class="bg-gray-100 ">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl">From its medieval origins<h class=" text-5xl font-extrabold text-blue-700"> to the digital</h>
+            <h1 class="max-w-2xl mb-4 text-7xl font-bold">From its medieval origins<h class=" text-6xl font-MEDIUM text-blue-700"> to the digital</h>
                  
             </h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-600">From
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 lg:text-xl">From
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
             <a href="#"
@@ -372,7 +386,7 @@
                 </svg>
             </a>
             <a href="#"
-                class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
+                class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-blue-700 border border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
                 About Us
             </a>
         </div>
@@ -715,7 +729,7 @@
         <div class="md:flex md:justify-between px-16">
             <div class="mb-6 md:mb-0 flex flex-col gap-4">
                 <a href="https://flowbite.com" class="flex items-center">
-                    <img src="images/logo.png" class="mr-3 h-8" alt=" Logo" />
+                    <img src="images/logo.png" class="mr-3 w-10 h-10" alt=" Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Blue Strategy</span>
                 </a>
 
@@ -830,13 +844,26 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('.child').hover(
-            function () {
-                $('#nav2').addClass('disable-hover');
-            },
-            function () {
-                $('#nav2').removeClass('disable-hover');
-            }
-        );
-    });
+    // When hovering over the parent, show the submenu
+    $('.parent').hover(
+        function () {
+            $(this).find('.child').stop(true, true).slideDown(200);
+        },
+        function () {
+            // Ensure the submenu disappears when not hovering over parent or submenu
+            $(this).find('.child').stop(true, true).slideUp(200);
+        }
+    );
+
+    // When hovering over the submenu, keep it visible
+    $('.child').hover(
+        function () {
+            $(this).stop(true, true).show();
+        },
+        function () {
+            $(this).stop(true, true).slideUp(200);
+        }
+    );
+});
+
 </script>
