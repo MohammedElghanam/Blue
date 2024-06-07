@@ -47,7 +47,7 @@
 
 
 <section class="bg-gray-50 py-24">
-    <div class="grid  max-w-screen-xl mx-auto grid-cols-12">
+    <div class="flex justify-between items-center  max-w-screen-xl mx-auto grid-cols-12">
         
         <div class="hidden mr-32 flex-col w-[500px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center relative ">
             
