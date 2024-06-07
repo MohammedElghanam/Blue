@@ -330,8 +330,8 @@
 
 <section class="bg-gray-50">
 
-    <div class="grid grid-cols-12 max-w-screen-xl px-4 py-8 pb-1 gap-6 mx-auto">
-        <div class=" col-span-12 h-20 mb-2">
+    <div class="grid grid-cols-12 max-w-screen-xl px-4 py-8 pb-10 gap-6 mx-auto">
+        <div class=" col-span-12 h-20 ">
             <div class=" flex justify-center items-center mb-2">
                 <h1 class=" font-bold text-5xl">Nos Domaines D'expertirse</h1>
             </div>

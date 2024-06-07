@@ -10,3 +10,8 @@ Route::get('/', function () {
 Route::get('/A propos de nous', function(){
     return view('HOME.A_propos');
 })->name('A_propos');
+
+
+Route::get('/Notre vision', function(){
+    return view('HOME.Vision');
+})->name('vision');

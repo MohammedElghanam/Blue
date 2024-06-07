@@ -117,7 +117,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
+                                <a href="{{route('vision')}}" class="flex px-4 py-3 hover:bg-blue-100">
                                     Notre vision
                                 </a>
                             </li>

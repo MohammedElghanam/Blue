@@ -358,8 +358,8 @@
 <section class="bg-gray-50 ">
     <div
         class="grid max-w-screen-xl py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 0 px-56">
-        <div class=" bg-blue-700 col-span-2 h-56 rounded-lg relative">
-            <img class=" absolute bottom-0 right-0 " src="images/user.png" alt="girhn" width="250px" height="250px">
+        <div class=" bg-blue-700 col-span-2 h-56 rounded-lg relative ">
+            <img class="rounded-full absolute -top-7 -right-16 " src="images/contact.png" alt="girhn" width="300px" height="300px">
             <h1 class=" absolute font-bold text-3xl w-1/2 top-7 left-10 text-white">Each Founder has put their blood, sweat, and tears into building </h1>
             <button class=" absolute top-40 left-10 bg-blue-500 px-16 py-2 rounded-full text-xl font-medium text-white hover:bg-white hover:text-black">Contact</button>
         </div>
