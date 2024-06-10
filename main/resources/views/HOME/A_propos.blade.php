@@ -6,10 +6,16 @@
 
 
 <section class="bg-gray-50">
-    <img src="images/Group 60.png" alt="" class=" absolute top-0 -left-20">
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <img src="images/Group 60.png" alt="" class=" absolute bottom-0 -left-20">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto gap-20 lg:py-16 lg:grid-cols-12">
+
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full ">
+            {{-- <img src="images/Ellipse 26.png" alt="" class=" absolute z-0" width="400px" height="400px"> --}}
+            <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0 ">
+        </div>
+
         <div class="mr-auto place-self-center lg:col-span-7 ">
-            <h1 class="max-w-2xl mb-10 text-7xl font-extrabold  text-blue-800">Description</h1>
+            <h1 class="max-w-2xl mb-10 text-7xl font-extrabold  text-[#163172]">Description</h1>
 
             <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-600">BLUE STRATEGY est un cabinet d'études, d'accompagnement et PMO
                 multidisciplinaire, lancé en 2023, dédié aux entreprises et aux organisations
@@ -25,13 +31,10 @@
                 </p>
             
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full ">
-            {{-- <img src="images/Ellipse 26.png" alt="" class=" absolute z-0" width="400px" height="400px"> --}}
-            <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0 ">
-        </div>
+        
     </div>
 
-    <div class=" grid grid-cols-4 absolute w-1/3 left-72 bottom-64">
+    <div class=" grid grid-cols-4 absolute w-1/3 right-96 bottom-64">
         <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
             <div class=" col-span-2 flex justify-center items-center">
             <svg class="w-12 h-12 " fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -139,7 +142,7 @@
     </div>
 
 
-    <img src="images/Group 61.png" alt="" class=" absolute right-0 -bottom-56">
+    <img src="images/Group 61.png" alt="" class=" absolute -right-12 top-32">
 </section>
 
 
