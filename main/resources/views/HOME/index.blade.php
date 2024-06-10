@@ -9,7 +9,7 @@
 
 
 
-<section class="bg-gray-100 ">
+<section class="bg-gray-100">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-7xl font-bold">From its medieval origins<h class=" text-6xl font-MEDIUM text-[#163172]"> to the digital</h>
@@ -32,11 +32,16 @@
                 class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-[#163172] border border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
                 About Us
             </a>
+
+            <p class=" select-none text-gray-100">zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                payment stack.</p>
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
-            {{-- <img src="images/Ellipse 26.png" alt="" class=" absolute z-0" width="400px" height="400px"> --}}
-            <img src="images/user.png" alt="mockup" class=" ">
-        </div>
+        <img src=" images/9(6).png" alt="" class=" absolute right-0 bg-red-600" width=" 200px" height=" 200px">
+        {{-- <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
+            <img src="images/Ellipse 26.png" alt="" class=" absolute" width="200px" height="200px">
+            <img src="images/6.png" alt="mockup" class=" absolute top-24" width=" 700px" height=" 700px">
+        </div> --}}
     </div>
 </section>
 
