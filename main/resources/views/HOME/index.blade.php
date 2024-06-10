@@ -12,9 +12,12 @@
 <section class="bg-gray-100">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-7xl font-bold">From its medieval origins<h class=" text-6xl font-MEDIUM text-[#163172]"> to the digital</h>
-                 
-            </h1>
+            
+            <p class=" select-none text-gray-100">zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                payment stack.</p>
+
+            <h1 class="max-w-2xl mb-4 text-7xl font-bold">From its medieval origins<h class=" text-6xl font-MEDIUM text-[#163172]"> to the digital</h></h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 lg:text-xl">From
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
@@ -37,11 +40,12 @@
                 payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
         </div>
-        <img src=" images/9(6).png" alt="" class=" absolute right-0 bg-red-600" width=" 200px" height=" 200px">
-        {{-- <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
+        <img src=" images/11.png" alt="" class=" absolute right-0" width=" 150px" height=" 150px">
+        <img src=" images/12(2).png" alt="" class=" absolute right-60 bottom-[410px]" width=" 150px" height=" 150px">
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
             <img src="images/Ellipse 26.png" alt="" class=" absolute" width="200px" height="200px">
             <img src="images/6.png" alt="mockup" class=" absolute top-24" width=" 700px" height=" 700px">
-        </div> --}}
+        </div>
     </div>
 </section>
 

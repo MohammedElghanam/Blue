@@ -34,7 +34,7 @@
         
     </div>
 
-    <div class=" grid grid-cols-4 absolute w-1/3 right-96 bottom-64">
+    <div class=" grid grid-cols-4 absolute w-1/3 right-96 bottom-80">
         <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
             <div class=" col-span-2 flex justify-center items-center">
             <svg class="w-12 h-12 " fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -373,8 +373,8 @@
             </div>
         </div>
 
-        <div class=" col-span-4 h-56 rounded-2xl bg-blue-700 pt-5">
-            <div class="p-5 flex justify-start items-center gap-4">
+        <div class=" col-span-4 h-56 rounded-2xl bg-blue-700 relative">
+            
                 <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 
                         1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 
@@ -394,15 +394,15 @@
                         3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" 
                     />
                 </svg>
-                <h2 class=" text-2xl font-bold text-white">SERVICES AUX
+                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-5">SERVICES AUX
                     TPE / PME
                     </h2>
-            </div>
-            <div class=" pl-20">
+            
+                <img src="images/2.png" alt="">
                 <p class=" w-3/4 font-medium text-white">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
-            </div>
+            
         </div>
 
         <div class=" col-span-4 h-56 rounded-2xl bg-blue-700 pt-5">
