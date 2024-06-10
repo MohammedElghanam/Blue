@@ -12,14 +12,14 @@
 <section class="bg-gray-100 ">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-7xl font-bold">From its medieval origins<h class=" text-6xl font-MEDIUM text-blue-700"> to the digital</h>
+            <h1 class="max-w-2xl mb-4 text-7xl font-bold">From its medieval origins<h class=" text-6xl font-MEDIUM text-[#163172]"> to the digital</h>
                  
             </h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 lg:text-xl">From
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
             <a href="#"
-                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-600 hover:bg-blue-700 ">
+                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#163172] hover:bg-blue-700 ">
                 Booking Now
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +29,7 @@
                 </svg>
             </a>
             <a href="#"
-                class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-blue-700 border border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
+                class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-[#163172] border border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
                 About Us
             </a>
         </div>
@@ -41,6 +41,14 @@
 </section>
 
 <section class="bg-gray-50">
+    <div class=" col-span-12 h-20 mt-10">
+        <div class=" flex justify-center items-center mb-2">
+            <h1 class=" font-bold text-5xl">Pour Quoi Nous Choisir ?</h1>
+        </div>
+        <div class="  flex justify-center items-center">
+            <p class=" text-2xl font-normal text-gray-700">nous somme centre sur</p>
+        </div>
+    </div>
     <div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
         <div class=" relative">
