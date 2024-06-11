@@ -5,20 +5,30 @@
 @section('container')
 
 
+<style>
+    .rotate{
+        transform: rotate(-25deg);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    }
 
+    .rotate1{
+        transform: rotate(20deg);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+</style>
 
 
 
 <section class="bg-gray-100 relative">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
-        <div class="mr-auto place-self-center lg:col-span-7">
+        <div class="mr-auto place-self-center lg:col-span-12">
 
             <p class=" select-none text-gray-100">zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
 
-            <h1 class="max-w-2xl mb-4 text-7xl font-bold">From its medieval origins<h class=" text-6xl font-MEDIUM text-[#163172]"> to the digital</h></h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 lg:text-xl">From
+            <h1 class="max-w-4xl mb-4 text-8xl font-bold">From <br> its medieval origins<h class=" text-8xl font-MEDIUM text-[#163172]"> to the digital</h></h1>
+            <p class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 text-4xl">From
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
             <a href="#"
@@ -41,10 +51,12 @@
                 payment stack.</p>
         </div>
 
-        <div class=" bg-red-500 w-36 h-[550px] rounded-t-full absolute -rotate-45 r"></div>
+        <div class=" bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[730px] rounded-t-full absolute rotate -bottom-12 right-[150px] "></div>
+        <div class=" bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full rotate1 absolute -bottom-10 right-[500px]"></div>
+        <div class="absolute top-24 right-[350px] w-40 h-40 bg-blue-900 rounded-full opacity-60 "></div>
+
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
-            <img src="images/Ellipse 26.png" alt="" class=" absolute top-12 right-[300px]" width="120px" height="120px">
-            <img src="images/6.png" alt="mockup" class=" absolute bottom-0" width=" 800px" height=" 800px">
+            <img src="images/6.png" alt="mockup" class=" absolute bottom-0 right-28" width=" 800px" height=" 800px">
         </div>
     </div>
 </section>
@@ -114,7 +126,7 @@
                 <p class=" w-1/2 text-white">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
                     <span class=" font-medium">industries for previewing</span> layouts and visual mockups</p>
             </div>
-            <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-2 right-20" width=" 100px" height=" 100px">
+            <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-8 right-20" width=" 100px" height=" 100px">
         </div>
     </div>
 </section>
