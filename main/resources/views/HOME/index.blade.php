@@ -41,8 +41,7 @@
                 payment stack.</p>
         </div>
 
-        {{-- <img src=" images/11.png" alt="" class=" absolute right-0" width=" 150px" height=" 150px"> --}}
-        {{-- <img src=" images/12(2).png" alt="" class=" absolute right-60 bottom-[410px]" width=" 150px" height=" 150px"> --}}
+        <div class=" bg-red-500 w-36 h-[550px] rounded-t-full absolute -rotate-45 r"></div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
             <img src="images/Ellipse 26.png" alt="" class=" absolute top-12 right-[300px]" width="120px" height="120px">
             <img src="images/6.png" alt="mockup" class=" absolute bottom-0" width=" 800px" height=" 800px">
