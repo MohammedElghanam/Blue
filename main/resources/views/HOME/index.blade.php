@@ -9,10 +9,10 @@
 
 
 
-<section class="bg-gray-100">
+<section class="bg-gray-100 relative">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
         <div class="mr-auto place-self-center lg:col-span-7">
-            
+
             <p class=" select-none text-gray-100">zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
@@ -40,11 +40,12 @@
                 payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
         </div>
-        <img src=" images/11.png" alt="" class=" absolute right-0" width=" 150px" height=" 150px">
-        <img src=" images/12(2).png" alt="" class=" absolute right-60 bottom-[410px]" width=" 150px" height=" 150px">
+
+        {{-- <img src=" images/11.png" alt="" class=" absolute right-0" width=" 150px" height=" 150px"> --}}
+        {{-- <img src=" images/12(2).png" alt="" class=" absolute right-60 bottom-[410px]" width=" 150px" height=" 150px"> --}}
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
-            <img src="images/Ellipse 26.png" alt="" class=" absolute" width="200px" height="200px">
-            <img src="images/6.png" alt="mockup" class=" absolute top-24" width=" 700px" height=" 700px">
+            <img src="images/Ellipse 26.png" alt="" class=" absolute top-9 right-56" width="150px" height="150px">
+            <img src="images/6.png" alt="mockup" class=" absolute bottom-0" width=" 800px" height=" 800px">
         </div>
     </div>
 </section>
@@ -308,7 +309,7 @@
     </div>
 </section>
 
-<section class=" bg-blue-600 mb-12 mt-6">
+<section class=" bg-blue-600 mb-12 my-10">
     <div class=" px-4 ">
         <div class=" flex justify-center items-center pt-20 w-full h-12">
             <h1 class="font-bold text-5xl text-white"> What Our Founders Say</h1>
@@ -341,7 +342,7 @@
     </div>
 </section>
 
-<section class="bg-gray-50 ">
+<section class="bg-gray-50 my-8">
     <div
         class="grid max-w-screen-xl px-4 mx-auto  lg:grid-cols-2 ">
         <div class=" col-span-2  mb-4 h-12 flex justify-center items-center font-bold text-5xl">
@@ -372,7 +373,7 @@
     </div>
 </section>
 
-<section class="bg-gray-50 ">
+<section class="bg-gray-50 my-8">
     <div
         class="grid max-w-screen-xl py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 0 px-56">
         <div class=" bg-blue-700 col-span-2 h-56 rounded-lg relative ">
