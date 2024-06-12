@@ -4,7 +4,7 @@
 
 @section('container')
 
-
+{{-- notre vision  --}}
 <section class="bg-gray-50">
     <img src="images/Group 60.png" alt="" class=" absolute bottom-0 -left-20">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto gap-20 lg:py-16 lg:grid-cols-12">
@@ -15,7 +15,7 @@
         </div>
 
         <div class="mr-auto place-self-center lg:col-span-7 ">
-            <h1 class="max-w-2xl mb-10 text-7xl font-extrabold  text-[#163172]">Description</h1>
+            <h1 class="max-w-2xl mb-10 text-7xl font-bold  text-gray-850">Description</h1>
 
             <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-600">BLUE
                 STRATEGY est un cabinet d'études, d'accompagnement et PMO
@@ -35,7 +35,7 @@
 
     </div>
 
-    <div class=" grid grid-cols-4 absolute w-1/3 right-96 bottom-80">
+    <div class=" grid grid-cols-4 absolute w-1/3 right-[470px] bottom-[375px]">
         <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
             <div class=" col-span-2 flex justify-center items-center">
                 <svg class="w-12 h-12 " fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -146,15 +146,12 @@
     <img src="images/Group 61.png" alt="" class=" absolute -right-12 top-32">
 </section>
 
-
+{{-- notre engagement  --}}
 <section class="bg-gray-50">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-10">
-        <div class=" col-span-12 h-20 mb-5">
-            <div class=" flex justify-center items-center mb-2">
-                <h1 class=" font-bold text-5xl">Pour Quoi Nous Choisir ?</h1>
-            </div>
-            <div class="  flex justify-center items-center">
-                <p class=" text-2xl font-normal text-gray-700">nous somme centre sur</p>
+        <div class=" col-span-12 h-20 mb-9">
+            <div class=" flex justify-center items-center mb-2 text-center">
+                <h1 class=" font-bold text-5xl w-1/2 text-gray-900">Quelles problématiques abordons-nous ?</h1>
             </div>
         </div>
         <div class=" grid grid-cols-6 col-span-12 justify-center items-center gap-5 px-20 h-40 ">
@@ -332,12 +329,13 @@
 </section>
 
 
+{{-- business unites  --}}
 <section class="bg-gray-50">
 
     <div class="grid grid-cols-12 max-w-screen-xl px-4 py-8 pb-10 gap-6 mx-auto">
         <div class=" col-span-12 h-20 ">
             <div class=" flex justify-center items-center mb-2">
-                <h1 class=" font-bold text-5xl">Nos Domaines D'expertirse</h1>
+                <h1 class=" font-bold text-5xl text-gray-900">Nos Domaines D'expertirse</h1>
             </div>
         </div>
 

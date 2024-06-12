@@ -26,46 +26,40 @@
 
 
 
-<section class="bg-gray-50 border-2 border-red-600 relative h-[600px]">
+<section class="bg-gray-500 relative h-[600px]">
     
     <div class=" rotate bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full absolute bottom-4 -right-[83px] "></div>
     <div class=" rotate2 w-24 h-60 rounded-full absolute right-10 bottom-44 bg-blue-900 opacity-50"></div>
     <div class=" rotate1 bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full absolute bottom-10 -left-[70px]"></div>
     <div class="absolute left-72 -bottom-[80px] w-40 h-40 bg-blue-900 rounded-full opacity-60 "></div>
 
-    {{-- <div class=" h-full w-full bg-green-700 items-center pt-10">
+    <div class=" h-full w-full bg-gray-100 items-center pt-[200px]">
 
-        <div class=" text-7xl font-bold flex justify-center items-center h-24 bg-red-500 ">
+        <div class=" text-9xl font-medium flex justify-center items-center h-24">
             VISION, ENGAGEMENT 
         </div>
 
-        <div class=" text-4xl font-semibold flex justify-center items-center h-24 bg-red-500 ">
+        <div class=" text-4xl font-normal flex justify-center items-center h-24 ">
             Un équipe engagée pour le développement.
         </div>
 
-    </div> --}}
+    </div>
 
 </section>
 
-<section class="bg-gray-50  pb-20 border-2 border-red-600 relative ">
+<section class="bg-gray-50  py-20 border-2 border-red-600 relative ">
     
-    {{-- <div class=" rotate bg-gradient-to-b from-blue-500 to-red-500 w-40 h-[500px] rounded-t-full absolute bottom-4 -right-[83px] "></div>
-    <div class=" rotate2 w-24 h-60 rounded-full absolute right-10 bottom-44 bg-blue-900 opacity-50"></div>
-
-    <div class=" rotate1 bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full absolute bottom-10 -left-[70px]"></div> --}}
-    {{-- <div class="absolute top-24 right-[350px] w-40 h-40 bg-blue-900 rounded-full opacity-60 "></div> --}}
-
     <div class="grid max-w-screen-xl  mx-auto  lg:grid-cols-12">
         
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-[500px] border-[30px] rounded-full border-blue-100">
-            {{-- <img src="images/engagement.png" alt="mockup" class=" h-full w-full right-0 rounded-full border-[7px] border-white"> --}}
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-[500px]">
+            <img src="images/engagement.png" alt="mockup" class=" h-full w-full right-0">
         </div>
 
-        <div class="hidden absolute right-96 w-[500px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
+        <div class="hidden absolute right-96 w-[700px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center bg-green-600">
             
             <div class=" absolute flex items-center top-0 left-10 gap-4">
                 <svg class=" w-16 h-16" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#1e00ff" stroke-width="2" d="M12 13a4 4 0 1 0 0-8a4 4 0 0 0 0 8Zm-6 9v-3a6 6 0 1 1 12 0v3M13 5c.404-1.664 2.015-3 4-3c2.172 0 3.98 1.79 4 4c-.02 2.21-1.828 4-4 4h-1h1c3.288 0 6 2.686 6 6v2M11 5c-.404-1.664-2.015-3-4-3c-2.172 0-3.98 1.79-4 4c.02 2.21 1.828 4 4 4h1h-1c-3.288 0-6 2.686-6 6v2"/></svg>
-                {{-- <h1 class=" text-2xl font-bold text-blue-700">NOTRE VISION</h1> --}}
+                <h1 class=" text-2xl font-bold text-[#1e56a0]">NOTRE VISION</h1>
             </div>
             <div class="">
                 <h2 class=" absolute font-medium text-xl left-10 top-20">Accélérer votre développement</h2>
@@ -74,7 +68,7 @@
                     Nous vous accompagnons dans vos projets, vos évolutions et vos
                     transformations tout en veillant à la performance et à la durabilité.
                 </p>
-                <p class=" absolute left-10 top-[320px] text-xl">
+                <p class=" absolute left-10 top-[290px] text-xl">
                     Nous collaborons parfaitement avec vous pour concevoir des solutions
                     sur mesure, spécialement adaptées pour relever vos défis. Cependant,
                     notre perspective s'étend bien au-delà de l'horizon immédiat. Nous
