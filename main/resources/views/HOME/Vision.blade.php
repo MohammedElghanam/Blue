@@ -26,7 +26,7 @@
 
 
 
-<section class="bg-gray-500 relative h-[600px]">
+<section class=" bg-gray-200 relative h-[600px]">
     
     <div class=" rotate bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full absolute bottom-4 -right-[83px] "></div>
     <div class=" rotate2 w-24 h-60 rounded-full absolute right-10 bottom-44 bg-blue-900 opacity-50"></div>
@@ -35,11 +35,11 @@
 
     <div class=" h-full w-full bg-gray-100 items-center pt-[200px]">
 
-        <div class=" text-9xl font-medium flex justify-center items-center h-24">
+        <div class=" text-9xl text-[#1e56a0] font-medium flex justify-center items-center h-24">
             VISION, ENGAGEMENT 
         </div>
 
-        <div class=" text-4xl font-normal flex justify-center items-center h-24 ">
+        <div class=" text-4xl text-gray-600 font-normal flex justify-center items-center h-24 ">
             Un équipe engagée pour le développement.
         </div>
 
@@ -53,7 +53,7 @@
     <div class="grid max-w-screen-xl  mx-auto  lg:grid-cols-12">
         
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-[500px]">
-            <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0">
+            <img src="images/61.jpg" alt="mockup" class=" h-full w-full right-0">
         </div>
 
         <div class="hidden absolute right-96 w-[700px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
@@ -86,7 +86,7 @@
 </section>
 
 {{-- notre engagement  --}}
-<section class="bg-gray-100 py-24">
+<section class="bg-gray-200 py-24">
     <div class="flex justify-between items-center  max-w-screen-xl mx-auto grid-cols-12">
         
         <div class="hidden mr-32 flex-col w-[700px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center relative">
@@ -115,7 +115,7 @@
         </div>
 
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-[500px]">
-            <img src="images/61.jpg" alt="mockup" class=" h-full w-full right-0">
+            <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0">
         </div>
 
     </div>
