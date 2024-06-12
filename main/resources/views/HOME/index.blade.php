@@ -27,7 +27,7 @@
                 payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
 
-            <h1 class="max-w-4xl mb-4 text-8xl font-bold">From <br> its medieval origins<h class=" text-8xl font-MEDIUM text-[#163172]"> to the digital</h></h1>
+            <h1 class="max-w-4xl mb-4 text-8xl font-bold">From <br> its medieval origins<h class=" text-8xl font-MEDIUM text-[#1e56a0]"> to the digital</h></h1>
             <p class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 text-4xl">From
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
@@ -53,28 +53,25 @@
 
         <div class=" bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[730px] rounded-t-full absolute rotate -bottom-12 right-[150px] "></div>
         <div class=" bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full rotate1 absolute -bottom-10 right-[500px]"></div>
-        <div class="absolute top-24 right-[350px] w-40 h-40 bg-blue-900 rounded-full opacity-60 "></div>
+        <div class="absolute top-24 right-[350px] w-40 h-40 bg-[#1e56a0] rounded-full opacity-60 "></div>
 
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
-            <img src="images/6.png" alt="mockup" class=" absolute bottom-0 right-28" width=" 800px" height=" 800px">
+            {{-- <img src="images/6.png" alt="mockup" class=" absolute bottom-0 right-28" width=" 800px" height=" 800px"> --}}
         </div>
     </div>
 </section>
 
 <section class="bg-gray-50">
     <div class=" col-span-12 h-20 mt-10">
-        <div class=" flex justify-center items-center mb-2">
-            <h1 class=" font-bold text-5xl">Pour Quoi Nous Choisir ?</h1>
-        </div>
-        <div class="  flex justify-center items-center">
-            <p class=" text-2xl font-normal text-gray-700">nous somme centre sur</p>
+        <div class=" flex justify-center items-center mb-2 text-center">
+            <h1 class=" font-bold text-5xl w-1/3 text-gray-900">Quelles problématiques abordons-nous ?</h1>
         </div>
     </div>
     <div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
         <div class=" relative">
             <img src="images/Frame 795 (1).png" alt="jhgu">
-            <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-12 right-10" width=" 100px" height=" 100px">
+            <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-20 right-10" width=" 150px" height=" 150px">
         </div>
         <div class=" grid grid-cols-3 gap-5 justify-center items-center px-20">
             <div class=" col-span-1 flex-col justify-center items-center relative">
@@ -126,18 +123,7 @@
                 <p class=" w-1/2 text-white">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
                     <span class=" font-medium">industries for previewing</span> layouts and visual mockups</p>
             </div>
-            <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-8 right-20" width=" 100px" height=" 100px">
-        </div>
-    </div>
-</section>
-
-<section class=" bg-gray-50">
-    <div class=" w-full h-40 flex ">
-        <div class=" w-1/3 "></div>
-        <div class=" pt-7 pl-36 w-3/4  ">
-            <h1 class=" font-bold text-5xl mb-4">Why Us ?</h1>
-            <p class=" w-1/2 font-normal">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
-                industries for previewing layouts and visual mockups</p>
+            <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-16 right-20" width=" 150px" height=" 150px">
         </div>
     </div>
 </section>
@@ -146,7 +132,7 @@
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class=" col-span-12 h-20 mb-2">
             <div class=" flex justify-center items-center mb-2">
-                <h1 class=" font-bold text-5xl">Pour Quoi Nous Choisir ?</h1>
+                <h1 class=" font-bold text-5xl text-gray-900">Pour Quoi Nous Choisir ?</h1>
             </div>
             <div class="  flex justify-center items-center">
                 <p class=" text-2xl font-normal text-gray-700">nous somme centre sur</p>
@@ -320,7 +306,7 @@
     </div>
 </section>
 
-<section class=" bg-blue-600 mb-12 my-10">
+<section class=" bg-[#163172] mb-12 my-10">
     <div class=" px-4 ">
         <div class=" flex justify-center items-center pt-20 w-full h-12">
             <h1 class="font-bold text-5xl text-white"> What Our Founders Say</h1>
@@ -334,15 +320,15 @@
                 </div>
                 <div class="h-fit w-3/4">
                     <div class=" mb-5">
-                        <h1 class=" font-semibold text-4xl text-white">Houda belaydi</h1>
-                        <h4 class=" font-medium text-gray-800">CEO && FONDER</h4>
+                        <h1 class=" font-semibold text-6xl text-white">Houda belaydi</h1>
+                        <h4 class=" font-medium text-gray-100">CEO && FONDER</h4>
                     </div>
-                    <p class=" w-2/3 text-white font-medium">Each Founder has put their blood, sweat, and tears into building
+                    <p class=" w-2/3 text-white text-xl font-normal">Each Founder has put their blood, sweat, and tears into building
                         something remarkable. ASG builds on that legacy while liberating
                         Founders to get back to doing what you really love.
                     </p>
                 </div>
-                <div class=" absolute flex bottom-0 right-28 w-40 rounded-full justify-center items-center gap-3 h-12 bg-blue-800">
+                <div class=" absolute flex bottom-0 right-28 w-40 rounded-full justify-center items-center gap-3 h-12 bg-[#1e56a0]">
                     <svg class="w-7 h-7 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="white" d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131c.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg>
                     <svg class="w-7 h-7 text-white" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg>
                     <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
@@ -356,10 +342,10 @@
 <section class="bg-gray-50 my-8">
     <div
         class="grid max-w-screen-xl px-4 mx-auto  lg:grid-cols-2 ">
-        <div class=" col-span-2  mb-4 h-12 flex justify-center items-center font-bold text-5xl">
+        <div class=" col-span-2  mb-8 h-12 flex justify-center items-center font-bold text-5xl text-gray-900">
             You’ll be in good compan
         </div>
-        <div class="relative w-full col-span-2 h-16 overflow-hidden mt-4">
+        <div class="relative w-full col-span-2 h-16 overflow-hidden mt-8">
             <div class="absolute flex gap-7 items-center h-full  animate-scroll">
                 <img src="images/R1.png" alt="Image 1" class="h-24 w-24">
                 <img src="images/R2.png" alt="Image 2" class="h-24 w-24">
@@ -387,10 +373,10 @@
 <section class="bg-gray-50 my-8">
     <div
         class="grid max-w-screen-xl py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 0 px-56">
-        <div class=" bg-blue-700 col-span-2 h-56 rounded-lg relative ">
+        <div class=" bg-[#163172] col-span-2 h-56 rounded-lg relative ">
             <img class="rounded-full absolute -top-7 -right-16 " src="images/contact.png" alt="girhn" width="300px" height="300px">
             <h1 class=" absolute font-bold text-3xl w-1/2 top-7 left-10 text-white">Each Founder has put their blood, sweat, and tears into building </h1>
-            <button class=" absolute top-40 left-10 bg-blue-500 px-16 py-2 rounded-full text-xl font-medium text-white hover:bg-white hover:text-black">Contact</button>
+            <button class=" absolute top-40 left-10 bg-[#1e56a0] px-16 py-2 rounded-full text-xl font-medium text-white hover:bg-white hover:text-black">Contact</button>
         </div>
     </div>
 </section>

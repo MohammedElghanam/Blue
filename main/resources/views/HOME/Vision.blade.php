@@ -33,7 +33,7 @@
     <div class=" rotate1 bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full absolute bottom-10 -left-[70px]"></div>
     <div class="absolute left-72 -bottom-[80px] w-40 h-40 bg-blue-900 rounded-full opacity-60 "></div>
 
-    <div class=" h-full w-full bg-green-700 items-center ">
+    {{-- <div class=" h-full w-full bg-green-700 items-center pt-10">
 
         <div class=" text-7xl font-bold flex justify-center items-center h-24 bg-red-500 ">
             VISION, ENGAGEMENT 
@@ -43,7 +43,7 @@
             Un équipe engagée pour le développement.
         </div>
 
-    </div>
+    </div> --}}
 
 </section>
 
@@ -58,14 +58,14 @@
     <div class="grid max-w-screen-xl  mx-auto  lg:grid-cols-12">
         
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-[500px] border-[30px] rounded-full border-blue-100">
-            <img src="images/engagement.png" alt="mockup" class=" h-full w-full right-0 rounded-full border-[7px] border-white">
+            {{-- <img src="images/engagement.png" alt="mockup" class=" h-full w-full right-0 rounded-full border-[7px] border-white"> --}}
         </div>
 
         <div class="hidden absolute right-96 w-[500px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
             
             <div class=" absolute flex items-center top-0 left-10 gap-4">
                 <svg class=" w-16 h-16" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#1e00ff" stroke-width="2" d="M12 13a4 4 0 1 0 0-8a4 4 0 0 0 0 8Zm-6 9v-3a6 6 0 1 1 12 0v3M13 5c.404-1.664 2.015-3 4-3c2.172 0 3.98 1.79 4 4c-.02 2.21-1.828 4-4 4h-1h1c3.288 0 6 2.686 6 6v2M11 5c-.404-1.664-2.015-3-4-3c-2.172 0-3.98 1.79-4 4c.02 2.21 1.828 4 4 4h1h-1c-3.288 0-6 2.686-6 6v2"/></svg>
-                <h1 class=" text-2xl font-bold text-blue-700">NOTRE VISION</h1>
+                {{-- <h1 class=" text-2xl font-bold text-blue-700">NOTRE VISION</h1> --}}
             </div>
             <div class="">
                 <h2 class=" absolute font-medium text-xl left-10 top-20">Accélérer votre développement</h2>
