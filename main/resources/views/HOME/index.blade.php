@@ -32,7 +32,7 @@
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
             <a href="#"
-                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#163172] hover:bg-blue-700 ">
+                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-xl font-medium text-center text-white rounded-lg bg-[#163172] hover:bg-blue-700 ">
                 Booking Now
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@
                 </svg>
             </a>
             <a href="#"
-                class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-[#163172] border border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
+                class="inline-flex items-center justify-center px-5 py-3 text-xl font-medium text-center text-[#163172] border-2 border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
                 About Us
             </a>
 
@@ -56,7 +56,7 @@
         <div class="absolute top-24 right-[350px] w-40 h-40 bg-blue-900 rounded-full opacity-60 "></div>
 
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
-            <img src="images/6.png" alt="mockup" class=" absolute bottom-0 right-28" width=" 800px" height=" 800px">
+            {{-- <img src="images/6.png" alt="mockup" class=" absolute bottom-0 right-28" width=" 800px" height=" 800px"> --}}
         </div>
     </div>
 </section>
