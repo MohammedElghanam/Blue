@@ -4,12 +4,57 @@
 
 @section('container')
 
-<div class=" text-4xl font-bold flex justify-center items-center h-24 w-full">
-    VISION, ENGAGEMENT 
-</div>
+<style>
+    .rotate{
+        transform: rotate(-17deg);
+        clip-path: polygon(0 0, 100% 0, 0% 100%, 0 100%);
+    }
 
-<section class="bg-gray-50  pb-20">
-   
+    .rotate1{
+        transform: rotate(20deg);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .rotate2{
+        transform: rotate(-17deg);
+        /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
+    }
+</style>
+
+
+
+
+
+
+<section class="bg-gray-50 border-2 border-red-600 relative h-[600px]">
+    
+    <div class=" rotate bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full absolute bottom-4 -right-[83px] "></div>
+    <div class=" rotate2 w-24 h-60 rounded-full absolute right-10 bottom-44 bg-blue-900 opacity-50"></div>
+    <div class=" rotate1 bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full absolute bottom-10 -left-[70px]"></div>
+    <div class="absolute left-72 -bottom-[80px] w-40 h-40 bg-blue-900 rounded-full opacity-60 "></div>
+
+    <div class=" h-full w-full bg-green-700 items-center ">
+
+        <div class=" text-7xl font-bold flex justify-center items-center h-24 bg-red-500 ">
+            VISION, ENGAGEMENT 
+        </div>
+
+        <div class=" text-4xl font-semibold flex justify-center items-center h-24 bg-red-500 ">
+            Un équipe engagée pour le développement.
+        </div>
+
+    </div>
+
+</section>
+
+<section class="bg-gray-50  pb-20 border-2 border-red-600 relative ">
+    
+    {{-- <div class=" rotate bg-gradient-to-b from-blue-500 to-red-500 w-40 h-[500px] rounded-t-full absolute bottom-4 -right-[83px] "></div>
+    <div class=" rotate2 w-24 h-60 rounded-full absolute right-10 bottom-44 bg-blue-900 opacity-50"></div>
+
+    <div class=" rotate1 bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full absolute bottom-10 -left-[70px]"></div> --}}
+    {{-- <div class="absolute top-24 right-[350px] w-40 h-40 bg-blue-900 rounded-full opacity-60 "></div> --}}
+
     <div class="grid max-w-screen-xl  mx-auto  lg:grid-cols-12">
         
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-[500px] border-[30px] rounded-full border-blue-100">

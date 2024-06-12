@@ -56,7 +56,7 @@
         <div class="absolute top-24 right-[350px] w-40 h-40 bg-blue-900 rounded-full opacity-60 "></div>
 
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
-            {{-- <img src="images/6.png" alt="mockup" class=" absolute bottom-0 right-28" width=" 800px" height=" 800px"> --}}
+            <img src="images/6.png" alt="mockup" class=" absolute bottom-0 right-28" width=" 800px" height=" 800px">
         </div>
     </div>
 </section>

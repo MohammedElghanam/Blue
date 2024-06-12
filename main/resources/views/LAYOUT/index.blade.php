@@ -69,7 +69,7 @@
         }
     </style>
 </head>
-<body class="">
+<body class=" overflow-x-hidden">
 
 
     
@@ -113,7 +113,7 @@
                             class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white z-50 md:shadow-lg md:rounded-b">
                             <li>
                                 <a href="{{route('A_propos')}}" class="flex px-4 py-3 hover:bg-blue-100">
-                                    Oui Somme Nous
+                                    Qui Somme Nous
                                 </a>
                             </li>
                             <li>
