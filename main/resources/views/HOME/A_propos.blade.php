@@ -6,7 +6,9 @@
 
 {{-- notre vision  --}}
 <section class="bg-gray-50">
+
     <img src="images/Group 60.png" alt="" class=" absolute bottom-0 -left-20">
+    
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto gap-20 lg:py-16 lg:grid-cols-12">
 
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full ">
@@ -146,7 +148,7 @@
     <img src="images/Group 61.png" alt="" class=" absolute -right-12 top-32">
 </section>
 
-{{-- notre engagement  --}}
+{{-- Quelles problématiques abordons-nous ?  --}}
 <section class="bg-gray-50">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-10">
         <div class=" col-span-12 h-20 mb-9">

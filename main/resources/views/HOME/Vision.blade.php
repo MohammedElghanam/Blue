@@ -47,19 +47,20 @@
 
 </section>
 
-<section class="bg-gray-50  py-20 border-2 border-red-600 relative ">
+{{-- Notre vision  --}}
+<section class="bg-gray-50 py-20 relative ">
     
     <div class="grid max-w-screen-xl  mx-auto  lg:grid-cols-12">
         
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-[500px]">
-            <img src="images/engagement.png" alt="mockup" class=" h-full w-full right-0">
+            <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0">
         </div>
 
-        <div class="hidden absolute right-96 w-[700px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center bg-green-600">
+        <div class="hidden absolute right-96 w-[700px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
             
             <div class=" absolute flex items-center top-0 left-10 gap-4">
                 <svg class=" w-16 h-16" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#1e00ff" stroke-width="2" d="M12 13a4 4 0 1 0 0-8a4 4 0 0 0 0 8Zm-6 9v-3a6 6 0 1 1 12 0v3M13 5c.404-1.664 2.015-3 4-3c2.172 0 3.98 1.79 4 4c-.02 2.21-1.828 4-4 4h-1h1c3.288 0 6 2.686 6 6v2M11 5c-.404-1.664-2.015-3-4-3c-2.172 0-3.98 1.79-4 4c.02 2.21 1.828 4 4 4h1h-1c-3.288 0-6 2.686-6 6v2"/></svg>
-                <h1 class=" text-2xl font-bold text-[#1e56a0]">NOTRE VISION</h1>
+                <h1 class=" text-2xl font-bold text-blue-800">NOTRE VISION</h1>
             </div>
             <div class="">
                 <h2 class=" absolute font-medium text-xl left-10 top-20">Accélérer votre développement</h2>
@@ -84,11 +85,11 @@
 
 </section>
 
-
-<section class="bg-gray-50 py-24">
+{{-- notre engagement  --}}
+<section class="bg-gray-100 py-24">
     <div class="flex justify-between items-center  max-w-screen-xl mx-auto grid-cols-12">
         
-        <div class="hidden mr-32 flex-col w-[500px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center relative ">
+        <div class="hidden mr-32 flex-col w-[700px] h-[500px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center relative">
             
             <div class=" absolute flex items-center top-0 left-0 gap-4">
                 <svg class=" w-16 h-16 " xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#1e00ff" d="M17 4a1 1 0 1 1 0-2h4a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0V5.414l-5.793 5.793a1 1 0 0 1-1.414 0L10 8.414l-5.293 5.293a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0L13.5 9.086L18.586 4zM5 18v3a1 1 0 1 1-2 0v-3a1 1 0 1 1 2 0m5-4a1 1 0 1 0-2 0v7a1 1 0 1 0 2 0zm4 1a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0v-5a1 1 0 0 1 1-1m6-4a1 1 0 1 0-2 0v10a1 1 0 1 0 2 0z"/></svg>                
@@ -103,7 +104,7 @@
                     développement du Maroc et de l'Afrique de
                     demain.
                 </p>
-                <p class="absolute left-10 top-[320px] text-xl">
+                <p class="absolute left-10 top-[290px] text-xl">
                     Notre mission fondamentale consiste à élever
                     nos partenaires vers l'excellence, afin qu'ils
                     deviennent des acteurs de référence dans la
@@ -113,8 +114,8 @@
             </div>
         </div>
 
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-[500px] border-[30px] rounded-full border-blue-100">
-            <img src="images/engagement.png" alt="mockup" class=" h-full w-full right-0 rounded-full border-[7px] border-white">
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-[500px]">
+            <img src="images/61.jpg" alt="mockup" class=" h-full w-full right-0">
         </div>
 
     </div>
