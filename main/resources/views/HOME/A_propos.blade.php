@@ -345,7 +345,7 @@
 
 
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-blue-700 relative">
+            <div class=" col-span-2 h-56 rounded-2xl bg-red-700 relative">
 
                 <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">01</h2>
                 <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">PMO
@@ -358,7 +358,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-blue-700 relative">
+            <div class=" col-span-2 h-56 rounded-2xl bg-blue-900 relative">
 
                 <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">02</h2>
                 <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">SERVICES AUX
@@ -372,7 +372,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-blue-700 relative">
+            <div class=" col-span-2 h-56 rounded-2xl bg-purple-950 relative">
 
                 <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">03</h2>
                 <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">SERVICES
@@ -386,7 +386,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-blue-700 relative">
+            <div class=" col-span-2 h-56 rounded-2xl bg-green-700 relative">
 
                 <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">04</h2>
                 <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">CARRIERE ET RH
@@ -399,7 +399,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-blue-700 relative">
+            <div class=" col-span-2 h-56 rounded-2xl bg-yellow-600 relative">
 
                 <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">05</h2>
                 <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">FORMATION
@@ -413,7 +413,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-blue-700 relative">
+            <div class=" col-span-2 h-56 rounded-2xl bg-orange-700 relative">
 
                 <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">06</h2>
                 <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">ENTREPRENARIAT ET PROJETS D'ESS
