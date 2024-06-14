@@ -28,8 +28,8 @@
                 payment stack.
             </p>
 
-            <h1 class="max-w-4xl mb-4 text-8xl font-bold lg:text-6xl lg:2xl">From <br> its medieval origins<h class=" text-8xl font-MEDIUM text-[#1e56a0] lg:text-6xl"> to the digital</h></h1>
-            <p class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 text-4xl lg:text-2xl lg:max-w-2xl">From
+            <h1 class="max-w-4xl mb-4 text-8xl font-bold">From <br> its medieval origins<h class=" text-8xl font-medium text-[#1e56a0]"> to the digital</h></h1>
+            <p class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 text-4xl ">From
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
             <a href="#"
@@ -146,10 +146,7 @@
 
             <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
                 <div class=" col-span-2 flex justify-center items-center">
-                <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" 
-                    shape-rendering="geometricPrecision" text-rendering="geometricPrecision" 
-                    image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" v
-                    iewBox="0 0 512 496.954"><path fill-rule="nonzero" d="M411.653 450.341c-13.994 
+                <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 496.954"><path fill-rule="nonzero" d="M411.653 450.341c-13.994 
                     0-26.665-5.674-35.836-14.844l-.423-.46c-8.92-9.135-14.421-21.621-14.421-35.376 
                     0-9.637 2.7-18.653 7.384-26.328l-21.96-18.668c-22.994 19.216-52.604 30.783-84.913 
                     30.783-19.499 0-38.014-4.214-54.684-11.777a7.688 7.688 0 01-.492 1.622l-11.945 
@@ -198,7 +195,7 @@
                     6.9 15.951 10.351 24.997 10.351 9.048 0 18.099-3.451 24.999-10.351 6.901-6.901 10.352-15.952 10.352-24.998 
                     0-9.046-3.451-18.096-10.352-24.997-6.9-6.901-15.951-10.354-24.999-10.354-9.046 0-18.096 3.453-24.997 
                     10.354zM432.313 197.81c5.894 7.195 14.524 12.144 24.482 13.132 9.967.991 19.408-2.163 26.606-8.059 
-                    7.196-5.894 12.146-14.524 13.135-24.482.988-9.965-2.165-19.408-8.062-26.606-5.894-7.196-14.523-12.146-24.481-13.135-9.966-.989-19.409
+                    7.196-5.894 12.146-14.524 13.135-24.482.988-9.965-2.165-19.408-8.062-26.606-5.894-7.196-14.523-12.146-24.481-13.135-9.966-.989-19.40 
                      2.165-26.607 8.062-7.196 5.894-12.146 14.523-13.135 24.481-.988 9.968 2.166 19.408 8.062 
                      26.607zM141.776 473.395a36.23 36.23 0 0026.616 8.106c9.97-.965 18.61-5.892 24.514-13.065a36.23 
                      36.23 0 008.16-26.002 7.836 7.836 0 01-.114-1.183c-1.097-9.729-5.97-18.153-13.003-23.945-7.031-5.785-16.233-8.944-26-8.16-.384.067-.78.106-1.182.114-9.732 
