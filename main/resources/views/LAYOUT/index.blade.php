@@ -69,7 +69,7 @@
         }
     </style>
 </head>
-<body class=" overflow-x-hidden">
+<body class=" overflow-x-hidden bg-gray-50">
 
 
     
