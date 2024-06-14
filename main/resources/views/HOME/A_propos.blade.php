@@ -295,12 +295,12 @@
 
             <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
 
-                <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">01</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">PMO
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">01</h2>
+                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-12">PMO
                 </h2>
 
                 <img src="images/5.png" alt="" class=" absolute left-5 top-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-40 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
@@ -308,13 +308,13 @@
 
             <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
 
-                <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">02</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">SERVICES AUX
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">02</h2>
+                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-8">SERVICES AUX
                     TPE / PME
                 </h2>
 
                 <img src="images/2.png" alt="" class=" absolute left-5 top-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-40 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
@@ -322,13 +322,13 @@
 
             <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
 
-                <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">03</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">SERVICES
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">03</h2>
+                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-8">SERVICES
                     DIGITAUX
                 </h2>
 
                 <img src="images/5.png" alt="" class=" absolute left-5 top-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-40 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
@@ -336,12 +336,12 @@
 
             <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
 
-                <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">04</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">CARRIERE ET RH
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">04</h2>
+                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-8">CARRIERE ET RH
                 </h2>
 
                 <img src="images/2.png" alt="" class=" absolute left-5 top-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-40 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
@@ -349,13 +349,13 @@
 
             <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
 
-                <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">05</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">FORMATION
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">05</h2>
+                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-8">FORMATION
                     PROFESSIONNELLE
                 </h2>
 
                 <img src="images/5.png" alt="" class=" absolute left-5 top-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-40 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
@@ -363,12 +363,12 @@
 
             <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
 
-                <h2 class=" absolute left-20 top-9 text-6xl font-bold text-white opacity-50">06</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-40 top-8">ENTREPRENARIAT ET PROJETS D'ESS
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">06</h2>
+                <h2 class=" absolute text-2xl font-bold text-white w-[300px] left-36 top-8">ENTREPRENARIAT ET PROJETS D'ESS
                 </h2>
 
                 <img src="images/2.png" alt="" class=" absolute left-5 top-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-40 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
