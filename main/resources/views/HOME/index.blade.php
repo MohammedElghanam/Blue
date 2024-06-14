@@ -25,10 +25,11 @@
 
             <p class=" select-none text-gray-100">zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
-                payment stack.</p>
+                payment stack.
+            </p>
 
-            <h1 class="max-w-4xl mb-4 text-8xl font-bold">From <br> its medieval origins<h class=" text-8xl font-MEDIUM text-[#1e56a0]"> to the digital</h></h1>
-            <p class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 text-4xl">From
+            <h1 class="max-w-4xl mb-4 text-8xl font-bold lg:text-6xl lg:2xl">From <br> its medieval origins<h class=" text-8xl font-MEDIUM text-[#1e56a0] lg:text-6xl"> to the digital</h></h1>
+            <p class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 text-4xl lg:text-2xl lg:max-w-2xl">From
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
                 payment stack.</p>
             <a href="#"
@@ -138,7 +139,7 @@
                 <h1 class=" font-bold text-5xl text-blue-900">Pour Quoi Nous Choisir ?</h1>
             </div>
             <div class="  flex justify-center items-center">
-                <p class=" text-2xl font-normal text-gray-700">nous somme centre sur</p>
+                <p class=" text-2xl font-normal text-gray-700">votre succés est notre mission</p>
             </div>
         </div>
         <div class=" grid grid-cols-6 col-span-12 justify-center items-center gap-5 px-20 h-40 ">
@@ -149,7 +150,7 @@
 
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">                    
-                    <h3 class=" font-medium text-center">D'utilisateur</h3>
+                    <h3 class=" font-medium text-center"> Centrés utilisateur</h3>
                 </div>
             </div>
 
