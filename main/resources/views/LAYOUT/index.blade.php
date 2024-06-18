@@ -73,12 +73,12 @@
 
 
     
-<header class="flex flex-col pb-2 bg-red-600">
+<header class="flex flex-col pb-2 ">
     <!-- Nav 1 -->
-    <nav id="nav1" class=" px-4 lg:px-6 pt-2.5 pb-0.5 bg-green-700">
+    <nav id="nav1" class=" px-4 lg:px-6 pt-2.5 pb-0.5">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="{{route('home')}}" class="flex items-center">
-                <img src="images/logo.png" class="mr-3 h-14 w-14" alt="Logo">
+                <img src="images/logo.png" class="mr-3 h-16 w-16" alt="Logo">
             </a>
             <div class="flex items-center lg:order-2 gap-3">
                 <!-- Input search -->
@@ -102,7 +102,7 @@
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li class="relative parent">
                         <a href="#"
-                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-blue-50 space-x-2 text-2xl">
+                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-blue-50 space-x-2 text-xl">
                             <span>A proposde nous ? </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
@@ -141,13 +141,13 @@
                     </li>
                     <li>
                         <a href="#"
-                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2 text-2xl">
+                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2 text-xl">
                             <span>Nos realisation</span>
                         </a>
                     </li>
                     <li>
                         <a href="#"
-                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2 text-2xl">
+                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2 text-xl">
                             <span>Contact Nos</span>
                         </a>
                     </li>
@@ -160,7 +160,7 @@
 
                         <a href="#"
                             class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:hover:bg-blue-50 hover:bg-gray-50 space-x-2 text-2xl">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24">
                                 <g fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
                                     <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
@@ -191,8 +191,8 @@
                     <!-- Language -->
                     <li class="relative parent">
                         <a href="#"
-                            class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:hover:bg-blue-50 hover:bg-gray-50 space-x-2 text-2xl">
-                            <span>En</span>
+                        class="flex justify-between md:inline-flex p-4 items-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 space-x-2 text-xl">
+                        <span>En</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
                                 <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -213,12 +213,12 @@
         </div>
     </nav>
     <!-- Nav 2 -->
-    <nav id="nav2" class="flex justify-center items-center px-4 md:shadow-lg bg-[#163172]">
+    <nav id="nav2" class="flex justify-center items-center px-6 md:shadow-lg bg-[#163172]">
         <ul class="flex gap-6">
             <li class="relative parent">
                 {{-- PMO  --}}
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 text-xl">
                     <span>PMO</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -246,7 +246,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 text-xl">
                     <span>Service TPM/PME</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -273,7 +273,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 text-xl">
                     <span>Service Digitaux</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -300,7 +300,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 text-xl">
                     <span>Carriere RH</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -327,7 +327,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 text-xl">
                     <span>Formation Professionnelle</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -354,7 +354,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 text-xl">
                     <span>Entreprenariat Et Project D’ess</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
