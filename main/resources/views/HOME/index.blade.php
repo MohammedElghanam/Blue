@@ -8,7 +8,6 @@
 <style>
 
     .LEFT{
-        width: 500px;
         height: 256px;
         animation-name: left;
         /* animation-delay: 1s; */
@@ -283,7 +282,7 @@
 <section class="bg-gray-50">
     <div class=" w-full h-80 flex">
         <div class=" flex justify-end items-center w-3/4  relative">
-            <div class=" LEFT ">
+            <div class=" LEFT w-full h-64 bg-gradient-to-r from-[#1e56a0] to-[#163172] rounded-r-full pl-24 pt-12 ">
                 {{-- <h1 class=" font-bold text-5xl mb-4 text-white">What We Do .</h1>
                 <p class=" w-1/2 text-white">Lorem ipsum is placeholder text commonly used in the graphic, print, and
                     publishing
