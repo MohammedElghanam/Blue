@@ -19,15 +19,15 @@
 
     .BORDER {
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-        animation: spin 20s linear infinite;
+        animation: spino 20s linear infinite;
     }
 
     .BORDER1 {
         border-radius: 52% 48% 43% 57% / 35% 25% 75% 65%;
-        animation: spin 8s linear infinite;
+        animation: spino 8s linear infinite;
     }
 
-    @keyframes spin {
+    /* @keyframes spino {
         from {
             transform: rotate(0deg);
         }
@@ -35,11 +35,32 @@
         to {
             transform: rotate(360deg);
         }
+    } */
+
+    .ZOOMIN{
+        width: 500px;
+        height: 420px;
+        animation-name: zoomIn;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+    }
+
+    /* @keyframes zoomIn {
+        0% {
+          opacity: 0;
+          transform: scale(0.5); 
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1); 
+        }
     }
 
     @keyframes left{
       
-    }
+    } */
 
 </style>
 
@@ -269,8 +290,8 @@
             </div>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8 relative  rounded-full z-40">
-            <img src="images/67.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl "></img>
-            <img src="images/69.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl mt-10"></img>
+            <img src="images/67.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl "></img>
+            <img src="images/69.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl mt-10"></img>
 
         </div>
         <div
@@ -283,13 +304,13 @@
     <div class=" w-full h-80 flex">
         <div class=" flex justify-end items-center w-3/4  relative">
             <div class=" LEFT w-full h-64 bg-gradient-to-r from-[#1e56a0] to-[#163172] rounded-r-full pl-24 pt-12 ">
-                {{-- <h1 class=" font-bold text-5xl mb-4 text-white">What We Do .</h1>
+                <h1 class=" font-bold text-5xl mb-4 text-white">What We Do .</h1>
                 <p class=" w-1/2 text-white">Lorem ipsum is placeholder text commonly used in the graphic, print, and
                     publishing
                     <span class=" font-medium">industries for previewing</span> layouts and visual mockups
-                </p> --}}
+                </p>
             </div>
-            {{-- <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div> --}}
+            <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div>
         </div>
         <div class=" w-1/3 "></div>
     </div>
@@ -520,41 +541,12 @@
     </div>
 </section>
 
-<section class="bg-gray-50 my-8">
-    <div class="grid max-w-screen-xl px-4 mx-auto  lg:grid-cols-2 ">
-        <div class=" col-span-2  mb-8 h-12 flex justify-center items-center font-bold text-5xl text-blue-900">
-            You’ll be in good companY
-        </div>
-        <div class="relative w-full col-span-2 h-16 overflow-hidden mt-8">
-            <div class="absolute flex gap-7 items-center h-full  animate-scroll">
-                <img src="images/R1.png" alt="Image 1" class="h-24 w-24">
-                <img src="images/R2.png" alt="Image 2" class="h-24 w-24">
-                <img src="images/R3.png" alt="Image 3" class="h-24 w-24">
-                <img src="images/R4.png" alt="Image 4" class="h-24 w-24">
-                <img src="images/R1.png" alt="Image 1" class="h-24 w-24">
-                <img src="images/R2.png" alt="Image 2" class="h-24 w-24">
-                <img src="images/R3.png" alt="Image 3" class="h-24 w-24">
-                <img src="images/R4.png" alt="Image 4" class="h-24 w-24">
-                <img src="images/R1.png" alt="Image 1" class="h-24 w-24">
-                <img src="images/R2.png" alt="Image 2" class="h-24 w-24">
-                <img src="images/R3.png" alt="Image 3" class="h-24 w-24">
-                <img src="images/R4.png" alt="Image 4" class="h-24 w-24">
-                <img src="images/R4.png" alt="Image 4" class="h-24 w-24">
-                <img src="images/R1.png" alt="Image 1" class="h-24 w-24">
-                <img src="images/R2.png" alt="Image 2" class="h-24 w-24">
-                <img src="images/R3.png" alt="Image 3" class="h-24 w-24">
-                <img src="images/R4.png" alt="Image 4" class="h-24 w-24">
-            </div>
-        </div>
-
-    </div>
-</section>
 
 <section class="bg-gray-50 my-8">
     <div class="grid max-w-screen-xl py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 0 px-56">
         <div class=" bg-[#163172] col-span-2 h-56 rounded-lg relative ">
-            <img class="rounded-full absolute -top-7 -right-16 " src="images/contact.png" alt="girhn" width="300px"
-                height="300px">
+            <img src="images/70.jpg" alt="" class=" w-full h-full rounded-lg">
+            <img class="rounded-full absolute -top-7 -right-16 " src="images/contact.png" alt="girhn" width="300px" height="300px">
             <h1 class=" absolute font-bold text-3xl w-1/2 top-7 left-10 text-white">Each Founder has put their blood,
                 sweat, and tears into building </h1>
             <button
@@ -568,7 +560,26 @@
 @endsection
 
 
+<script >
+    // script.js
+document.addEventListener("DOMContentLoaded", function() {
+const section = document.getElementByClass('section');
 
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            section.classList.add('ZOOMIN');
+            observer.unobserve(section); // Stop observing after the effect is applied
+        }
+    });
+}, {
+    threshold: 0.5 // Adjust this threshold as needed
+});
+
+observer.observe(section);
+});
+
+</script>
 
 
 
