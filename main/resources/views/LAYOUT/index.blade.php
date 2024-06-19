@@ -218,7 +218,7 @@
             <li class="relative parent">
                 {{-- PMO  --}}
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-sm">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px]">
                     <span>PMO</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -246,7 +246,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[10px] bg-red-600">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-44">
                     <span>Service TPM/PME</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -273,7 +273,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-lg">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-44">
                     <span>Service Digitaux</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -300,7 +300,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-lg">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-40">
                     <span>Carriere RH</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -327,7 +327,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-lg">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-60">
                     <span>Formation Professionnelle</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -354,7 +354,7 @@
             </li>
             <li class="relative parent">
                 <a href="#"
-                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-lg">
+                    class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px] w-64">
                     <span>Entreprenariat Et Project D’ess</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24">
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>

@@ -17,7 +17,7 @@
         animation-fill-mode: forwards;
     }
 
-    .BORDER {
+    /*.BORDER {
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
         animation: spino 20s linear infinite;
     }
@@ -25,7 +25,7 @@
     .BORDER1 {
         border-radius: 52% 48% 43% 57% / 35% 25% 75% 65%;
         animation: spino 8s linear infinite;
-    }
+    }*/
 
     /* @keyframes spino {
         from {
