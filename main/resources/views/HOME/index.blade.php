@@ -143,7 +143,7 @@
         </div>
         <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-52 right-24 w-96 h-96"></div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-           {{-- <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px"> --}}
+           <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px">
         </div>
     </div>
 </section>
@@ -342,8 +342,8 @@
             </div>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8 relative  rounded-full z-40">
-            <img src="images/67.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-600 rounded-2xl "></img>
-            <img src="images/69.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-600 rounded-2xl mt-10"></img>
+            <img src="images/67.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-500 rounded-2xl "></img>
+            <img src="images/69.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-500 rounded-2xl mt-10"></img>
 
         </div>
         <div
