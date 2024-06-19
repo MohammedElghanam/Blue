@@ -36,6 +36,40 @@
         }
     }
 
+    .COUNT{
+        position: relative;
+        /* width: 100vw;
+        height: 100vh; */
+        overflow: hidden;
+        background-color: #163172;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #FLOAT {
+        z-index: 0;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        opacity: 0.1;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 5s linear infinite, moveCircular 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    @keyframes spinx {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+    }
+    @keyframes moveCircular {
+        0% {
+            transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+        100% {
+            transform: translate(-50%, -50%) rotate(360deg) translateX(200px) rotate(-360deg);
+        }
+    }
     /* .ZOOMIN{
         width: 500px;
         height: 420px;
@@ -289,8 +323,8 @@
             </div>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8 relative  rounded-full z-40">
-            <img src="images/67.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl "></img>
-            <img src="images/69.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl mt-10"></img>
+            <img src="images/67.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-blue-900 rounded-2xl "></img>
+            <img src="images/69.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-blue-900 rounded-2xl mt-10"></img>
 
         </div>
         <div
@@ -316,7 +350,7 @@
 </section>
 
 <section class="bg-gray-50">
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <div class="grid max-w-screen-xl px-4 py-8 mt-10 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class=" col-span-12 h-20 mb-2">
             <div class=" flex justify-center items-center mb-2">
                 <h1 class=" font-bold text-5xl text-blue-900">Pour Quoi Nous Choisir ?</h1>
@@ -495,8 +529,8 @@
     </div>
 </section>
 
-<section class=" bg-[#163172] mb-12 my-10 relative">
-    <div class=" BORDER1 bg-white opacity-10 absolute top-16    right-20        w-[150px] h-[150px]"></div>
+<section class=" COUNT mb-12 my-10 relative">
+    {{-- <div class=" BORDER1 bg-white opacity-10 absolute top-16    right-20        w-[150px] h-[150px]"></div>
     <div class=" BORDER1 bg-white opacity-10 absolute top-16    left-96         w-[150px] h-[150px]"></div>
     <div class=" BORDER1 bg-white opacity-10 absolute top-52    left-52         w-[150px] h-[150px]"></div>
     <div class=" BORDER1 bg-white opacity-10 absolute top-16    right-80        w-[150px] h-[150px]"></div>
@@ -504,9 +538,9 @@
     <div class=" BORDER1 bg-white opacity-10 absolute top-20    left-16         w-[150px] h-[150px]"></div>
     <div class=" BORDER1 bg-white opacity-10 absolute bottom-16 right-16        w-[150px] h-[150px]"></div>
     <div class=" BORDER1 bg-white opacity-10 absolute bottom-16 left-96         w-[150px] h-[150px]"></div>
-    <div class=" BORDER1 bg-white opacity-10 absolute bottom-16 right-[500px]        w-[150px] h-[150px]"></div>
-    <div class=" BORDER1 bg-white opacity-10 absolute bottom-28 right-[600px]   w-[150px] h-[150px]"></div>
-
+    <div class=" BORDER1 bg-white opacity-10 absolute bottom-16 right-[500px]   w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute bottom-28 right-[600px]   w-[150px] h-[150px]"></div> --}}
+    <div id="FLOAT"></div>
     <div class=" px-4 z-50">
         <div class=" flex justify-center items-center pt-20 w-full h-12">
             <h1 class="font-bold text-5xl text-white"> What Our Founders Say</h1>
