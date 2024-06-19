@@ -19,7 +19,7 @@
 
 
 
-<section class="bg-gray-100 relative">
+<section class=" relative">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
         <div class="mr-auto place-self-center lg:col-span-12">
 
@@ -28,10 +28,13 @@
                 payment stack.
             </p>
 
-            <h1 class="max-w-4xl mb-4 text-8xl font-bold">From <br> its medieval origins<h class=" text-8xl font-medium text-[#1e56a0]"> to the digital</h></h1>
+            <h1 class="max-w-4xl mb-4 text-8xl font-bold text-gray-900">From <br> its medieval origins<h class=" text-8xl font-medium text-[#1e56a0]"> to the digital</h></h1>
+            
             <p class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 text-4xl ">From
                 checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
-                payment stack.</p>
+                payment stack.
+            </p>
+
             <a href="#"
                 class="inline-flex items-center justify-center px-5 py-3 mr-3 text-xl font-medium text-center text-white rounded-lg bg-[#163172] hover:bg-blue-700 ">
                 Booking Now
@@ -52,8 +55,8 @@
                 payment stack.</p>
         </div>
 
-        <div class=" bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[730px] rounded-t-full absolute rotate -bottom-12 right-[150px] "></div>
-        <div class=" bg-gradient-to-b from-gray-300 to-gray-100 w-40 h-[500px] rounded-t-full rotate1 absolute -bottom-10 right-[500px]"></div>
+        <div class=" bg-gradient-to-b from-gray-200 to-gray-100 w-40 h-[730px] rounded-t-full absolute rotate -bottom-12 right-[150px] "></div>
+        <div class=" bg-gradient-to-b from-gray-200 to-gray-100 w-40 h-[500px] rounded-t-full rotate1 absolute -bottom-10 right-[500px]"></div>
         <div class="absolute top-24 right-[350px] w-40 h-40 bg-[#1e56a0] rounded-full opacity-60 "></div>
 
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
