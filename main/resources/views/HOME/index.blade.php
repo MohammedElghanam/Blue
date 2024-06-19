@@ -139,12 +139,11 @@
                 class="inline-flex items-center justify-center px-5 py-3 text-xl font-medium text-center text-[#163172] border-2 border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
                 About Us
             </a>
-            {{-- <div class=" h-20 w-10 bg-red-500"></div> --}}
+            
         </div>
         <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-52 right-24 w-96 h-96"></div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            {{-- <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px">
-            --}}
+           {{-- <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px"> --}}
         </div>
     </div>
 </section>
@@ -356,9 +355,9 @@
 <section class="bg-gray-50 py-16">
     <div class=" w-full h-80 flex">
         <div class=" flex justify-end items-center w-3/4  relative">
-            <div class=" LEFT w-full h-64 bg-gradient-to-r from-[#1e56a0] to-[#163172] rounded-r-full pl-24 pt-12 ">
+            <div class=" LEFT w-full h-64 bg-gradient-to-r from-[#1e56a0] to-[#163172] rounded-r-full pl-64 pt-12 ">
                 <h1 class=" font-bold text-5xl mb-4 text-white">CE QUE NOUS FAISONS .</h1>
-                <p class=" w-1/2 text-white">Lorem ipsum is placeholder text commonly used in the graphic, print, and
+                <p class=" w-1/2 text-white ml-60">Lorem ipsum is placeholder text commonly used in the graphic, print, and
                     publishing
                     <span class=" font-medium">industries for previewing</span> layouts and visual mockups
                 </p>
