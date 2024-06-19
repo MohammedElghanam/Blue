@@ -6,6 +6,18 @@
 
 
 <style>
+
+    .LEFT{
+        width: 500px;
+        height: 256px;
+        animation-name: left;
+        /* animation-delay: 1s; */
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+    }
+
     .BORDER {
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
         animation: spin 20s linear infinite;
@@ -25,6 +37,11 @@
             transform: rotate(360deg);
         }
     }
+
+    @keyframes left{
+      
+    }
+
 </style>
 
 <section class="bg-white ">
@@ -266,17 +283,14 @@
 <section class="bg-gray-50">
     <div class=" w-full h-80 flex">
         <div class=" flex justify-end items-center w-3/4  relative">
-            <div
-                class=" w-full  h-60 bg-gradient-to-r from-[#1e56a0] to-[#163172] rounded-r-full pl-24 pt-12 shadow-2xl shadow-blue-500">
-                <h1 class=" font-bold text-5xl mb-4 text-white">What We Do .</h1>
+            <div class=" LEFT ">
+                {{-- <h1 class=" font-bold text-5xl mb-4 text-white">What We Do .</h1>
                 <p class=" w-1/2 text-white">Lorem ipsum is placeholder text commonly used in the graphic, print, and
                     publishing
                     <span class=" font-medium">industries for previewing</span> layouts and visual mockups
-                </p>
+                </p> --}}
             </div>
-            <div
-                class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]">
-            </div>
+            {{-- <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div> --}}
         </div>
         <div class=" w-1/3 "></div>
     </div>
