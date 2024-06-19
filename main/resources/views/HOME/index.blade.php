@@ -495,14 +495,25 @@
     </div>
 </section>
 
-<section class=" bg-[#163172] mb-12 my-10">
-    <div class=" px-4 ">
+<section class=" bg-[#163172] mb-12 my-10 relative">
+    <div class=" BORDER1 bg-white opacity-10 absolute top-16    right-20        w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute top-16    left-96         w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute top-52    left-52         w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute top-16    right-80        w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute top-40    right-72        w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute top-20    left-16         w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute bottom-16 right-16        w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute bottom-16 left-96         w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute bottom-16 right-[500px]        w-[150px] h-[150px]"></div>
+    <div class=" BORDER1 bg-white opacity-10 absolute bottom-28 right-[600px]   w-[150px] h-[150px]"></div>
+
+    <div class=" px-4 z-50">
         <div class=" flex justify-center items-center pt-20 w-full h-12">
             <h1 class="font-bold text-5xl text-white"> What Our Founders Say</h1>
         </div>
         <div class=" flex justify-center items-center gap-5 w-full h-96  px-60 ">
             <div class="flex gap-10 justify-center items-center h-72 relative">
-                <div class=" relative w-fit h-fit">
+                {{-- <div class=" relative w-fit h-fit">
                     <img src="images/Rectangle 78 (1).png" alt="" width="150px" height="150px">
                     <img src="images/unsplash.png" alt="" width="100px" height="100px"
                         class=" absolute top-16 left-16 rounded-full">
@@ -517,9 +528,9 @@
                         something remarkable. ASG builds on that legacy while liberating
                         Founders to get back to doing what you really love.
                     </p>
-                </div>
+                </div> --}}
                 <div
-                    class=" absolute flex bottom-0 right-28 w-40 rounded-full justify-center items-center gap-3 h-12 bg-[#1e56a0]">
+                    class=" absolute flex bottom-0 -right-96 w-40 rounded-full justify-center items-center gap-3 h-12 bg-[#1e56a0]">
                     <svg class="w-7 h-7 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                         <path fill="white"
                             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131c.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
