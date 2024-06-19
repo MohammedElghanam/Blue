@@ -6,19 +6,15 @@
 
 
 <style>
-    .rotate{
-        transform: rotate(-25deg);
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-    }
-
-    .rotate1{
-        transform: rotate(20deg);
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    }
 
     .BORDER{
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
-        animation: spin 15s linear infinite;
+        animation: spin 20s linear infinite;
+    }
+
+    .BORDER1{
+        border-radius: 52% 48% 43% 57% / 35% 25% 75% 65% ;
+        animation: spin 8s linear infinite;
     }
 
     @keyframes spin {
@@ -44,7 +40,7 @@
         </div>
         <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-52 right-24 w-96 h-96"></div>           
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px">   
+            {{-- <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px">    --}}
         </div>     
     </div>
 </section>
@@ -115,7 +111,7 @@
 
 
 <section class="bg-wh px-20 relative">
-    <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-0 left-0 w-[300px] h-[300px]"></div>
+    <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-0 left-0 w-[300px] h-[300px]"></div>
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-900 sm:text-lg z-40">
             <h2 class="mb-4 text-4xl font-extrabold text-gray-900">Quelles problématiques abordons-nous ?</h2>
@@ -166,147 +162,28 @@
     
             </div>
         </div>
-        <div class="grid grid-cols-2 gap-4 mt-8 relative  rounded-full ">
-            {{-- <img src="images/67.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl "></img> --}}
-            {{-- <img src="images/69.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl mt-10"></img> --}}
-            <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-96 w-[150px] h-[150px]"></div>
-        
+        <div class="grid grid-cols-2 gap-4 mt-8 relative  rounded-full z-40">
+            <img src="images/67.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl "></img>
+            <img src="images/69.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl mt-10"></img>
+            
         </div>
+        <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-0 w-[300px] h-[300px]"></div>
     </div>
 </section>
 
-{{-- <section class=" relative">
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
-        <div class="mr-auto place-self-center lg:col-span-12">
-
-            <p class=" select-none text-white">zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
-                payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
-                payment stack.
-            </p>
-
-
-
-
-            <h1 class="max-w-4xl mb-4 text-8xl font-bold text-gray-900 xl:text-6xl">From <br> its medieval origins <br><h class=" text-8xl font-medium text-[#1e56a0] xl:text-6xl"> to the digital</h></h1>
-            
-            <p class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 text-4xl xl:text-3xl">From
-                checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
-                payment stack.
-            </p>
-
-
-
-
-
-
-            <a href="#"
-                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-xl font-medium text-center text-white rounded-lg bg-[#163172] hover:bg-blue-700 ">
-                Booking Now
-                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </a>
-            <a href="#"
-                class="inline-flex items-center justify-center px-5 py-3 text-xl font-medium text-center text-[#163172] border-2 border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
-                About Us
-            </a>
-
-            <p class=" select-none text-white">zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
-                payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
-                payment stack.
-            </p>
-        </div>
-
-        <div class=" bg-gradient-to-b from-gray-200 to-gray-100 w-40 h-[730px] rounded-t-full absolute rotate -bottom-12 right-[150px] xl:hidden"></div>
-        <div class=" bg-gradient-to-b from-gray-200 to-gray-100 w-40 h-[500px] rounded-t-full rotate1 absolute -bottom-10 right-[500px]"></div>
-        <div class="absolute top-24 right-[350px] w-40 h-40 bg-[#1e56a0] rounded-full opacity-60 "></div>
-
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
-            <img src="images/6.png" alt="mockup" class=" absolute bottom-0 right-28" width=" 800px" height=" 800px">   
-        </div>
-    </div>
-</section> --}}
-
-{{-- <section class="bg-gray-50 xl:px-28">
-    <div class=" col-span-12 h-20 mt-10">
-        <div class=" flex justify-center items-center text-center">
-            <h1 class=" font-extrabold tracking-tight leading-tight text-4xl text-gray-900">Quelles problématiques abordons-nous ?</h1>
-        </div>
-    </div>
-    <div
-        class="grid  max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-8 lg:py-16 lg:grid-cols-2">
-
-        <div class=" grid grid-cols-3 gap-x-40 justify-center items-start px-20 bg-red-600">
-            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">           
-                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                    <img src="images/31.png" alt="" class=" w-16 h-16  text-white ml-2">
-                </div>            
-                <p class=" text-center font-medium text-[14.5px] w-[150px]">Accélération de la croissance</p>
-            </div>
-
-            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                
-                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                    <img src="images/35.png" alt="" class=" w-16 h-16  text-white ml-2">
-                </div>
-                <p class=" text-center font-medium text-[14.5px] w-[150px]">Alignement sur le marché</p>
-            </div>
-
-            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                    <img src="images/36.png" alt="" class=" w-16 h-16  text-white ml-2">
-                </div>
-                <p class=" text-center font-medium text-[14.5px] w-[150px]">Employabilité et capital RH</p>
-            </div>
-
-            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end">
-                    <img src="images/63.png" alt="" class=" w-16 h-16  text-white ml-2">
-                </div>
-                <p class=" text-center font-medium pt-5 text-[14.5px] w-[150px]">Investissement et valorisation des produits</p>
-            </div>
-
-            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                    <img src="images/lamp.png" alt="" class="  w-16 h-16  text-white ml-2">                
-                </div>
-                <p class=" text-center font-medium pt-4 text-[14.5px] w-[150px]">Soutien à l'innovation et digitalisation</p>
-            </div>
-
-            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                    <img src="images/33.png" alt="" class=" w-16 h-16  text-white ml-2">
-                </div>
-                <p class=" text-center font-medium pt-3 text-[14.5px] w-[150px]">Soutien à l'economie sociale et solidaire</p>
-            </div>
-
-        </div>
-
-        <div class=" relative flex gap-5">
-            <img src="images/67.jpg" class=" h-[420px] w-[500px] rounded-2xl bg-green-500"></img>
-            <img src="images/69.jpg" class=" h-[420px] w-[500px] rounded-2xl bg-red-500"></img>
-            <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-20 right-10 w-[150px] h-[150px]"></div>
-        </div>
-
-    </div>
-</section> --}}
-
 <section class="bg-gray-50">
     <div class=" w-full h-80 flex">
-        <div class=" w-1/3 "></div>
         <div class=" flex justify-end items-center w-3/4  relative">
-            <div class=" w-full  h-56 bg-gradient-to-r from-[#163172] to-[#1e56a0] rounded-l-full pl-24 pt-12 ">
+            <div class=" w-full  h-60 bg-gradient-to-r from-[#1e56a0] to-[#163172] rounded-r-full pl-24 pt-12 shadow-2xl shadow-blue-500">
                 <h1 class=" font-bold text-5xl mb-4 text-white">What We Do .</h1>
                 <p class=" w-1/2 text-white">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
                     <span class=" font-medium">industries for previewing</span> layouts and visual mockups</p>
+                </div>
+                {{-- <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-16 right-20" width=" 150px" height=" 150px"> --}}
+                <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div>
+                
             </div>
-            {{-- <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-16 right-20" width=" 150px" height=" 150px"> --}}
-            <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div>
-
-        </div>
+            <div class=" w-1/3 "></div>
     </div>
 </section>
 
@@ -857,3 +734,131 @@
     <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
 </body>
 </html> --}}
+
+
+
+
+
+
+
+
+
+
+{{-- <section class=" relative">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
+        <div class="mr-auto place-self-center lg:col-span-12">
+
+            <p class=" select-none text-white">zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                payment stack.
+            </p>
+
+
+
+
+            <h1 class="max-w-4xl mb-4 text-8xl font-bold text-gray-900 xl:text-6xl">From <br> its medieval origins <br><h class=" text-8xl font-medium text-[#1e56a0] xl:text-6xl"> to the digital</h></h1>
+            
+            <p class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 text-4xl xl:text-3xl">From
+                checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                payment stack.
+            </p>
+
+
+
+
+
+
+            <a href="#"
+                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-xl font-medium text-center text-white rounded-lg bg-[#163172] hover:bg-blue-700 ">
+                Booking Now
+                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </a>
+            <a href="#"
+                class="inline-flex items-center justify-center px-5 py-3 text-xl font-medium text-center text-[#163172] border-2 border-gray-300 rounded-lg hover:bg-gray-900 hover:text-white">
+                About Us
+            </a>
+
+            <p class=" select-none text-white">zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                payment stack. zertyui ytreza ytrez uytrez uytreza uytreza uytreza ytreza ytre checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                payment stack.
+            </p>
+        </div>
+
+        <div class=" bg-gradient-to-b from-gray-200 to-gray-100 w-40 h-[730px] rounded-t-full absolute rotate -bottom-12 right-[150px] xl:hidden"></div>
+        <div class=" bg-gradient-to-b from-gray-200 to-gray-100 w-40 h-[500px] rounded-t-full rotate1 absolute -bottom-10 right-[500px]"></div>
+        <div class="absolute top-24 right-[350px] w-40 h-40 bg-[#1e56a0] rounded-full opacity-60 "></div>
+
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center ">
+            <img src="images/6.png" alt="mockup" class=" absolute bottom-0 right-28" width=" 800px" height=" 800px">   
+        </div>
+    </div>
+</section> --}}
+
+{{-- <section class="bg-gray-50 xl:px-28">
+    <div class=" col-span-12 h-20 mt-10">
+        <div class=" flex justify-center items-center text-center">
+            <h1 class=" font-extrabold tracking-tight leading-tight text-4xl text-gray-900">Quelles problématiques abordons-nous ?</h1>
+        </div>
+    </div>
+    <div
+        class="grid  max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-8 lg:py-16 lg:grid-cols-2">
+
+        <div class=" grid grid-cols-3 gap-x-40 justify-center items-start px-20 bg-red-600">
+            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">           
+                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                    <img src="images/31.png" alt="" class=" w-16 h-16  text-white ml-2">
+                </div>            
+                <p class=" text-center font-medium text-[14.5px] w-[150px]">Accélération de la croissance</p>
+            </div>
+
+            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                
+                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                    <img src="images/35.png" alt="" class=" w-16 h-16  text-white ml-2">
+                </div>
+                <p class=" text-center font-medium text-[14.5px] w-[150px]">Alignement sur le marché</p>
+            </div>
+
+            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                    <img src="images/36.png" alt="" class=" w-16 h-16  text-white ml-2">
+                </div>
+                <p class=" text-center font-medium text-[14.5px] w-[150px]">Employabilité et capital RH</p>
+            </div>
+
+            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end">
+                    <img src="images/63.png" alt="" class=" w-16 h-16  text-white ml-2">
+                </div>
+                <p class=" text-center font-medium pt-5 text-[14.5px] w-[150px]">Investissement et valorisation des produits</p>
+            </div>
+
+            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                    <img src="images/lamp.png" alt="" class="  w-16 h-16  text-white ml-2">                
+                </div>
+                <p class=" text-center font-medium pt-4 text-[14.5px] w-[150px]">Soutien à l'innovation et digitalisation</p>
+            </div>
+
+            <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                    <img src="images/33.png" alt="" class=" w-16 h-16  text-white ml-2">
+                </div>
+                <p class=" text-center font-medium pt-3 text-[14.5px] w-[150px]">Soutien à l'economie sociale et solidaire</p>
+            </div>
+
+        </div>
+
+        <div class=" relative flex gap-5">
+            <img src="images/67.jpg" class=" h-[420px] w-[500px] rounded-2xl bg-green-500"></img>
+            <img src="images/69.jpg" class=" h-[420px] w-[500px] rounded-2xl bg-red-500"></img>
+            <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-20 right-10 w-[150px] h-[150px]"></div>
+        </div>
+
+    </div>
+</section> --}}
