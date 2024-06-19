@@ -44,7 +44,7 @@
         </div>
         <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-52 right-24 w-96 h-96"></div>           
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            {{-- <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px">    --}}
+            <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px">   
         </div>     
     </div>
 </section>
@@ -114,9 +114,10 @@
 </section>
 
 
-<section class="bg-white px-10">
+<section class="bg-wh px-20 relative">
+    <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-0 left-0 w-[300px] h-[300px]"></div>
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="font-light text-gray-900 sm:text-lg">
+        <div class="font-light text-gray-900 sm:text-lg z-40">
             <h2 class="mb-4 text-4xl font-extrabold text-gray-900">Quelles problématiques abordons-nous ?</h2>
             <p class="">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
             <div class=" grid grid-cols-3 gap-x-20 justify-center items-start pr-20">
@@ -166,10 +167,9 @@
             </div>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8 relative  rounded-full ">
-            {{-- <div class=" absolute right-56 top-0 w-96 h-96 bg-blue-600 rounded-full"> HELL ghj</div> --}}
-            <img src="images/67.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl "></img>
-            <img src="images/69.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl mt-10"></img>
-            <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-52 w-[150px] h-[150px]"></div>
+            {{-- <img src="images/67.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl "></img> --}}
+            {{-- <img src="images/69.jpg" class=" h-[420px] w-[500px] shadow-2xl shadow-blue-500 rounded-2xl mt-10"></img> --}}
+            <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-96 w-[150px] h-[150px]"></div>
         
         </div>
     </div>
@@ -298,12 +298,14 @@
     <div class=" w-full h-80 flex">
         <div class=" w-1/3 "></div>
         <div class=" flex justify-end items-center w-3/4  relative">
-            <div class=" w-full  h-56 bg-[#163172] rounded-l-full pl-24 pt-12 ">
+            <div class=" w-full  h-56 bg-gradient-to-r from-[#163172] to-[#1e56a0] rounded-l-full pl-24 pt-12 ">
                 <h1 class=" font-bold text-5xl mb-4 text-white">What We Do .</h1>
                 <p class=" w-1/2 text-white">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
                     <span class=" font-medium">industries for previewing</span> layouts and visual mockups</p>
             </div>
-            <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-16 right-20" width=" 150px" height=" 150px">
+            {{-- <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-16 right-20" width=" 150px" height=" 150px"> --}}
+            <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div>
+
         </div>
     </div>
 </section>
