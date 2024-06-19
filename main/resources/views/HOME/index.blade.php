@@ -10,24 +10,23 @@
     .LEFT{
         height: 256px;
         animation-name: left;
-        /* animation-delay: 1s; */
         animation-duration: 4s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-out;
         animation-fill-mode: forwards;
     }
 
-    /*.BORDER {
+    .BORDER1 {
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-        animation: spino 20s linear infinite;
+        animation: spin 20s linear infinite;
     }
 
-    .BORDER1 {
+    .BORDER2 {
         border-radius: 52% 48% 43% 57% / 35% 25% 75% 65%;
-        animation: spino 8s linear infinite;
-    }*/
+        animation: spin 8s linear infinite;
+    }
 
-    /* @keyframes spino {
+    @keyframes spin {
         from {
             transform: rotate(0deg);
         }
@@ -35,9 +34,9 @@
         to {
             transform: rotate(360deg);
         }
-    } */
+    }
 
-    .ZOOMIN{
+    /* .ZOOMIN{
         width: 500px;
         height: 420px;
         animation-name: zoomIn;
@@ -45,7 +44,7 @@
         animation-iteration-count: 1;
         animation-timing-function: ease-out;
         animation-fill-mode: forwards;
-    }
+    } */
 
     /* @keyframes zoomIn {
         0% {
@@ -88,7 +87,7 @@
             </a>
             {{-- <div class=" h-20 w-10 bg-red-500"></div> --}}
         </div>
-        <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-52 right-24 w-96 h-96"></div>
+        <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-52 right-24 w-96 h-96"></div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
             {{-- <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px">
             --}}
@@ -234,7 +233,7 @@
 
 
 <section class="bg-wh px-20 relative">
-    <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-0 left-0 w-[300px] h-[300px]"></div>
+    <div class=" BORDER2 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-0 left-0 w-[300px] h-[300px]"></div>
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-900 sm:text-lg z-40">
             <h2 class="mb-4 text-4xl font-extrabold text-gray-900">Quelles problématiques abordons-nous ?</h2>
@@ -295,7 +294,7 @@
 
         </div>
         <div
-            class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-0 w-[300px] h-[300px]">
+            class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-0 w-[300px] h-[300px]">
         </div>
     </div>
 </section>
@@ -310,7 +309,7 @@
                     <span class=" font-medium">industries for previewing</span> layouts and visual mockups
                 </p>
             </div>
-            <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div>
+            <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div>
         </div>
         <div class=" w-1/3 "></div>
     </div>
