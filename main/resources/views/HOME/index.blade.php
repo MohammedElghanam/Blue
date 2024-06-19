@@ -171,16 +171,16 @@
 <section class="bg-gray-50 xl:px-28">
     <div class=" col-span-12 h-20 mt-10">
         <div class=" flex justify-center items-center text-center">
-            <h1 class=" font-bold text-3xl text-gray-900">Quelles problématiques abordons-nous ?</h1>
+            <h1 class=" font-extrabold tracking-tight leading-tight text-4xl text-gray-900">Quelles problématiques abordons-nous ?</h1>
         </div>
     </div>
     <div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
-        <div class=" relative">
+        <div class=" relative flex gap-5">
             {{-- <img src="images/Frame 795 (1).png" alt="swit"> --}}
             {{-- <img src="images/ellipse 27.png" alt="" class=" absolute -bottom-20 right-10" width=" 150px" height=" 150px"> --}}
-            <div class=" absolute h-96 w-52 bg-red-500 ml-2"></div>
-            <div class=" absolute h-96 w-52 bg-red-500 ml-2"></div>
+            <div class=" h-[420px] w-[500px] rounded-2xl bg-green-500"></div>
+            <div class=" h-[420px] w-[500px] rounded-2xl bg-red-500"></div>
             <div class=" BORDER bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-20 right-10 w-[150px] h-[150px]"></div>
         </div>
 
