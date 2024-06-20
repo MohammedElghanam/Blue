@@ -4,10 +4,10 @@
 
 @section('container')
 
-{{-- notre vision  --}}
-<section class="bg-gray-50">
+{{-- description  --}}
+<section class="bg-gray-100">
 
-    <img src="images/Group 60.png" alt="" class=" absolute bottom-0 -left-20">
+    {{-- <img src="images/Group 60.png" alt="" class=" absolute bottom-0 -left-20"> --}}
 
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto gap-20 lg:py-16 lg:grid-cols-12">
 
@@ -37,7 +37,7 @@
 
     </div>
 
-    <div class=" grid grid-cols-4 absolute w-1/3 right-[470px] bottom-[375px]">
+    <div class=" grid grid-cols-4 absolute w-1/3 right-[550px] bottom-[50px]">
         <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
             <div class=" col-span-2 flex justify-center items-center">
                 <?xml version="1.0" encoding="utf-8"?><svg class=" w-12 h-12" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 113.02 122.88" style="enable-background:new 0 0 113.02 122.88" xml:space="preserve"><style type="text/css"><![CDATA[
@@ -75,13 +75,13 @@
     </div>
 
 
-    <img src="images/Group 61.png" alt="" class=" absolute -right-0 top-32">
+    {{-- <img src="images/Group 61.png" alt="" class=" absolute -right-0 top-32"> --}}
 </section>
 
 {{-- Quelles problématiques abordons-nous ?  --}}
-<section class="bg-gray-50 my-20">
+<section class=" my-20">  
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-10">
-        <div class=" col-span-12 h-20 mb-24">
+        <div class=" col-span-12 h-20 mb-16">
             <div class=" flex justify-center items-center mb-2 text-center">
                 <h1 class=" font-bold text-5xl w-1/2 text-gray-900">Quelles problématiques abordons-nous ?</h1>
             </div>
@@ -93,7 +93,7 @@
                     <img src="images/31.png" alt="" class=" w-16 h-16 top-14 left-8 text-white ml-2">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-blue-700">Accélération de la croissance</h3>
+                    <h3 class=" font-medium text-center">Accélération de la croissance</h3>
                 </div>
             </div>
 
@@ -102,7 +102,7 @@
                     <img src="images/35.png" alt="" class="w-16 h-16 top-14 left-8 text-white ml-2">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-blue-700">Alignement sur
+                    <h3 class=" font-medium text-center ">Alignement sur
                         le marché</h3>
                 </div>
             </div>
@@ -112,7 +112,7 @@
                     <img src="images/36.png" alt="" class=" w-[64px] h-[64px] top-14 left-5 text-white ml-2">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-blue-700">Employabilité
+                    <h3 class=" font-medium text-center ">Employabilité
                         et capital RH
                     </h3>
                 </div>
@@ -123,7 +123,7 @@
                     <img src="images/63.png" alt="" class=" w-16 h-16 text-white ml-3">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-blue-700">Investissement et valorisation des produits</h3>
+                    <h3 class=" font-medium text-center ">Investissement et valorisation des produits</h3>
                 </div>
             </div>
 
@@ -132,7 +132,7 @@
                     <img src="images/lamp.png" alt="" class=" w-16 h-16 top-14 left-8 text-white ml-2">                
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-blue-700">Soutien à l'innovation
+                    <h3 class=" font-medium text-center ">Soutien à l'innovation
                         et digitalisation</h3>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                     <img src="images/33.png" alt="" class="w-16 h-16 top-14 left-8 text-white ml-2">
                 </div>
                 <div class=" col-span-2 flex justify-center items-center">
-                    <h3 class=" font-medium text-center text-blue-700">Soutien à l'economie
+                    <h3 class=" font-medium text-center ">Soutien à l'economie
                         sociale et solidaire
                     </h3>
                 </div>
