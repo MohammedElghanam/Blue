@@ -83,10 +83,10 @@
     }
     @keyframes moveCircular4 {
         0% {
-            transform: translate(20%, 100%) rotate(0deg) translateX(200px) rotate(0deg);
+            transform: translate(60%, 100%) rotate(0deg) translateX(150px) rotate(0deg);
         }
         100% {
-            transform: translate(20%, 100%) rotate(360deg) translateX(200px) rotate(-360deg);
+            transform: translate(60%, 100%) rotate(360deg) translateX(150px) rotate(-360deg);
         }
     }
 
@@ -254,7 +254,7 @@
 {{-- business unites  --}}
 <section class="bg-gray-50 my-16">
 
-    <div class="grid grid-cols-12 max-w-screen-xl px-4 pb-10 gap-10 mx-auto">
+    <div class="grid grid-cols-12 max-w-screen-xl px-4 pb-10 gap-5 mx-auto">
         <div class=" col-span-12 h-20 ">
             <div class=" flex justify-center items-center">
                 <h1 class=" font-bold text-4xl text-gray-900 z-50">Nos Domaines D'expertirse</h1>
