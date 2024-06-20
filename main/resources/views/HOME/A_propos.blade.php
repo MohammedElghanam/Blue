@@ -253,13 +253,13 @@
 
         <div class="grid grid-cols-6 col-span-12 gap-5">
             
-            <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
+            <div class=" col-span-2 h-56 rounded-2xl bg-[163172] relative shadow shadow-gray-400">
 
-                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">01</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-16">PMO</h2>
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">01</h2>
+                <h2 class=" absolute text-2xl font-bold text- w-1/2 left-36 top-16">PMO</h2>
 
                 <img src="images/64.png" alt="" class=" absolute left-5 top-28 w-24 h-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium -white left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
@@ -286,7 +286,7 @@
                     DIGITAUX
                 </h2>
 
-                <img src="images/5.png" alt="" class=" absolute left-5 top-24">
+                <img src="images/75.png" alt="" class=" absolute left-5 top-24 w-24 h-24">
                 <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
