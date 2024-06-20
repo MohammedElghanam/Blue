@@ -90,6 +90,7 @@
             transform: translate(50%, 50%) rotate(360deg) translateX(200px) rotate(-360deg);
         }
     }
+    
     /* .ZOOMIN{
         width: 500px;
         height: 420px;

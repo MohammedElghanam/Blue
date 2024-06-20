@@ -4,22 +4,110 @@
 
 @section('container')
 
+
+<style>
+
+    
+
+    #FLOAT {
+        z-index: 0;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(to bottom, #163172, #3a7cd2);
+        border-radius: 47% 53% 16% 84% / 75% 66% 34% 25% ;
+        animation: spinx 1s linear infinite, moveCircular 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    #FLOAT1 {
+        z-index: 0;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(to bottom, #163172, #3a7cd2);
+        /* opacity: 0.1; */
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 1s linear infinite, moveCircular1 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    #FLOAT3 {
+        z-index: 0;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(to bottom, #163172, #3a7cd2);
+        border-radius: 30% 70% 80% 20% / 67% 79% 21% 33% ;
+        animation: spinx 1s linear infinite, moveCircular3 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    #FLOAT4 {
+        z-index: 0;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(to bottom, #163172, #3a7cd2);
+        border-radius: 30% 70% 50% 50% / 22% 63% 37% 78% ;
+        animation: spinx 1s linear infinite, moveCircular4 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+
+    @keyframes spinx {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+    }
+    @keyframes moveCircular {
+        0% {
+            transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+        100% {
+            transform: translate(-50%, -50%) rotate(360deg) translateX(200px) rotate(-360deg);
+        }
+    }
+
+    @keyframes moveCircular1 {
+        0% {
+            transform: translate(100%, 100%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+        100% {
+            transform: translate(100%, 100%) rotate(360deg) translateX(200px) rotate(-360deg);
+        }
+    }
+
+    @keyframes moveCircular3 {
+        0% {
+            transform: translate(10%, 10%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+        100% {
+            transform: translate(10%, 10%) rotate(360deg) translateX(200px) rotate(-360deg);
+        }
+    }
+    @keyframes moveCircular4 {
+        0% {
+            transform: translate(100%, 100%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+        100% {
+            transform: translate(100%, 100%) rotate(360deg) translateX(200px) rotate(-360deg);
+        }
+    }
+
+</style>
+
+
 {{-- description  --}}
-<section class="bg-gray-100">
+<section class=" px-32">
 
-    {{-- <img src="images/Group 60.png" alt="" class=" absolute bottom-0 -left-20"> --}}
+    <div id="FLOAT"></div>
+    <div id="FLOAT1"></div>
+    <div class="grid max-w-screen-xl py-8 mx-auto gap-20 lg:py-16 lg:grid-cols-12 justify-center ">
 
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto gap-20 lg:py-16 lg:grid-cols-12">
-
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full ">
-            {{-- <img src="images/Ellipse 26.png" alt="" class=" absolute z-0" width="400px" height="400px"> --}}
-            <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0 ">
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full z-50">
+            <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0 rounded-lg">
         </div>
 
-        <div class="mr-auto place-self-center lg:col-span-7 ">
-            <h1 class="max-w-2xl mb-10 text-7xl font-bold  text-gray-800">Description</h1>
+        <div class="mr-auto place-self-center lg:col-span-6 ">
+            <h1 class="max-w-2xl mb-3 xl:text-5xl font-bold  text-gray-800">Description</h1>
 
-            <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-600">BLUE
+            <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-8 md:text-lg xl:text-[14px] dark:text-gray-600">BLUE
                 STRATEGY est un cabinet d'études, d'accompagnement et PMO
                 multidisciplinaire, lancé en 2023, dédié aux entreprises et aux organisations
                 des secteurs public et privé.
@@ -37,7 +125,7 @@
 
     </div>
 
-    <div class=" grid grid-cols-4 absolute w-1/3 right-[550px] bottom-[50px]">
+    <div class=" grid grid-cols-4 absolute w-1/3 right-[460px] -bottom-[70px]">
         <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
             <div class=" col-span-2 flex justify-center items-center">
                 <?xml version="1.0" encoding="utf-8"?><svg class=" w-12 h-12" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 113.02 122.88" style="enable-background:new 0 0 113.02 122.88" xml:space="preserve"><style type="text/css"><![CDATA[
@@ -74,19 +162,19 @@
         </div>
     </div>
 
-
-    {{-- <img src="images/Group 61.png" alt="" class=" absolute -right-0 top-32"> --}}
 </section>
 
 {{-- Quelles problématiques abordons-nous ?  --}}
-<section class=" my-20">  
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-10">
-        <div class=" col-span-12 h-20 mb-16">
+<section class="">
+    <div id="FLOAT3"></div>
+    <div id="FLOAT4"></div>  
+    <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-16">
+        <div class=" col-span-12 h-20">
             <div class=" flex justify-center items-center mb-2 text-center">
-                <h1 class=" font-bold text-5xl w-1/2 text-gray-900">Quelles problématiques abordons-nous ?</h1>
+                <h1 class=" font-bold text-4xl w-1/2 text-gray-900 z-50">Quelles problématiques abordons-nous ?</h1>
             </div>
         </div>
-        <div class=" grid grid-cols-6 col-span-12 justify-center items-center gap-5 px-20 h-20 ">
+        <div class=" grid grid-cols-6 col-span-12 justify-center items-center gap-5 px-20 h-20 z-50">
 
             <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1 relative">
                 <div class=" col-span-2 flex justify-center items-center ">
@@ -154,19 +242,17 @@
 
 
 {{-- business unites  --}}
-<section class="bg-gray-50 my-28">
+<section class="bg-gray-50 my-16">
 
     <div class="grid grid-cols-12 max-w-screen-xl px-4 pb-10 gap-10 mx-auto">
         <div class=" col-span-12 h-20 ">
-            <div class=" flex justify-center items-center mb-2">
-                <h1 class=" font-bold text-5xl text-gray-900">Nos Domaines D'expertirse</h1>
+            <div class=" flex justify-center items-center">
+                <h1 class=" font-bold text-4xl text-gray-900 z-50">Nos Domaines D'expertirse</h1>
             </div>
         </div>
 
         <div class="grid grid-cols-6 col-span-12 gap-5">
-
-
-
+            
             <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
 
                 <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">01</h2>
