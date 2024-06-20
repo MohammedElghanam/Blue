@@ -253,81 +253,81 @@
 
         <div class="grid grid-cols-6 col-span-12 gap-5">
             
-            <div class=" col-span-2 h-56 rounded-2xl bg-[163172] relative shadow shadow-gray-400">
+            <div class=" col-span-2 h-56 rounded-2xl relative shadow-xl shadow-blue-400">
 
                 <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">01</h2>
-                <h2 class=" absolute text-2xl font-bold text- w-1/2 left-36 top-16">PMO</h2>
+                <h2 class=" absolute text-2xl font-bold w-1/2 left-36 top-16">PMO</h2>
 
-                <img src="images/64.png" alt="" class=" absolute left-5 top-28 w-24 h-24">
-                <p class=" absolute w-[250px] text-xl font-medium -white left-36 top-28">
+                <img src="AP/2.png" alt="" class=" absolute left-5 top-28 w-24 h-24">
+                <p class=" absolute w-[250px] text-xl font-medium left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
+            <div class=" col-span-2 h-56 rounded-2xl shadow shadow-blue-400 relative">
 
-                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">02</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-8">SERVICES AUX
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">02</h2>
+                <h2 class=" absolute text-2xl font-bold w-1/2 left-36 top-8 text-gray-900">SERVICES AUX
                     TPE / PME
                 </h2>
 
-                <img src="images/65.png" alt="" class=" absolute left-5 top-24 w-24 h-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
+                <img src="AP/1.png" alt="" class=" absolute left-5 top-24 w-24 h-24">
+                <p class=" absolute w-[250px] text-xl font-medium text-gray-900 left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
+            <div class=" col-span-2 h-56 rounded-2xl shadow-xl shadow-blue-400 relative">
 
-                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">03</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-8">SERVICES
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">03</h2>
+                <h2 class=" absolute text-2xl font-bold w-1/2 left-36 top-8 text-gray-900">SERVICES
                     DIGITAUX
                 </h2>
 
                 <img src="images/75.png" alt="" class=" absolute left-5 top-24 w-24 h-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium left-36 top-28 text-gray-900">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
+            <div class=" col-span-2 h-56 rounded-2xl shadow-xl shadow-blue-400 relative">
 
-                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">04</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-16">CARRIERE ET RH
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">04</h2>
+                <h2 class=" absolute text-2xl font-bold text-gray-900 w-1/2 left-36 top-16">CARRIERE ET RH
                 </h2>
 
-                <img src="images/2.png" alt="" class=" absolute left-5 top-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
+                <img src="AP/4.png" alt="" class=" absolute left-5 top-24 w-20 h-20">
+                <p class=" absolute w-[250px] text-xl font-medium text-gray-900 left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
+            <div class=" col-span-2 h-56 rounded-2xl shadow-xl shadow-blue-400 relative">
 
-                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">05</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-1/2 left-36 top-8">FORMATION
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">05</h2>
+                <h2 class=" absolute text-2xl font-bold text-gray-900 w-1/2 left-36 top-8">FORMATION
                     PROFESSIONNELLE
                 </h2>
 
                 <img src="images/5.png" alt="" class=" absolute left-5 top-24">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium text-gray-900 left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl bg-[#163172] relative">
+            <div class=" col-span-2 h-56 rounded-2xl shadow-xl shadow-blue-400 relative">
 
-                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-white opacity-50">06</h2>
-                <h2 class=" absolute text-2xl font-bold text-white w-[300px] left-36 top-8">ENTREPRENARIAT ET PROJETS D'ESS
+                <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">06</h2>
+                <h2 class=" absolute text-2xl font-bold text-gray-900 w-[300px] left-36 top-8">ENTREPRENARIAT ET PROJETS D'ESS
                 </h2>
 
-                <img src="images/38.png" alt="" class=" w-24 h-24 absolute left-8 top-28">
-                <p class=" absolute w-[250px] text-xl font-medium text-white left-36 top-28">
+                <img src="AP/3.png" alt="" class=" w-24 h-24 absolute left-8 top-28">
+                <p class=" absolute w-[250px] text-xl font-medium text-gray-900 left-36 top-28">
                     est un cabinet d'études, d'accompagnement et PMO multidisciplinaire,
                 </p>
 
