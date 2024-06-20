@@ -90,6 +90,16 @@
         }
     }
 
+    .HOV {
+        transition: width 15ms, height 15ms;
+    }
+
+    .HOV:hover{
+        width: 410px;
+        height: 232px;
+        
+    }
+
 </style>
 
 
@@ -253,7 +263,7 @@
 
         <div class="grid grid-cols-6 col-span-12 gap-5">
             
-            <div class=" col-span-2 h-56 rounded-2xl relative shadow-xl shadow-blue-400">
+            <div class="HOV col-span-2 h-56 rounded-2xl relative backdrop-blur-xl shadow-xl select-none">
 
                 <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">01</h2>
                 <h2 class=" absolute text-2xl font-bold w-1/2 left-36 top-16">PMO</h2>
@@ -265,7 +275,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl shadow shadow-blue-400 relative">
+            <div class="HOV col-span-2 h-56 rounded-2xl backdrop-blur-xl shadow-xl relative select-none">
 
                 <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">02</h2>
                 <h2 class=" absolute text-2xl font-bold w-1/2 left-36 top-8 text-gray-900">SERVICES AUX
@@ -279,7 +289,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl shadow-xl shadow-blue-400 relative">
+            <div class="HOV col-span-2 h-56 rounded-2xl backdrop-blur-xl shadow-xl relative select-none">
 
                 <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">03</h2>
                 <h2 class=" absolute text-2xl font-bold w-1/2 left-36 top-8 text-gray-900">SERVICES
@@ -293,7 +303,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl shadow-xl shadow-blue-400 relative">
+            <div class="HOV col-span-2 h-56 rounded-2xl backdrop-blur-xl shadow-xl relative select-none">
 
                 <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">04</h2>
                 <h2 class=" absolute text-2xl font-bold text-gray-900 w-1/2 left-36 top-16">CARRIERE ET RH
@@ -306,7 +316,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl shadow-xl shadow-blue-400 relative">
+            <div class="HOV col-span-2 h-56 rounded-2xl backdrop-blur-xl shadow-xl relative select-none">
 
                 <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">05</h2>
                 <h2 class=" absolute text-2xl font-bold text-gray-900 w-1/2 left-36 top-8">FORMATION
@@ -320,7 +330,7 @@
 
             </div>
 
-            <div class=" col-span-2 h-56 rounded-2xl shadow-xl shadow-blue-400 relative">
+            <div class="HOV col-span-2 h-56 rounded-2xl backdrop-blur-xl shadow-xl relative select-none">
 
                 <h2 class=" absolute left-16 top-9 text-6xl font-bold text-gray-900">06</h2>
                 <h2 class=" absolute text-2xl font-bold text-gray-900 w-[300px] left-36 top-8">ENTREPRENARIAT ET PROJETS D'ESS
