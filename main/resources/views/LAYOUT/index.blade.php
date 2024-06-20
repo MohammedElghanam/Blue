@@ -73,9 +73,9 @@
 
 
     
-<header class="flex flex-col pb-2 ">
+<header class="flex flex-col pb-2">
     <!-- Nav 1 -->
-    <nav id="nav1" class=" px-4 xl:px-20 pt-2.5 pb-0.5">
+    <nav id="nav1" class=" px-4 xl:px-20 pt-2.5 pb-0.5 z-50">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="{{route('home')}}" class="flex items-center">
                 <img src="images/logo.png" class="mr-3 h-16 w-16" alt="Logo">
@@ -213,7 +213,7 @@
         </div>
     </nav>
     <!-- Nav 2 -->
-    <nav id="nav2" class="flex justify-center items-center xl:px-20 md:shadow-lg bg-[#163172]">
+    <nav id="nav2" class="flex justify-center items-center xl:px-20 md:shadow-lg bg-[#163172] z-50">
         <ul class="flex gap-6">
             <li class="relative parent">
                 {{-- PMO  --}}
@@ -387,7 +387,7 @@
 @yield('container')
 
     
-<footer class="p-4 bg-black sm:p-6">
+<footer class="p-4 bg-black sm:p-6 z-50">
     <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between px-16">
             <div class="mb-6 md:mb-0 flex flex-col gap-4">

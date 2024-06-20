@@ -27,7 +27,7 @@
         background: linear-gradient(to bottom, #163172, #3a7cd2);
         /* opacity: 0.1; */
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-        animation: spinx 1s linear infinite, moveCircular1 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+        animation: spinx 1s linear infinite, moveCircular1 25s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     }
 
     #FLOAT3 {
@@ -37,7 +37,7 @@
         height: 500px;
         background: linear-gradient(to bottom, #163172, #3a7cd2);
         border-radius: 30% 70% 80% 20% / 67% 79% 21% 33% ;
-        animation: spinx 1s linear infinite, moveCircular3 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+        animation: spinx 1s linear infinite, moveCircular3 20s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     }
 
     #FLOAT4 {
@@ -47,7 +47,7 @@
         height: 500px;
         background: linear-gradient(to bottom, #163172, #3a7cd2);
         border-radius: 30% 70% 50% 50% / 22% 63% 37% 78% ;
-        animation: spinx 1s linear infinite, moveCircular4 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+        animation: spinx 1s linear infinite, moveCircular4 15s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     }
 
 
@@ -57,10 +57,10 @@
     }
     @keyframes moveCircular {
         0% {
-            transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg);
+            transform: translate(50%, -50%) rotate(0deg) translateX(200px) rotate(0deg);
         }
         100% {
-            transform: translate(-50%, -50%) rotate(360deg) translateX(200px) rotate(-360deg);
+            transform: translate(50%, -50%) rotate(360deg) translateX(200px) rotate(-360deg);
         }
     }
 
@@ -75,18 +75,18 @@
 
     @keyframes moveCircular3 {
         0% {
-            transform: translate(10%, 10%) rotate(0deg) translateX(200px) rotate(0deg);
+            transform: translate(-50%, -10%) rotate(0deg) translateX(200px) rotate(0deg);
         }
         100% {
-            transform: translate(10%, 10%) rotate(360deg) translateX(200px) rotate(-360deg);
+            transform: translate(-50%, -10%) rotate(360deg) translateX(200px) rotate(-360deg);
         }
     }
     @keyframes moveCircular4 {
         0% {
-            transform: translate(100%, 100%) rotate(0deg) translateX(200px) rotate(0deg);
+            transform: translate(20%, 100%) rotate(0deg) translateX(200px) rotate(0deg);
         }
         100% {
-            transform: translate(100%, 100%) rotate(360deg) translateX(200px) rotate(-360deg);
+            transform: translate(20%, 100%) rotate(360deg) translateX(200px) rotate(-360deg);
         }
     }
 
@@ -100,11 +100,11 @@
     <div id="FLOAT1"></div>
     <div class="grid max-w-screen-xl py-8 mx-auto gap-20 lg:py-16 lg:grid-cols-12 justify-center ">
 
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full z-50">
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full z-10">
             <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0 rounded-lg">
         </div>
 
-        <div class="mr-auto place-self-center lg:col-span-6 ">
+        <div class="mr-auto place-self-center lg:col-span-6 z-10">
             <h1 class="max-w-2xl mb-3 xl:text-5xl font-bold  text-gray-800">Description</h1>
 
             <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-8 md:text-lg xl:text-[14px] dark:text-gray-600">BLUE
