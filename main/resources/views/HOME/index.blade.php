@@ -103,7 +103,7 @@
         position: absolute;
         width: 500px;
         height: 500px;
-        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
+        background: linear-gradient(to bottom, #dddada, #e3e5e7);
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
         animation: spinx 1s linear infinite, moveCircular2 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     }
@@ -142,7 +142,8 @@
         position: absolute;
         width: 500px;
         height: 500px;
-        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
+        /* background-color: red; */
+        background: linear-gradient(to bottom, #f2eeee, #eceef0);
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
         animation: spinx 1s linear infinite, moveCircular4 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     }
@@ -152,58 +153,35 @@
         position: absolute;
         width: 500px;
         height: 500px;
+        /* background-color: #ff0000; */
         background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-        animation: spinx 1s linear infinite, moveCircular5 40s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+        animation: spinx 1ms linear infinite, moveCircular5 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     }
 
     @keyframes moveCircular4 {
         0% {
-            transform: translate(60%, 100%) rotate(0deg) translateX(150px) rotate(0deg);
+            transform: translate(100%, 5%) rotate(0deg) translateX(150px) rotate(0deg);
         }
         100% {
-            transform: translate(60%, 100%) rotate(360deg) translateX(150px) rotate(-360deg);
+            transform: translate(100%, 50%) rotate(360deg) translateX(150px) rotate(-360deg);
         }
     }
     @keyframes moveCircular5 {
         0% {
-            transform: translate(-50%, -10%) rotate(0deg) translateX(200px) rotate(0deg);
+            transform: translate(120%, 10%) rotate(0deg) translateX(200px) rotate(0deg);
         }
         100% {
-            transform: translate(-50%, -10%) rotate(360deg) translateX(200px) rotate(-360deg);
+            transform: translate(120%, 10%) rotate(360deg) translateX(200px) rotate(-360deg);
         }
     }
     
-    /* .ZOOMIN{
-        width: 500px;
-        height: 420px;
-        animation-name: zoomIn;
-        animation-duration: 4s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-out;
-        animation-fill-mode: forwards;
-    } */
-
-    /* @keyframes zoomIn {
-        0% {
-          opacity: 0;
-          transform: scale(0.5); 
-        }
-        100% {
-          opacity: 1;
-          transform: scale(1); 
-        }
-    }
-
-    @keyframes left{
-      
-    } */
 
     .FONT{
         letter-spacing: -.03em;
         margin-top: 0;
         margin-bottom: 10px;
-        font-family: Kievitoffcpro;
+        font-family:sans-serif;
         font-size: 100px;
         font-weight: 300;
         line-height: 1em;
@@ -218,6 +196,34 @@
         font-weight: 300;
         line-height: 1em;  
     }
+
+
+
+
+    .ZOOMIN{
+        width: 500px;
+        height: 420px;
+        animation-name: zoomIn;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes zoomIn {
+        0% {
+          opacity: 0;
+          transform: scale(0.5); 
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1); 
+        }
+    }
+
+    /* @keyframes left{
+
+    } */ */
 </style>
 
 <section class="bg-white ">
@@ -245,9 +251,10 @@
             </a>
             
         </div>
-        <div class=" BORDER1 bg-gradient-to-b from-[#f7f6f6] to-[#e6e8eb] absolute top-52 right-24 w-96 h-96"></div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-           <img src="AP/6.jpg" alt="mockup" class=" absolute top-56 right-16" width=" 580px" height=" 580px">
+        {{-- <div class=" BORDER1 bg-gradient-to-b from-[#f7f6f6] to-[#e6e8eb] absolute top-52 right-24 w-96 h-96"></div> --}}
+        <div id="FLOAT4"></div>
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex"> 
+           <img src="AP/6.jpg" alt="mockup" class=" absolute top-56 right-16 z-0" width=" 580px" height=" 580px">
         </div>
     </div>
 </section>
@@ -394,7 +401,8 @@
         <div class="font-light text-gray-900 sm:text-lg z-40">
             <h2 class="mb-4 text-4xl font-extrabold text-gray-900">Quelles problématiques abordons-nous ?</h2>
             <p class="">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be
-                simple and quick.</p>
+                simple and quick.
+            </p>
             <div class=" grid grid-cols-3 gap-x-20 justify-center items-start pr-20">
                 <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
                     <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
@@ -444,7 +452,8 @@
 
             </div>
         </div>
-        <div class="grid grid-cols-2 gap-4 mt-8 relative  rounded-full z-40">
+        <div class="grid grid-cols-2 gap-4 mt-8 relative z-40 ">
+            
             <img src="images/67.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-500 rounded-2xl "></img>
             <img src="images/69.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-500 rounded-2xl mt-10"></img>
 
@@ -465,25 +474,24 @@
                     <span class=" font-medium">industries for previewing</span> layouts and visual mockups
                 </p>
             </div>
-            <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div>
+            {{-- <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div> --}}
         </div>
         <div class=" w-1/3 "></div>
     </div>
 </section>
 
 <section class="bg-gray-50">
-    <div id="FLOAT4"></div>
     <div id="FLOAT5"></div>
     <div class="grid max-w-screen-xl px-4 py-8 mt-10 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class=" col-span-12 h-20 mb-2">
-            <div class=" flex justify-center items-center mb-2">
-                <h1 class=" font-bold text-5xl text-gray-900">Pour Quoi Nous Choisir ?</h1>
+            <div class=" flex justify-center items-center mb-2 ">
+                <h1 class=" font-bold text-5xl text-gray-900 z-50">Pour Quoi Nous Choisir ?</h1>
             </div>
             <div class="  flex justify-center items-center">
-                <p class=" text-2xl font-normal text-gray-700">votre succés est notre mission</p>
+                <p class=" text-2xl font-normal text-gray-700 z-50">votre succés est notre mission</p>
             </div>
         </div>
-        <div class=" grid grid-cols-6 col-span-12 justify-center items-center gap-5 px-20 h-40 ">
+        <div class=" grid grid-cols-6 col-span-12 justify-center items-center gap-5 px-20 h-40 z-50">
 
             <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
                 <div class=" col-span-2 flex justify-center items-center">

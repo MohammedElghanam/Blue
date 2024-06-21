@@ -180,7 +180,7 @@
 
     </div>
 
-    <div class=" grid grid-cols-4 absolute w-1/3 right-[460px] -bottom-[0px]">
+    <div class=" grid grid-cols-4 absolute w-1/3 right-[460px] -bottom-[50px]">
         <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
             <div class=" col-span-2 flex justify-center items-center">
                 <?xml version="1.0" encoding="utf-8"?><svg class=" w-12 h-12" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 113.02 122.88" style="enable-background:new 0 0 113.02 122.88" xml:space="preserve"><style type="text/css"><![CDATA[

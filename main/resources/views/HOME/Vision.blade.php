@@ -151,7 +151,7 @@
 .IMG1{  
     margin-right: 20px;
     animation-name: left2;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
@@ -162,7 +162,7 @@
 .DATA1{
     margin-left: 20px;
     animation-name: right2;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
