@@ -90,6 +90,89 @@
             transform: translate(50%, 50%) rotate(360deg) translateX(200px) rotate(-360deg);
         }
     }
+
+
+
+
+
+
+
+
+    #FLOAT2 {
+        z-index: 0;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 1s linear infinite, moveCircular2 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    #FLOAT3 {
+        z-index: 0;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 1s linear infinite, moveCircular3 40s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    @keyframes moveCircular2 {
+        0% {
+            transform: translate(60%, 100%) rotate(0deg) translateX(150px) rotate(0deg);
+        }
+        100% {
+            transform: translate(60%, 100%) rotate(360deg) translateX(150px) rotate(-360deg);
+        }
+    }
+    @keyframes moveCircular3 {
+        0% {
+            transform: translate(-50%, -10%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+        100% {
+            transform: translate(-50%, -10%) rotate(360deg) translateX(200px) rotate(-360deg);
+        }
+    }
+
+
+
+    #FLOAT4 {
+        z-index: 0;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 1s linear infinite, moveCircular4 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    #FLOAT5 {
+        z-index: 0;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        animation: spinx 1s linear infinite, moveCircular5 40s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    }
+
+    @keyframes moveCircular4 {
+        0% {
+            transform: translate(60%, 100%) rotate(0deg) translateX(150px) rotate(0deg);
+        }
+        100% {
+            transform: translate(60%, 100%) rotate(360deg) translateX(150px) rotate(-360deg);
+        }
+    }
+    @keyframes moveCircular5 {
+        0% {
+            transform: translate(-50%, -10%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+        100% {
+            transform: translate(-50%, -10%) rotate(360deg) translateX(200px) rotate(-360deg);
+        }
+    }
     
     /* .ZOOMIN{
         width: 500px;
@@ -130,7 +213,7 @@
         margin-top: 0;
         margin-bottom: 10px;
         font-family:sans-serif;
-        font-weight: bold;
+        font-weight: bolder;
         font-size: 100px;
         font-weight: 300;
         line-height: 1em;  
@@ -140,7 +223,7 @@
 <section class="bg-white ">
     <div class="grid max-w-screen-xl xl:px-20 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
-            <div class=" h-20 w-10 "></div>
+            
             <h1 class=" FONT max-w-2xl mb-4 text-7xl font-extrabold leading-none md:text-5xl xl:text-6xl text-gray-900">
                 Payments, <br></h1>
                 <h1 class=" FONT1 text-gray-900">tool software</h1>
@@ -164,7 +247,7 @@
         </div>
         <div class=" BORDER1 bg-gradient-to-b from-[#f7f6f6] to-[#e6e8eb] absolute top-52 right-24 w-96 h-96"></div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-           <img src="AP/6.png" alt="mockup" class=" absolute top-56 right-16" width=" 580px" height=" 580px">
+           <img src="AP/6.jpg" alt="mockup" class=" absolute top-56 right-16" width=" 580px" height=" 580px">
         </div>
     </div>
 </section>
@@ -172,11 +255,9 @@
 
 <section class="">
     <div class=" lg:py-16 mx-auto max-w-screen-xl px-32">
-        <h2
-            class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900  md:text-4xl">
-            You’ll be in good company</h2>
+        <h2 class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900  md:text-4xl z-50 ">You’ll be in good company</h2>
         <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
-            <a href="#" class="flex justify-center items-center">
+            <a href="#" class="flex justify-center items-center z-50">
                 <svg class="h-9 hover:text-gray-900" viewBox="0 0 125 35" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -184,7 +265,7 @@
                         fill="currentColor" />
                 </svg>
             </a>
-            <a href="#" class="flex justify-center items-center">
+            <a href="#" class="flex justify-center items-center z-50">
                 <svg class="h-9 hover:text-gray-900" viewBox="0 0 86 29" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -192,7 +273,7 @@
                         fill="currentColor" />
                 </svg>
             </a>
-            <a href="#" class="flex justify-center items-center">
+            <a href="#" class="flex justify-center items-center z-50">
                 <svg class="h-8 hover:text-gray-900" viewBox="0 0 151 34" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_3753_27919)">
@@ -208,7 +289,7 @@
                 </svg>
             </a>
 
-            <a href="#" class="flex justify-center items-center">
+            <a href="#" class="flex justify-center items-center z-50">
                 <svg class="h-9 hover:text-gray-900" viewBox="0 0 124 38" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -216,7 +297,7 @@
                         fill="currentColor" />
                 </svg>
             </a>
-            <a href="#" class="flex justify-center items-center">
+            <a href="#" class="flex justify-center items-center z-50">
                 <svg class="h-9 hover:text-gray-900" viewBox="0 0 137 37" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -273,7 +354,7 @@
                         fill="currentColor" />
                 </svg>
             </a>
-            <a href="#" class="flex justify-center items-center">
+            <a href="#" class="flex justify-center items-center z-50">
                 <svg class="h-6 hover:text-gray-900" viewBox="0 0 124 21" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -307,7 +388,8 @@
 
 
 <section class="bg-wh px-20 relative">
-    {{-- <div class=" BORDER2 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-0 left-0 w-[300px] h-[300px]"></div> --}}
+    <div id="FLOAT2"></div>
+    <div id="FLOAT3"></div>
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-900 sm:text-lg z-40">
             <h2 class="mb-4 text-4xl font-extrabold text-gray-900">Quelles problématiques abordons-nous ?</h2>
@@ -390,6 +472,8 @@
 </section>
 
 <section class="bg-gray-50">
+    <div id="FLOAT4"></div>
+    <div id="FLOAT5"></div>
     <div class="grid max-w-screen-xl px-4 py-8 mt-10 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class=" col-span-12 h-20 mb-2">
             <div class=" flex justify-center items-center mb-2">
