@@ -103,7 +103,7 @@
                     <li class="relative parent">
                         <a href="#"
                             class="flex justify-between md:inline-flex p-4 items-center text-gray-900 hover:bg-blue-50 space-x-2 xl:text-lg">
-                            <span>à propos</span>
+                            <span>A Propos De Nos</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
                                 <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
@@ -139,60 +139,17 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="relative parent">
-                        <a href="#"
-                            class="flex justify-between md:inline-flex p-4 items-center text-gray-900 hover:bg-blue-50 space-x-2 xl:text-lg">
-                            <span>Services </span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
-                                viewBox="0 0 24 24">
-                                <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
-                            </svg>
-                        </a>
-                        {{-- list  --}}
-                        <ul
-                            class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white z-50 md:shadow-lg md:rounded-b">
-                            <li>
-                                <a href="{{route('A_propos')}}" class="flex px-4 py-3 hover:bg-blue-100">
-                                    PMO
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{route('vision')}}" class="flex px-4 py-3 hover:bg-blue-100">
-                                    Services TPM/PME
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
-                                   Service Digitaux
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
-                                    Carriere RH 
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
-                                    Formation Profitionelle
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="flex px-4 py-3 hover:bg-blue-100">
-                                    Entreprenaraite Et Project D'ess
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                    
                     <li>
                         <a href="#"
                             class="flex justify-between md:inline-flex p-4 items-center text-gray-900 hover:bg-gray-50 space-x-2 xl:text-lg">
-                            <span>Carriere</span>
+                            <span>Nos Realisation</span>
                         </a>
                     </li>
                     <li>
                         <a href="#"
                             class="flex justify-between md:inline-flex p-4 items-center text-gray-900 hover:bg-gray-50 space-x-2 xl:text-lg">
-                            <span>Contact</span>
+                            <span>Contact Nos</span>
                         </a>
                     </li>
                 </ul>
@@ -260,10 +217,10 @@
         </div>
     </nav>
     <!-- Nav 2 -->
-    {{-- <nav id="nav2" class="flex justify-center items-center xl:px-20 md:shadow-lg bg-[#163172] z-0">
+    <nav id="nav2" class="flex justify-center items-center xl:px-20 md:shadow-lg bg-[#163172] z-0">
         <ul class="flex gap-6">
             <li class="relative parent">
-                PMO 
+                {{-- PMO  --}}
                 <a href="#"
                     class="flex justify-between md:inline-flex p-4 items-center text-white hover:text-black hover:bg-gray-50 space-x-2 xl:text-[15px]">
                     <span>PMO</span>
@@ -271,7 +228,7 @@
                         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
                     </svg>
                 </a>
-                PMO LIST 
+                {{-- PMO LIST  --}}
                 <ul
                     class="child transition duration-300 md:absolute top-full right-0 md:w-48 bg-white md:shadow-lg md:rounded-b">
                     <li>
@@ -427,7 +384,7 @@
                 </ul>
             </li>
         </ul>
-    </nav> --}}
+    </nav>
 </header>
 
 
