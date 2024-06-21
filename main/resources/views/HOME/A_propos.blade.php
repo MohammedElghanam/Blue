@@ -100,6 +100,51 @@
         
     }
 
+
+    .IMG{
+    
+       
+        margin-right: 20px;
+        animation-name: left;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
+    
+    
+    }
+
+    .DATA {
+        margin-left: 20px;
+        animation-name: right1;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes right1 {
+      0% {
+        transform: translateX(500px); 
+      }
+
+      100% {
+        transform: translateX(10%);
+      }
+    }
+
+
+    @keyframes left{
+      0%{ 
+        transform:  translateX(-510px);
+      }
+
+      100%{
+        width: 500px;
+        transform:  translateX(5%);
+      }
+    }
+
 </style>
 
 
@@ -110,11 +155,11 @@
     <div id="FLOAT1"></div>
     <div class="grid max-w-screen-xl py-8 mx-auto gap-20 lg:py-16 lg:grid-cols-12 justify-center ">
 
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full z-10 bg-red-700">
+        <div class="IMG hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full z-10">
             <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0 rounded-lg">
         </div>
 
-        <div class="mr-auto place-self-center lg:col-span-6 z-10 bg-yellow-500">
+        <div class="DATA mr-auto place-self-center lg:col-span-6 z-10">
             <h1 class="max-w-2xl mb-3 xl:text-5xl font-bold  text-gray-800">Description</h1>
 
             <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-8 md:text-lg xl:text-[14px] dark:text-gray-600">BLUE
