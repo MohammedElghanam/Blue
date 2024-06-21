@@ -14,7 +14,7 @@
         position: absolute;
         width: 500px;
         height: 500px;
-        background: linear-gradient(to bottom, #163172, #3a7cd2);
+        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
         border-radius: 47% 53% 16% 84% / 75% 66% 34% 25% ;
         animation: spinx 1s linear infinite, moveCircular 30s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     }
@@ -24,7 +24,7 @@
         position: absolute;
         width: 500px;
         height: 500px;
-        background: linear-gradient(to bottom, #163172, #3a7cd2);
+        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
         /* opacity: 0.1; */
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
         animation: spinx 1s linear infinite, moveCircular1 25s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
@@ -35,7 +35,7 @@
         position: absolute;
         width: 500px;
         height: 500px;
-        background: linear-gradient(to bottom, #163172, #3a7cd2);
+        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
         border-radius: 30% 70% 80% 20% / 67% 79% 21% 33% ;
         animation: spinx 1s linear infinite, moveCircular3 20s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     }
@@ -45,7 +45,7 @@
         position: absolute;
         width: 500px;
         height: 500px;
-        background: linear-gradient(to bottom, #163172, #3a7cd2);
+        background: linear-gradient(to bottom, #f7f6f6, #e6e8eb);
         border-radius: 30% 70% 50% 50% / 22% 63% 37% 78% ;
         animation: spinx 1s linear infinite, moveCircular4 15s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
     }
@@ -180,7 +180,7 @@
 
     </div>
 
-    <div class=" grid grid-cols-4 absolute w-1/3 right-[460px] -bottom-[70px]">
+    <div class=" grid grid-cols-4 absolute w-1/3 right-[460px] -bottom-[0px]">
         <div class=" grid grid-cols-2 gap-3 justify-center items-center col-span-1">
             <div class=" col-span-2 flex justify-center items-center">
                 <?xml version="1.0" encoding="utf-8"?><svg class=" w-12 h-12" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 113.02 122.88" style="enable-background:new 0 0 113.02 122.88" xml:space="preserve"><style type="text/css"><![CDATA[

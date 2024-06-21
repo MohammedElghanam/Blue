@@ -75,7 +75,7 @@
     
 <header class="flex flex-col pb-2">
     <!-- Nav 1 -->
-    <nav id="nav1" class=" px-4 xl:px-20 pt-2.5 pb-0.5 z-50">
+    <nav id="nav1" class=" px-4 xl:px-20 pt-2.5 pb-0.5 z-50 bg-white">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="{{route('home')}}" class="flex items-center">
                 <img src="images/logo.png" class="mr-3 h-16 w-16" alt="Logo">
@@ -103,7 +103,7 @@
                     <li class="relative parent">
                         <a href="#"
                             class="flex justify-between md:inline-flex p-4 items-center text-gray-900 hover:bg-blue-50 space-x-2 xl:text-lg">
-                            <span>A proposde nous ? </span>
+                            <span>à propos</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
                                 <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>

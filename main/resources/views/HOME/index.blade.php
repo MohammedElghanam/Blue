@@ -142,7 +142,7 @@
             </a>
             
         </div>
-        <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-52 right-24 w-96 h-96"></div>
+        <div class=" BORDER1 bg-gradient-to-b from-[#f7f6f6] to-[#e6e8eb] absolute top-52 right-24 w-96 h-96"></div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
            <img src="images/68.png" alt="mockup" class=" absolute top-56 right-16" width=" 580px" height=" 580px">
         </div>
