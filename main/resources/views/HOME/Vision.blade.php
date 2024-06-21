@@ -198,8 +198,8 @@
 
 {{-- Notre vision  --}}
 <section class="bg-gray-50 py-20 relative ">
-    <div id="FLOAT"></div>
-    <div id="FLOAT1"></div>
+        {{-- <div id="FLOAT"></div>
+        <div id="FLOAT1"></div> --}}
     <div class="grid max-w-screen-xl  mx-auto  lg:grid-cols-12">
         
         <div class="IMG hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full ">
@@ -237,8 +237,8 @@
 
 {{-- notre engagement  --}}
 <section class="py-24">
-    <div id="FLOAT3"></div>
-    <div id="FLOAT4"></div>  
+    {{-- <div id="FLOAT3"></div>
+    <div id="FLOAT4"></div>   --}}
     <div class="flex justify-between items-center  max-w-screen-xl mx-auto grid-cols-12">
         
         <div class="DATA1 hidden mr-32 flex-col w-[700px] h-[400px] lg:mt-0 lg:col-span-5 lg:flex justify-center items-center relative ">
