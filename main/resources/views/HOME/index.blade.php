@@ -144,7 +144,7 @@
         </div>
         <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-52 right-24 w-96 h-96"></div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-           <img src="images/66.png" alt="mockup" class=" absolute top-52 right-36" width=" 300px" height=" 300px">
+           <img src="images/68.png" alt="mockup" class=" absolute top-56 right-16" width=" 580px" height=" 580px">
         </div>
     </div>
 </section>
@@ -287,7 +287,7 @@
 
 
 <section class="bg-wh px-20 relative">
-    <div class=" BORDER2 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-0 left-0 w-[300px] h-[300px]"></div>
+    {{-- <div class=" BORDER2 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute top-0 left-0 w-[300px] h-[300px]"></div> --}}
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-900 sm:text-lg z-40">
             <h2 class="mb-4 text-4xl font-extrabold text-gray-900">Quelles problématiques abordons-nous ?</h2>
@@ -347,9 +347,9 @@
             <img src="images/69.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-500 rounded-2xl mt-10"></img>
 
         </div>
-        <div
+        {{-- <div
             class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-0 w-[300px] h-[300px]">
-        </div>
+        </div> --}}
     </div>
 </section>
 
