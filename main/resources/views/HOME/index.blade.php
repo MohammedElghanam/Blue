@@ -116,14 +116,34 @@
       
     } */
 
+    .FONT{
+        letter-spacing: -.03em;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-family: Kievitoffcpro;
+        font-size: 100px;
+        font-weight: 300;
+        line-height: 1em;
+    }
+    .FONT1{
+        letter-spacing: -.03em;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-family:sans-serif;
+        font-weight: bold;
+        font-size: 100px;
+        font-weight: 300;
+        line-height: 1em;  
+    }
 </style>
 
 <section class="bg-white ">
-    <div class="grid max-w-screen-xl xl:px-28 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <div class="grid max-w-screen-xl xl:px-20 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
             <div class=" h-20 w-10 "></div>
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl text-gray-900">
-                Payments tool for software companies</h1>
+            <h1 class=" FONT max-w-2xl mb-4 text-7xl font-extrabold leading-none md:text-5xl xl:text-6xl text-gray-900">
+                Payments, <br></h1>
+                <h1 class=" FONT1 text-gray-900">tool software</h1>
             <p class="max-w-2xl mb-6 font-normal text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">From checkout to global
                 sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
             <a href="#"

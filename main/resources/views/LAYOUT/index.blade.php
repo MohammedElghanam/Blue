@@ -186,7 +186,13 @@
                     <li>
                         <a href="#"
                             class="flex justify-between md:inline-flex p-4 items-center text-gray-900 hover:bg-gray-50 space-x-2 xl:text-lg">
-                            <span>Contact Nos</span>
+                            <span>Carriere</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="flex justify-between md:inline-flex p-4 items-center text-gray-900 hover:bg-gray-50 space-x-2 xl:text-lg">
+                            <span>Contact</span>
                         </a>
                     </li>
                 </ul>
@@ -229,12 +235,15 @@
                     <!-- Language -->
                     <li class="relative parent ">
                         <a href="#" 
-                        class="flex justify-between md:inline-flex p-4 items-center bg-gradient-to-r from-[#163172] to-[#1e56a0] hover:bg-blue-500 text-white space-x-2 text-xl rounded-xl w-24 h-12">
-                        <span>En</span>
+                        class="flex justify-between md:inline-flex p-2 items-center bg-gradient-to-r from-[#163172] to-[#1e56a0] hover:bg-blue-500 text-white space-x-2 text-xl rounded-xl w-24 h-12">
+                        <img class=" w-6 h-6" src="AP/5.png" alt="">
+                        <div class=" flex justify-center items-center gap-2 w-11">
+                            <span>En</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1"
                                 viewBox="0 0 24 24">
                                 <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
                             </svg>
+                        </div>
                         </a>
                         {{-- list  --}}
                         <ul
