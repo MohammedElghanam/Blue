@@ -267,7 +267,7 @@
         </div>
 
         <div class=" IMG1 hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center h-full ">
-            <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0">
+            <img src="images/team.jpg" alt="mockup" class=" h-full w-full right-0 rounded-xl">
         </div>
 
     </div>
