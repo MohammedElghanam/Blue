@@ -228,7 +228,7 @@
 
 <section class="bg-white ">
     <div class="grid max-w-screen-xl xl:px-20 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="mr-auto place-self-center lg:col-span-7">
+        <div class="mr-auto place-self-center lg:col-span-7 z-50">
             
             <h1 class=" FONT max-w-2xl mb-4 text-7xl font-extrabold leading-none md:text-5xl xl:text-6xl text-gray-900">
                 Payments, <br></h1>
@@ -261,7 +261,7 @@
 
 
 <section class="">
-    <div class=" lg:py-16 mx-auto max-w-screen-xl px-32">
+    <div class=" lg:py-16 mx-auto max-w-screen-xl px-32 z-50">
         <h2 class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900  md:text-4xl z-50 ">You’ll be in good company</h2>
         <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
             <a href="#" class="flex justify-center items-center z-50">
