@@ -4,37 +4,57 @@
 
 @section('container')
 
-<section class=" h-lvh flex gap-16 px-10">
-    <div class=" w-1/2 h-full grid justify-center items-center relative">
-        <img class=" w-full h-3/4" src="images/795.png" alt="">
+<style>
+    /* .CERCLE{
+        clip-path: polygon(100% 100%, 0% 0%, 100% 0%);
+    } */
+</style>
+
+<section class=" h-lvh flex gap-5 px-28 mb-40">
+
+    <div class=" w-1/2 h-full grid justify-center items-center relative ">
+        <img class=" " src="AP/18.png" alt="">
         <div class=" w-40 h-40 rounded-full bg-blue-700 absolute bottom-0 right-20 opacity-45"></div>
     </div>
-    <div class=" grid grid-cols-8 justify-center items-center gap-8 w-1/2 h-full py-10">
-        <div class=" col-span-4 h-60 grid justify-center items-center">
-            <div class=" rounded-full bg-blue-500 w-52 h-52 flex justify-center items-center border-[15px] border-red-600">
-                <h1 class="text-[90px] font-bold  text-gray-800">+</h1>
-                <h1 class="COUNT text-[90px] font-bold  text-gray-800">63</h1>
+
+    <div class="  justify-center items-center w-1/2 h-full py-10 pt-[130px] ">
+
+        <div class="  w-full flex justify-around items-center mb-10">
+
+            <div class="  h-[194px] grid justify-center items-center relative">
+                <div class=" rounded-full   w-40 h-40 flex justify-center items-center border-[20px] border-gray-300 ">
+                    <h1 class="text-[50px] font-bold  text-gray-800">+</h1>
+                    <h1 class="COUNT text-[80px] font-bold  text-gray-800">63</h1>
+                </div>
+                <h1 class=" text-2xl font-semibold text-center text-gray-800">Acquisitions</h1>
             </div>
-            <h1 class=" text-4xl font-sans text-center">Acquisitions</h1>
+
+            <div class=" h-[194px] grid justify-center items-center relative">
+                <div class=" CERCLE rounded-full w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
+                    <h1 class="COUNT1 text-[80px] font-bold  text-gray-800">30</h1>
+                </div>
+                <h1 class=" text-2xl font-semibold text-center text-gray-800">Growth Rate </h1>
+            </div>
+
         </div>
-        <div class=" col-span-4 h-60 grid justify-center items-center relative">
-            <div class=" rounded-full bg-blue-500 w-52 h-52 flex justify-center items-center border-[15px] border-red-600">
-                <h1 class="COUNT1 text-[90px] font-bold  text-gray-800">300</h1>
+
+        <div class="  flex justify-around items-center">
+
+            <div class="h-[194px] grid justify-center items-center relative">
+                <div class=" rounded-full  w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
+                    <h1 class="COUNT2 text-[80px] font-bold  text-gray-800">76</h1>
+                </div>
+                <h1 class=" text-2xl font-semibold text-center text-gray-800">Acquisitions</h1>
             </div>
-            <h1 class=" text-4xl font-sans text-center">Growth Rate </h1>
-        </div>
-        <div class=" col-span-4 h-60 grid justify-center items-center relative">
-            <div class=" rounded-full bg-blue-500 w-52 h-52 flex justify-center items-center border-[15px] border-red-600">
-                <h1 class="COUNT2 text-[90px] font-bold  text-gray-800">76</h1>
+
+            <div class=" h-[194px] grid justify-center items-center relative">
+                <div class=" rounded-full  w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
+                    <h1 class="COUNT3 text-[80px] font-bold  text-gray-800">95</h1>
+                    <p class=" text-[45px] font-bold  text-gray-800">%</p>
+                </div>
+                <h1 class=" text-2xl font-semibold text-center text-gray-800">Founder NPS</h1>
             </div>
-            <h1 class=" text-4xl font-sans text-center">Acquisitions</h1>
-        </div>
-        <div class=" col-span-4 h-60 grid justify-center items-center relative">
-            <div class=" rounded-full bg-blue-500 w-52 h-52 flex justify-center items-center border-[15px] border-red-600">
-                <h1 class="COUNT3 text-[90px] font-bold  text-gray-800">95</h1>
-                <p class=" text-[90px] font-bold  text-gray-800">%</p>
-            </div>
-            <h1 class=" text-4xl font-sans text-center">Founder NPS</h1>
+
         </div>
     </div>
 </section>
@@ -68,3 +88,5 @@
         });
     });
 </script>
+
+
