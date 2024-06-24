@@ -217,7 +217,7 @@
         </div>
     </nav>
     <!-- Nav 2 -->
-    <nav id="nav2" class="flex justify-center items-center xl:px-20 md:shadow-lg bg-[#163172] z-40">
+    <nav id="nav2" class="flex justify-center items-center xl:px-20 md:shadow-lg bg-[#163172] z-40 h-8">
         <ul class="flex gap-6">
             <li class="relative parent">
                 {{-- PMO  --}}
