@@ -15,3 +15,7 @@ Route::get('/A propos de nous', function(){
 Route::get('/Notre vision', function(){
     return view('HOME.Vision');
 })->name('vision');
+
+Route::get('/statestique', function(){
+    return view('HOME.Statique');
+});
