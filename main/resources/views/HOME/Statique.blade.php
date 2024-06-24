@@ -1,4 +1,4 @@
-@extends('LAYOUT.index')
+{{-- @extends('LAYOUT.index')
 
 @section('title', 'A proposde nous')
 
@@ -10,83 +10,121 @@
     } */
 </style>
 
-<section class=" h-lvh flex gap-5 px-28 mb-40">
 
-    <div class=" w-1/2 h-full grid justify-center items-center relative ">
-        <img class=" " src="AP/18.png" alt="">
-        <div class=" w-40 h-40 rounded-full bg-blue-700 absolute bottom-0 right-20 opacity-45"></div>
-    </div>
-
-    <div class="  justify-center items-center w-1/2 h-full py-10 pt-[130px] ">
-
-        <div class="  w-full flex justify-around items-center mb-10">
-
-            <div class="  h-[194px] grid justify-center items-center relative">
-                <div class=" rounded-full   w-40 h-40 flex justify-center items-center border-[20px] border-gray-300 ">
-                    <h1 class="text-[50px] font-bold  text-gray-800">+</h1>
-                    <h1 class="COUNT text-[80px] font-bold  text-gray-800">63</h1>
-                </div>
-                <h1 class=" text-2xl font-semibold text-center text-gray-800">Acquisitions</h1>
-            </div>
-
-            <div class=" h-[194px] grid justify-center items-center relative">
-                <div class=" CERCLE rounded-full w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
-                    <h1 class="COUNT1 text-[80px] font-bold  text-gray-800">30</h1>
-                </div>
-                <h1 class=" text-2xl font-semibold text-center text-gray-800">Growth Rate </h1>
-            </div>
-
-        </div>
-
-        <div class="  flex justify-around items-center">
-
-            <div class="h-[194px] grid justify-center items-center relative">
-                <div class=" rounded-full  w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
-                    <h1 class="COUNT2 text-[80px] font-bold  text-gray-800">76</h1>
-                </div>
-                <h1 class=" text-2xl font-semibold text-center text-gray-800">Acquisitions</h1>
-            </div>
-
-            <div class=" h-[194px] grid justify-center items-center relative">
-                <div class=" rounded-full  w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
-                    <h1 class="COUNT3 text-[80px] font-bold  text-gray-800">95</h1>
-                    <p class=" text-[45px] font-bold  text-gray-800">%</p>
-                </div>
-                <h1 class=" text-2xl font-semibold text-center text-gray-800">Founder NPS</h1>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 @endsection
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Counter-Up Plugin -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
-<script>
-    jQuery(document).ready(function( $ ) {
-        $('.COUNT').counterUp({
-            delay: 200, // the delay time in ms
-            time: 2000  // the speed time in ms
+
+ --}}
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neomorphic Circular Progress Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+        }
+
+        .progress-container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+        }
+
+        .progress-circle {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: #e0e0e0;
+            box-shadow: 
+                6px 6px 12px #2200ff, 
+                -6px -6px 12px #e90000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .progress-circle::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 120px;
+            height: 120px;
+            background: #e0e0e0;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 
+                inset 6px 6px 12px #bebebe, 
+                inset -6px -6px 12px #ffffff;
+        }
+
+        .progress-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #555;
+            position: absolute;
+        }
+
+        .circle {
+            fill: none;
+            stroke-width: 15;
+            stroke-linecap: round;
+            transform: translate(5px, 5px);
+        }
+
+        .background-circle {
+            stroke: #d3d3d3;
+        }
+
+        .progress-circle .progress {
+            stroke: #6c63ff;
+            stroke-dasharray: 440;
+            stroke-dashoffset: 440;
+            transition: stroke-dashoffset 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <svg class="progress-circle" width="140" height="140">
+            {{-- <circle class="background-circle" cx="70" cy="70" r="70"></circle> --}}
+            <circle class="progress" cx="70" cy="70" r="70"></circle>
+        </svg>
+        <span class="progress-value">0%</span>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const progressCircle = document.querySelector('.progress-circle .progress');
+            const progressValue = document.querySelector('.progress-value');
+
+            let progressStartValue = 0;
+            const progressEndValue = 75; // Set this to your desired progress value
+            const speed = 50;
+
+            const progress = setInterval(() => {
+                progressStartValue++;
+
+                progressValue.textContent = `${progressStartValue}%`;
+                progressCircle.style.strokeDashoffset = 440 - (440 * progressStartValue) / 100;
+
+                if (progressStartValue === progressEndValue) {
+                    clearInterval(progress);
+                }
+            }, speed);
         });
-
-        $('.COUNT1').counterUp({
-            delay: 200, // the delay time in ms
-            time: 2000  // the speed time in ms
-        });
-
-        $('.COUNT2').counterUp({
-            delay: 200, // the delay time in ms
-            time: 2000  // the speed time in ms
-        });
-
-        $('.COUNT3').counterUp({
-            delay: 200, // the delay time in ms
-            time: 2000  // the speed time in ms
-        });
-    });
-</script>
-
-
+    </script>
+</body>
+</html>
