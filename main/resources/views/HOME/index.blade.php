@@ -222,35 +222,6 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Google Fonts - Poppins */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
-/* 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-} */
-/* body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #7d2ae8;
-} */
 .container{
     display: flex;
     width: 250px;
