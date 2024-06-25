@@ -408,6 +408,7 @@
                     <h1 class="text-[50px] font-bold  text-gray-800">+</h1>
                     <h1 class="COUNT0 text-[80px] font-bold  text-gray-800">63</h1>
                 </div>
+    
                 <h1 class=" text-2xl font-semibold text-center text-gray-800">Acquisitions</h1>
             </div>
 
@@ -421,7 +422,7 @@
         </div>
 
         <div class="  flex justify-around items-center">
-
+            
             <div class="h-[194px] grid justify-center items-center relative">
                 <div class=" rounded-full  w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
                     <h1 class="COUNT2 text-[80px] font-bold  text-gray-800">76</h1>
