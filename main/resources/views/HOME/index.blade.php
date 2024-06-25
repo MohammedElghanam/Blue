@@ -253,18 +253,18 @@
 } */
 .container{
     display: flex;
-    width: 420px;
-    padding: 50px 0;
+    width: 200px;
+    padding: 30px 0;
     border-radius: 8px;
-    background: #fff;
+    background: #e73c3c;
     row-gap: 30px;
     flex-direction: column;
     align-items: center;
 }
 .circular-progress{
     position: relative;
-    height: 250px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
     display: flex;
@@ -274,10 +274,10 @@
 .circular-progress::before{
     content: "";
     position: absolute;
-    height: 210px;
-    width: 210px;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #b0f329;
 }
 .progress-value{
     position: relative;
@@ -286,8 +286,8 @@
     color: #7d2ae8;
 }
 .text{
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
     color: #606060;
 }
 
@@ -470,15 +470,36 @@
         <img class=" absolute -bottom-10 right-4" src="AP/19.png" alt="">
     </div>
 
-    <div class=" grid justify-center items-center w-1/2 h-full py-28 bg-blue-500">
+    <div class=" grid grid-cols-6 gap-5 justify-center items-center w-1/2 h-full py-28 bg-blue-500">
 
-        <div class="container">
+        <div class="container col-span-3">
+            <div class="circular-progress1">
+                <span class="progress-value1">0%</span>
+            </div>
+            <span class="text">HTML & CSS</span>
+        </div>
+
+        <div class="container col-span-3">
+            <div class="circular-progress1">
+                <span class="progress-value1">0%</span>
+            </div>
+            <span class="text">HTML & CSS</span>
+        </div>
+
+        <div class="container col-span-3">
+            <div class="circular-progress1">
+                <span class="progress-value1">0%</span>
+            </div>
+            <span class="text">HTML & CSS</span>
+        </div>
+
+        <div class="container col-span-3">
             <div class="circular-progress">
                 <span class="progress-value">0%</span>
             </div>
             <span class="text">HTML & CSS</span>
         </div>
-
+        
         {{-- <div class="container col-span-3">
             <div class="progress">
                 <span class="value">0%</span>
@@ -777,23 +798,27 @@
 
 
 <script>
+    document.addEventListener("DOMContentLoaded", () => {
     let circularProgress = document.querySelector(".circular-progress"),
-    progressValue = document.querySelector(".progress-value");
+        progressValue = document.querySelector(".progress-value");
 
-    let progressStartValue = 0,    
-        progressEndValue = 90,    
+    let progressStartValue = 0,
+        progressEndValue = 50,
         speed = 20;
 
     let progress = setInterval(() => {
         progressStartValue++;
 
-        progressValue.textContent = `${progressStartValue}%`
-        circularProgress.style.background = `conic-gradient(#7d2ae8 ${progressStartValue * 3.6}deg, #ededed 0deg)`
+        progressValue.textContent = `${progressStartValue}%`;
+        circularProgress.style.background = `conic-gradient(#7d2ae8 ${progressStartValue * 3.6}deg, #ededed ${progressStartValue * 3.6}deg)`;
 
-        if(progressStartValue == progressEndValue){
+        if (progressStartValue == progressEndValue) {
             clearInterval(progress);
-        }    
+        }
     }, speed);
+});
+
+
 </script>
 
 
