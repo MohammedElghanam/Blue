@@ -390,12 +390,13 @@
     </div>
 </section>
 
-
+{{-- SECTION 2  --}}
 <section class=" h-lvh flex gap-5 px-28 bg-gray-100">
 
     <div class=" w-1/2 h-full grid justify-center items-center relative ">
-        <img class=" " src="AP/18.png" alt="">
-        <div class=" w-40 h-40 rounded-full bg-blue-700 absolute bottom-0 right-20 opacity-45"></div>
+        <img class=" w[60%] h-[60%]" src="AP/18.png" alt="">
+        <div class=" w-32 h-32 rounded-full bg-blue-700 absolute bottom-16 right-24 opacity-45"></div>
+        <img class=" absolute -bottom-10 right-4" src="AP/19.png" alt="">
     </div>
 
     <div class="  justify-center items-center w-1/2 h-full py-10 pt-[130px] ">

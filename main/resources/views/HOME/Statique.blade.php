@@ -1,4 +1,4 @@
-{{-- @extends('LAYOUT.index')
+@extends('LAYOUT.index')
 
 @section('title', 'A proposde nous')
 
@@ -10,121 +10,24 @@
     } */
 </style>
 
-
+<section class=" flex bg-gray-50 py-16 mb-32">
+    <div class=" w-[15%]"></div>
+    <div class=" w-[85%] h-80 bg-[#163172] rounded-s-full relative ">
+       
+        <h1 class=" font-bold text-5xl mb-4 text-white absolute left-60 top-8">CE QUE NOUS FAISONS .</h1>
+        <p class=" w-[64%] text-white absolute left-60 top-28 text-xl">Lorem ipsum is placeholder text commonly used in the graphic, print, and
+            publishing
+            <span class=" font-medium">industries for previewing</span> layouts and visual mockups
+            Lorem ipsum is placeholder text commonly <span class=" font-medium"> used in the graphic, </span> print, and
+            publishing
+            
+        </p>
+        <div class=" absolute w-36 h-36 bg-[#1e56a0] rounded-full opacity-70 -bottom-32 right-32"></div>
+        <img class=" absolute -bottom-16 right-4" src="AP/19.png" alt="">
+    </div>
+</section>
 
 @endsection
 
 
- --}}
 
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neomorphic Circular Progress Bar</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #e0e0e0;
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-        }
-
-        .progress-container {
-            position: relative;
-            width: 150px;
-            height: 150px;
-        }
-
-        .progress-circle {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background: #e0e0e0;
-            box-shadow: 
-                6px 6px 12px #2200ff, 
-                -6px -6px 12px #e90000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-
-        .progress-circle::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 120px;
-            height: 120px;
-            background: #e0e0e0;
-            border-radius: 50%;
-            transform: translate(-50%, -50%);
-            box-shadow: 
-                inset 6px 6px 12px #bebebe, 
-                inset -6px -6px 12px #ffffff;
-        }
-
-        .progress-value {
-            font-size: 24px;
-            font-weight: bold;
-            color: #555;
-            position: absolute;
-        }
-
-        .circle {
-            fill: none;
-            stroke-width: 15;
-            stroke-linecap: round;
-            transform: translate(5px, 5px);
-        }
-
-        .background-circle {
-            stroke: #d3d3d3;
-        }
-
-        .progress-circle .progress {
-            stroke: #6c63ff;
-            stroke-dasharray: 440;
-            stroke-dashoffset: 440;
-            transition: stroke-dashoffset 0.5s;
-        }
-    </style>
-</head>
-<body>
-    <div class="progress-container">
-        <svg class="progress-circle" width="140" height="140">
-            {{-- <circle class="background-circle" cx="70" cy="70" r="70"></circle> --}}
-            <circle class="progress" cx="70" cy="70" r="70"></circle>
-        </svg>
-        <span class="progress-value">0%</span>
-    </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const progressCircle = document.querySelector('.progress-circle .progress');
-            const progressValue = document.querySelector('.progress-value');
-
-            let progressStartValue = 0;
-            const progressEndValue = 75; // Set this to your desired progress value
-            const speed = 50;
-
-            const progress = setInterval(() => {
-                progressStartValue++;
-
-                progressValue.textContent = `${progressStartValue}%`;
-                progressCircle.style.strokeDashoffset = 440 - (440 * progressStartValue) / 100;
-
-                if (progressStartValue === progressEndValue) {
-                    clearInterval(progress);
-                }
-            }, speed);
-        });
-    </script>
-</body>
-</html>
