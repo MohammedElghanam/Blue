@@ -232,7 +232,12 @@
     row-gap: 30px;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
 }
+.container:hover{
+    transform: scale(1.1);
+}
+
 .circular-progress{
     position: relative;
     height: 150px;
@@ -308,7 +313,7 @@
         <img class=" absolute -bottom-10 right-4" src="AP/19.png" alt="">
     </div>
 
-    <div class=" grid grid-cols-6 gap-5 justify-center items-center w-1/2 h-full py-28">
+    <div class=" grid grid-cols-6 gap-5 justify-center items-center w-1/2 h-full py-20">
 
         <div class="container col-span-3">
             <div class="circular-progress CP0">
@@ -602,6 +607,7 @@
             progressStartValue0++;
             PV0.textContent = `${progressStartValue0}%`;
             CP0.style.background = `conic-gradient(#1e56a0 ${progressStartValue0 * 3.6}deg, #ededed ${progressStartValue0 * 3.6}deg)`;
+            
         }
 
         if (progressStartValue1 < progressEndValue1) {
