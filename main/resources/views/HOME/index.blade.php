@@ -472,65 +472,6 @@
             <span class="text">HTML & CSS</span>
         </div>
 
-        {{-- <div class="container col-span-3">
-            <div class="progress">
-                <span class="value">0%</span>
-            </div>
-            <span class="text">HTML & CSS</span>
-        </div>
-
-        <div class="container col-span-3">
-            <div class="progress">
-                <span class="value">0%</span>
-            </div>
-            <span class="text">HTML & CSS</span>
-        </div>
-
-        <div class="container col-span-3">
-            <div class="progress">
-                <span class="value">0%</span>
-            </div>
-            <span class="text">HTML & CSS</span>
-        </div> --}}
-
-        {{-- <div class="  w-full flex justify-around items-center gap-20 bg-sky-600">
-
-            <div class="  h-[194px] grid justify-center items-center relative ">
-                <div class=" rounded-full w-40 h-40 flex justify-center items-center border-[20px] border-gray-300 ">
-                    <h1 class="text-[50px] font-bold  text-gray-800">+</h1>
-                    <h1 class="COUNT0 text-[80px] font-bold  text-gray-800">63</h1>
-                </div>
-    
-                <h1 class=" text-2xl font-semibold text-center text-gray-800">Acquisitions</h1>
-            </div>
-
-            <div class=" h-[194px] grid justify-center items-center relative ">
-                <div class=" rounded-full w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
-                    <h1 class="COUNT1 text-[80px] font-bold  text-gray-800">30</h1>
-                </div>
-                <h1 class=" text-2xl font-semibold text-center text-gray-800">Growth Rate </h1>
-            </div>
-
-        </div> --}}
-
-        {{-- <div class="  flex justify-around items-center gap-20 ">
-            
-            <div class="h-[194px] grid justify-center items-center relative ">
-                <div class=" rounded-full  w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
-                    <h1 class="COUNT2 text-[80px] font-bold  text-gray-800">76</h1>
-                </div>
-                <h1 class=" text-2xl font-semibold text-center text-gray-800">Acquisitions</h1>
-            </div>
-
-            <div class=" h-[194px] grid justify-center items-center relative ">
-                <div class=" rounded-full  w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
-                    <h1 class="COUNT3 text-[80px] font-bold  text-gray-800">95</h1>
-                    <p class=" text-[45px] font-bold  text-gray-800">%</p>
-                </div>
-                <h1 class=" text-2xl font-semibold text-center text-gray-800">Founder NPS</h1>
-            </div>
-
-        </div> --}}
     </div>
 </section>
 
