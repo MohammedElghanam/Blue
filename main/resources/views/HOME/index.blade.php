@@ -221,6 +221,77 @@
         }
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Google Fonts - Poppins */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} */
+/* body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7d2ae8;
+} */
+.container{
+    display: flex;
+    width: 420px;
+    padding: 50px 0;
+    border-radius: 8px;
+    background: #fff;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.circular-progress{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+}
+
+
 </style>
 
 <section class="bg-white ">
@@ -256,7 +327,7 @@
     </div>
 </section>
 
-
+{{-- 
 <section class="">
     <div class=" lg:py-16 mx-auto max-w-screen-xl px-32 z-50">
         <h2 class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900  md:text-4xl z-50 ">You’ll be in good company</h2>
@@ -388,7 +459,7 @@
             </a>
         </div>
     </div>
-</section>
+</section> --}}
 
 {{-- SECTION 2  --}}
 <section class=" h-lvh flex gap-5 px-28 bg-gray-100">
@@ -399,11 +470,39 @@
         <img class=" absolute -bottom-10 right-4" src="AP/19.png" alt="">
     </div>
 
-    <div class="  justify-center items-center w-1/2 h-full py-10 pt-[130px] ">
+    <div class=" grid justify-center items-center w-1/2 h-full py-28 bg-blue-500">
 
-        <div class="  w-full flex justify-around items-center mb-10">
+        <div class="container">
+            <div class="circular-progress">
+                <span class="progress-value">0%</span>
+            </div>
+            <span class="text">HTML & CSS</span>
+        </div>
 
-            <div class="  h-[194px] grid justify-center items-center relative">
+        {{-- <div class="container col-span-3">
+            <div class="progress">
+                <span class="value">0%</span>
+            </div>
+            <span class="text">HTML & CSS</span>
+        </div>
+
+        <div class="container col-span-3">
+            <div class="progress">
+                <span class="value">0%</span>
+            </div>
+            <span class="text">HTML & CSS</span>
+        </div>
+
+        <div class="container col-span-3">
+            <div class="progress">
+                <span class="value">0%</span>
+            </div>
+            <span class="text">HTML & CSS</span>
+        </div> --}}
+
+        {{-- <div class="  w-full flex justify-around items-center gap-20 bg-sky-600">
+
+            <div class="  h-[194px] grid justify-center items-center relative ">
                 <div class=" rounded-full w-40 h-40 flex justify-center items-center border-[20px] border-gray-300 ">
                     <h1 class="text-[50px] font-bold  text-gray-800">+</h1>
                     <h1 class="COUNT0 text-[80px] font-bold  text-gray-800">63</h1>
@@ -412,25 +511,25 @@
                 <h1 class=" text-2xl font-semibold text-center text-gray-800">Acquisitions</h1>
             </div>
 
-            <div class=" h-[194px] grid justify-center items-center relative">
+            <div class=" h-[194px] grid justify-center items-center relative ">
                 <div class=" rounded-full w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
                     <h1 class="COUNT1 text-[80px] font-bold  text-gray-800">30</h1>
                 </div>
                 <h1 class=" text-2xl font-semibold text-center text-gray-800">Growth Rate </h1>
             </div>
 
-        </div>
+        </div> --}}
 
-        <div class="  flex justify-around items-center">
+        {{-- <div class="  flex justify-around items-center gap-20 ">
             
-            <div class="h-[194px] grid justify-center items-center relative">
+            <div class="h-[194px] grid justify-center items-center relative ">
                 <div class=" rounded-full  w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
                     <h1 class="COUNT2 text-[80px] font-bold  text-gray-800">76</h1>
                 </div>
                 <h1 class=" text-2xl font-semibold text-center text-gray-800">Acquisitions</h1>
             </div>
 
-            <div class=" h-[194px] grid justify-center items-center relative">
+            <div class=" h-[194px] grid justify-center items-center relative ">
                 <div class=" rounded-full  w-40 h-40 flex justify-center items-center border-[20px] border-gray-300">
                     <h1 class="COUNT3 text-[80px] font-bold  text-gray-800">95</h1>
                     <p class=" text-[45px] font-bold  text-gray-800">%</p>
@@ -438,96 +537,29 @@
                 <h1 class=" text-2xl font-semibold text-center text-gray-800">Founder NPS</h1>
             </div>
 
-        </div>
-    </div>
-</section>
-
-
-<section class="bg-wh px-20 relative">
-    <div id="FLOAT2"></div>
-    <div id="FLOAT3"></div>
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="font-light text-gray-900 sm:text-lg z-40">
-            <h2 class="mb-4 text-4xl font-extrabold text-gray-900">Quelles problématiques abordons-nous ?</h2>
-            <p class="">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be
-                simple and quick.
-            </p>
-            <div class=" grid grid-cols-3 gap-x-20 justify-center items-start pr-20">
-                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                        <img src="images/31.png" alt="" class=" w-16 h-16  text-white ml-2">
-                    </div>
-                    <p class=" text-center font-medium text-[14.5px] w-[150px]">Accélération de la croissance</p>
-                </div>
-
-                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-
-                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                        <img src="images/35.png" alt="" class=" w-16 h-16  text-white ml-2">
-                    </div>
-                    <p class=" text-center font-medium text-[14.5px] w-[150px]">Alignement sur le marché</p>
-                </div>
-
-                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                        <img src="images/36.png" alt="" class=" w-16 h-16  text-white ml-2">
-                    </div>
-                    <p class=" text-center font-medium text-[14.5px] w-[150px]">Employabilité et capital RH</p>
-                </div>
-
-                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end">
-                        <img src="images/63.png" alt="" class=" w-16 h-16  text-white ml-2">
-                    </div>
-                    <p class=" text-center font-medium pt-5 text-[14.5px] w-[150px]">Investissement et valorisation des
-                        produits</p>
-                </div>
-
-                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                        <img src="images/lamp.png" alt="" class="  w-16 h-16  text-white ml-2">
-                    </div>
-                    <p class=" text-center font-medium pt-4 text-[14.5px] w-[150px]">Soutien à l'innovation et
-                        digitalisation</p>
-                </div>
-
-                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
-                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
-                        <img src="images/33.png" alt="" class=" w-16 h-16  text-white ml-2">
-                    </div>
-                    <p class=" text-center font-medium pt-3 text-[14.5px] w-[150px]">Soutien à l'economie sociale et
-                        solidaire</p>
-                </div>
-
-            </div>
-        </div>
-        <div class="grid grid-cols-2 gap-4 mt-8 relative z-40 ">
-            
-            <img src="images/67.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-500 rounded-2xl "></img>
-            <img src="images/69.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-500 rounded-2xl mt-10"></img>
-
-        </div>
-        {{-- <div
-            class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-0 w-[300px] h-[300px]">
         </div> --}}
     </div>
 </section>
 
-<section class="bg-gray-50 py-16">
-    <div class=" w-full h-80 flex">
-        <div class=" flex justify-end items-center w-3/4  relative">
-            <div class=" LEFT w-full h-64 bg-gradient-to-r from-[#1e56a0] to-[#163172] rounded-r-full pl-64 pt-12 ">
-                <h1 class=" font-bold text-5xl mb-4 text-white">CE QUE NOUS FAISONS .</h1>
-                <p class=" w-1/2 text-white ml-60">Lorem ipsum is placeholder text commonly used in the graphic, print, and
-                    publishing
-                    <span class=" font-medium">industries for previewing</span> layouts and visual mockups
-                </p>
-            </div>
-            {{-- <div class=" BORDER1 bg-gradient-to-b from-[#163172] to-[#1e56a0] absolute -bottom-16 right-20 w-[150px] h-[150px]"></div> --}}
-        </div>
-        <div class=" w-1/3 "></div>
+{{-- section 3 --}}
+<section class=" flex bg-gray-50 py-16 mt-20">
+    <div class=" w-[15%]"></div>
+    <div class=" w-[85%] h-80 bg-[#163172] rounded-s-full relative ">
+       
+        <h1 class=" font-bold text-5xl mb-4 text-white absolute left-60 top-16">CE QUE NOUS FAISONS .</h1>
+        <p class=" w-[64%] text-white absolute left-60 top-36 text-xl">Lorem ipsum is placeholder text commonly used in the graphic, print, and
+            publishing
+            <span class=" font-medium">industries for previewing</span> layouts and visual mockups
+            Lorem ipsum is placeholder text commonly <span class=" font-medium"> used in the graphic, </span> print, and
+            publishing
+            
+        </p>
+        <div class=" absolute w-36 h-36 bg-[#1e56a0] rounded-full opacity-70 -bottom-32 right-32"></div>
+        <img class=" absolute -bottom-16 right-4" src="AP/19.png" alt="">
     </div>
 </section>
+
+
 
 <section class="bg-gray-50">
     <div id="FLOAT5"></div>
@@ -741,3 +773,123 @@
         });
     });
 </script>
+
+
+
+<script>
+    let circularProgress = document.querySelector(".circular-progress"),
+    progressValue = document.querySelector(".progress-value");
+
+    let progressStartValue = 0,    
+        progressEndValue = 90,    
+        speed = 20;
+
+    let progress = setInterval(() => {
+        progressStartValue++;
+
+        progressValue.textContent = `${progressStartValue}%`
+        circularProgress.style.background = `conic-gradient(#7d2ae8 ${progressStartValue * 3.6}deg, #ededed 0deg)`
+
+        if(progressStartValue == progressEndValue){
+            clearInterval(progress);
+        }    
+    }, speed);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{-- <section class="bg-wh px-20 relative">
+    <div id="FLOAT2"></div>
+    <div id="FLOAT3"></div>
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div class="font-light text-gray-900 sm:text-lg z-40">
+            <h2 class="mb-4 text-4xl font-extrabold text-gray-900">Quelles problématiques abordons-nous ?</h2>
+            <p class="">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be
+                simple and quick.
+            </p>
+            <div class=" grid grid-cols-3 gap-x-20 justify-center items-start pr-20">
+                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                        <img src="images/31.png" alt="" class=" w-16 h-16  text-white ml-2">
+                    </div>
+                    <p class=" text-center font-medium text-[14.5px] w-[150px]">Accélération de la croissance</p>
+                </div>
+
+                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+
+                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                        <img src="images/35.png" alt="" class=" w-16 h-16  text-white ml-2">
+                    </div>
+                    <p class=" text-center font-medium text-[14.5px] w-[150px]">Alignement sur le marché</p>
+                </div>
+
+                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                        <img src="images/36.png" alt="" class=" w-16 h-16  text-white ml-2">
+                    </div>
+                    <p class=" text-center font-medium text-[14.5px] w-[150px]">Employabilité et capital RH</p>
+                </div>
+
+                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end">
+                        <img src="images/63.png" alt="" class=" w-16 h-16  text-white ml-2">
+                    </div>
+                    <p class=" text-center font-medium pt-5 text-[14.5px] w-[150px]">Investissement et valorisation des
+                        produits</p>
+                </div>
+
+                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                        <img src="images/lamp.png" alt="" class="  w-16 h-16  text-white ml-2">
+                    </div>
+                    <p class=" text-center font-medium pt-4 text-[14.5px] w-[150px]">Soutien à l'innovation et
+                        digitalisation</p>
+                </div>
+
+                <div class=" grid grid-cols-1 col-span-1 flex-col justify-center items-center relative">
+                    <div class=" rounded-full w-32 h-32 col-span-1 flex justify-center items-end pb-3">
+                        <img src="images/33.png" alt="" class=" w-16 h-16  text-white ml-2">
+                    </div>
+                    <p class=" text-center font-medium pt-3 text-[14.5px] w-[150px]">Soutien à l'economie sociale et
+                        solidaire</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-8 relative z-40 ">
+            
+            <img src="images/67.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-500 rounded-2xl "></img>
+            <img src="images/69.jpg" class=" section h-[420px] w-[500px] shadow-2xl shadow-gray-500 rounded-2xl mt-10"></img>
+
+        </div>
+        
+    </div>
+</section> --}}
+
+{{-- <section class="bg-gray-50 py-16">
+    <div class=" w-full h-80 flex">
+        <div class=" flex justify-end items-center w-3/4  relative">
+            <div class=" LEFT w-full h-64 bg-gradient-to-r from-[#1e56a0] to-[#163172] rounded-r-full pl-64 pt-12 ">
+                <h1 class=" font-bold text-5xl mb-4 text-white">CE QUE NOUS FAISONS .</h1>
+                <p class=" w-1/2 text-white ml-60">Lorem ipsum is placeholder text commonly used in the graphic, print, and
+                    publishing
+                    <span class=" font-medium">industries for previewing</span> layouts and visual mockups
+                </p>
+            </div>
+        </div>
+        <div class=" w-1/3 "></div>
+    </div>
+</section> --}}
