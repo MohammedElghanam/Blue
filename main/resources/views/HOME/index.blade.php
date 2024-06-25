@@ -253,20 +253,21 @@
 } */
 .container{
     display: flex;
-    width: 200px;
-    padding: 30px 0;
+    width: 250px;
+    padding: 25px 0;
     border-radius: 8px;
-    background: #e73c3c;
+    background: #ffffff;
+    box-shadow: 2px 7px 15px #dedbdb;
     row-gap: 30px;
     flex-direction: column;
     align-items: center;
 }
 .circular-progress{
     position: relative;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    background: conic-gradient(#163172 3.6deg, #ededed 0deg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,20 +275,20 @@
 .circular-progress::before{
     content: "";
     position: absolute;
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
-    background-color: #b0f329;
+    background-color: #ffffff;
 }
 .progress-value{
     position: relative;
     font-size: 40px;
     font-weight: 600;
-    color: #7d2ae8;
+    color: #1e56a0;
 }
 .text{
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 600;
     color: #606060;
 }
 
@@ -320,7 +321,7 @@
             
         </div>
         {{-- <div class=" BORDER1 bg-gradient-to-b from-[#f7f6f6] to-[#e6e8eb] absolute top-52 right-24 w-96 h-96"></div> --}}
-        <div id="FLOAT4"></div>
+        {{-- <div id="FLOAT4"></div> --}}
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex"> 
            <img src="AP/6.jpg" alt="mockup" class=" absolute top-56 right-16 z-0" width=" 580px" height=" 580px">
         </div>
@@ -462,7 +463,7 @@
 </section> --}}
 
 {{-- SECTION 2  --}}
-<section class=" h-lvh flex gap-5 px-28 bg-gray-100">
+<section class=" h-lvh flex gap-5 px-28 ">
 
     <div class=" w-1/2 h-full grid justify-center items-center relative ">
         <img class=" w[60%] h-[60%]" src="AP/18.png" alt="">
@@ -470,36 +471,36 @@
         <img class=" absolute -bottom-10 right-4" src="AP/19.png" alt="">
     </div>
 
-    <div class=" grid grid-cols-6 gap-5 justify-center items-center w-1/2 h-full py-28 bg-blue-500">
+    <div class=" grid grid-cols-6 gap-5 justify-center items-center w-1/2 h-full py-28">
 
         <div class="container col-span-3">
-            <div class="circular-progress1">
-                <span class="progress-value1">0%</span>
+            <div class="circular-progress CP0">
+                <span class="progress-value PV0">0%</span>
             </div>
             <span class="text">HTML & CSS</span>
         </div>
 
         <div class="container col-span-3">
-            <div class="circular-progress1">
-                <span class="progress-value1">0%</span>
+            <div class="circular-progress CP1">
+                <span class="progress-value PV1">0%</span>
             </div>
             <span class="text">HTML & CSS</span>
         </div>
 
         <div class="container col-span-3">
-            <div class="circular-progress1">
-                <span class="progress-value1">0%</span>
+            <div class="circular-progress CP2">
+                <span class="progress-value PV2">0%</span>
             </div>
             <span class="text">HTML & CSS</span>
         </div>
 
         <div class="container col-span-3">
-            <div class="circular-progress">
-                <span class="progress-value">0%</span>
+            <div class="circular-progress CP3">
+                <span class="progress-value PV3">0%</span>
             </div>
             <span class="text">HTML & CSS</span>
         </div>
-        
+
         {{-- <div class="container col-span-3">
             <div class="progress">
                 <span class="value">0%</span>
@@ -799,25 +800,58 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-    let circularProgress = document.querySelector(".circular-progress"),
-        progressValue = document.querySelector(".progress-value");
+    let CP0 = document.querySelector(".CP0"),
+        PV0 = document.querySelector(".PV0"),
+        CP1 = document.querySelector(".CP1"),
+        PV1 = document.querySelector(".PV1"),
+        CP2 = document.querySelector(".CP2"),
+        PV2 = document.querySelector(".PV2"),
+        CP3 = document.querySelector(".CP3"),
+        PV3 = document.querySelector(".PV3");   
 
-    let progressStartValue = 0,
-        progressEndValue = 50,
+    let progressStartValue0 = 0,
+        progressStartValue1 = 0,
+        progressStartValue2 = 0,
+        progressStartValue3 = 0,
+        progressEndValue0 = 60,
+        progressEndValue1 = 70,
+        progressEndValue2 = 90,
+        progressEndValue3 = 45,
         speed = 20;
 
     let progress = setInterval(() => {
-        progressStartValue++;
+        if (progressStartValue0 < progressEndValue0) {
+            progressStartValue0++;
+            PV0.textContent = `${progressStartValue0}%`;
+            CP0.style.background = `conic-gradient(#1e56a0 ${progressStartValue0 * 3.6}deg, #ededed ${progressStartValue0 * 3.6}deg)`;
+        }
 
-        progressValue.textContent = `${progressStartValue}%`;
-        circularProgress.style.background = `conic-gradient(#7d2ae8 ${progressStartValue * 3.6}deg, #ededed ${progressStartValue * 3.6}deg)`;
+        if (progressStartValue1 < progressEndValue1) {
+            progressStartValue1++;
+            PV1.textContent = `${progressStartValue1}%`;
+            CP1.style.background = `conic-gradient(#1e56a0 ${progressStartValue1 * 3.6}deg, #ededed ${progressStartValue1 * 3.6}deg)`;
+        }
 
-        if (progressStartValue == progressEndValue) {
+        if (progressStartValue2 < progressEndValue2) {
+            progressStartValue2++;
+            PV2.textContent = `${progressStartValue2}%`;
+            CP2.style.background = `conic-gradient(#1e56a0 ${progressStartValue2 * 3.6}deg, #ededed ${progressStartValue2 * 3.6}deg)`;
+        }
+
+        if (progressStartValue3 < progressEndValue3) {
+            progressStartValue3++;
+            PV3.textContent = `${progressStartValue3}%`;
+            CP3.style.background = `conic-gradient(#1e56a0 ${progressStartValue3 * 3.6}deg, #ededed ${progressStartValue3 * 3.6}deg)`;
+        }
+
+        if (progressStartValue0 >= progressEndValue0 &&
+            progressStartValue1 >= progressEndValue1 &&
+            progressStartValue2 >= progressEndValue2 &&
+            progressStartValue3 >= progressEndValue3) {
             clearInterval(progress);
         }
     }, speed);
 });
-
 
 </script>
 
