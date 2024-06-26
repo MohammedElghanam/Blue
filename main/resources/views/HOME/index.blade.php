@@ -319,7 +319,7 @@
             <div class="circular-progress CP0">
                 <span class="progress-value PV0">0%</span>
             </div>
-            <span class="text">HTML & CSS</span>
+            <span class="text">Acquisitions</span>
         </div>
 
         <div class="container col-span-3">
@@ -333,14 +333,14 @@
             <div class="circular-progress CP2">
                 <span class="progress-value PV2">0%</span>
             </div>
-            <span class="text">HTML & CSS</span>
+            <span class="text">Growth Rate</span>
         </div>
 
         <div class="container col-span-3">
             <div class="circular-progress CP3">
                 <span class="progress-value PV3">0%</span>
             </div>
-            <span class="text">HTML & CSS</span>
+            <span class="text">Founder NPS</span>
         </div>
 
     </div>
@@ -600,7 +600,7 @@
         progressEndValue1 = 70,
         progressEndValue2 = 90,
         progressEndValue3 = 45,
-        speed = 20;
+        speed = 15;
 
     let progress = setInterval(() => {
         if (progressStartValue0 < progressEndValue0) {
