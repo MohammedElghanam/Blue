@@ -217,7 +217,7 @@
         </div>
     </nav>
     <!-- Nav 2 -->
-    <nav id="nav2" class="flex justify-center items-center xl:px-20 md:shadow-lg bg-[#163172] z-40 h-9">
+    <nav id="nav2" class="flex justify-center items-center xl:px-20 md:shadow-lg bg-blue-900 z-40 h-9">
         <ul class="flex gap-6">
             <li class="relative parent">
                 {{-- PMO  --}}
@@ -391,7 +391,7 @@
 @yield('container')
 
     
-<footer class="p-4 bg-black sm:p-6 z-50">
+<footer class="p-4 z bg-black sm:p-6 z-50">
     <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between px-16">
             <div class="mb-6 md:mb-0 flex flex-col gap-4">
